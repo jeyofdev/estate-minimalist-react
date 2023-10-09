@@ -1,9 +1,9 @@
-import { Button } from '@mui/material';
+import { Button, Typography } from '@mui/material';
 
 const Home = () => (
 	<>
 		<Button variant='contained'>Hello world</Button>
-		<h1>hello world</h1>
+		<Typography variant='h1'>hello world</Typography>
 	</>
 );
 
