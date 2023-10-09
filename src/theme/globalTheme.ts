@@ -1,6 +1,7 @@
 import { CommonColors, createTheme } from '@mui/material/styles';
 import { Theme } from '@emotion/react';
 import { Color } from '@mui/material';
+import { BreakpointEnum } from '@enums/theme.enum';
 
 const greyColors: Color = {
 	50: '#fafafa',
@@ -24,8 +25,21 @@ const commonColors: CommonColors = {
 	white: '#fff',
 };
 
+const breakpointsValues = {
+	xs: BreakpointEnum.XS,
+	sm: BreakpointEnum.SM,
+	md: BreakpointEnum.MD,
+	lg: BreakpointEnum.LG,
+	xl: BreakpointEnum.XL,
+};
+
 // Custom theme
 export const globalTheme = createTheme({
+	breakpoints: {
+		values: {
+			...breakpointsValues,
+		},
+	},
 	palette: {
 		common: {
 			...commonColors,
