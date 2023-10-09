@@ -14,6 +14,7 @@ export default defineConfig({
 			'@images': `${path.resolve(__dirname, 'src/assets/images')}`,
 			'@utils': `${path.resolve(__dirname, 'src/utils')}`,
 			'@context': `${path.resolve(__dirname, 'src/context')}`,
+			'@enums': `${path.resolve(__dirname, 'src/enums')}`,
 			public: `${path.resolve(__dirname, 'public')}`,
 		},
 	},

@@ -34,6 +34,7 @@ module.exports = {
 					['@images', './src/assets/images'],
 					['@utils', './src/utils'],
 					['@context', './src/context'],
+					['@enums', './src/enums'],
 					['@public', './public'],
 				],
 				extensions: ['.js', '.ts', '.jsx', '.tsx'],
