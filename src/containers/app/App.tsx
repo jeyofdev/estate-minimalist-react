@@ -1,3 +1,4 @@
+import Layout from '@components/Layout';
 import useTheme from '@hooks/useTheme';
 import { ThemeProvider } from '@mui/material';
 import Router from '@routes/Router';
@@ -8,7 +9,9 @@ const App = () => {
 
 	return (
 		<ThemeProvider theme={theme}>
-			<Router />
+			<Layout>
+				<Router />
+			</Layout>
 		</ThemeProvider>
 	);
 };
