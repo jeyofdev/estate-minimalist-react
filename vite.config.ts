@@ -17,6 +17,7 @@ export default defineConfig({
 			'@enums': `${path.resolve(__dirname, 'src/enums')}`,
 			'@interfaces': `${path.resolve(__dirname, 'src/interfaces')}`,
 			'@types': `${path.resolve(__dirname, 'src/types')}`,
+			'@routes': `${path.resolve(__dirname, 'src/routes')}`,
 			'@theme': `${path.resolve(__dirname, 'src/theme')}`,
 			public: `${path.resolve(__dirname, 'public')}`,
 		},
