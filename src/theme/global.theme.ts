@@ -443,6 +443,6 @@ export const lightTheme: Theme = createTheme({
 			paper: '#fff',
 			default: '#efefef',
 		},
-		divider: 'rgba(0, 0, 0, 0.12)',
+		divider: '#d6d6d6',
 	},
 });
