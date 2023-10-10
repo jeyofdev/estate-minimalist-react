@@ -331,6 +331,7 @@ export const globalTheme: Theme = createTheme({
 		grey: greyColors,
 	},
 	typography: typographyTheme,
+	spacing: 4,
 });
 
 // Dark theme

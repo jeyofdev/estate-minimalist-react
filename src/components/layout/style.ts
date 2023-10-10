@@ -1,3 +1,4 @@
+import { BreakpointEnum } from '@enums/theme.enum';
 import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
@@ -5,6 +6,10 @@ const useStyles = (theme: Theme) => ({
 		backgroundColor: theme.palette.background.default,
 		minHeight: '100vh',
 		width: '100%',
+	},
+	contentBox: {
+		maxWidth: BreakpointEnum.XL,
+		margin: '0 auto',
 	},
 });
 

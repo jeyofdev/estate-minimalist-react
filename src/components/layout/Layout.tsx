@@ -12,13 +12,15 @@ const Layout = ({ children }: LayoutPropsType) => {
 
 	return (
 		<Box sx={styles.root}>
-			<Box>
-				<Header />
-				<Button variant='contained' onClick={handleThemeMode}>
-					dark mode
-				</Button>
+			<Box sx={styles.contentBox}>
+				<Box>
+					<Header />
+					<Button variant='contained' onClick={handleThemeMode}>
+						dark mode
+					</Button>
+				</Box>
+				{children}
 			</Box>
-			{children}
 		</Box>
 	);
 };
