@@ -37,6 +37,7 @@ module.exports = {
 					['@enums', './src/enums'],
 					['@interfaces', './src/interfaces'],
 					['@types', './src/types'],
+					['@routes', './src/routes'],
 					['@theme', './src/theme'],
 					['@public', './public'],
 				],

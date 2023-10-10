@@ -1,6 +1,6 @@
 import useTheme from '@hooks/useTheme';
 import { ThemeProvider } from '@mui/material';
-import Home from '@pages/Home';
+import Router from '@routes/Router';
 import './App.css';
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
 
 	return (
 		<ThemeProvider theme={theme}>
-			<Home />
+			<Router />
 		</ThemeProvider>
 	);
 };
