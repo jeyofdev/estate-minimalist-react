@@ -1,5 +1,4 @@
 import { CommonColors, createTheme } from '@mui/material/styles';
-import { Theme } from '@emotion/react';
 import { Color } from '@mui/material';
 import { BreakpointEnum } from '@enums/theme.enum';
 import { TypographyOptions } from '@mui/material/styles/createTypography';
@@ -335,7 +334,7 @@ export const globalTheme = createTheme({
 });
 
 // Dark theme
-export const darkTheme: Theme = createTheme({
+export const darkTheme = createTheme({
 	...globalTheme,
 	palette: {
 		...globalTheme.palette,
@@ -392,7 +391,7 @@ export const darkTheme: Theme = createTheme({
 });
 
 // light theme
-export const lightTheme: Theme = createTheme({
+export const lightTheme = createTheme({
 	...globalTheme,
 	palette: {
 		...globalTheme.palette,
