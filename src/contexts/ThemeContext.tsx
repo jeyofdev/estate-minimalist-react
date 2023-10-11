@@ -9,7 +9,7 @@ export const ThemeContext = createContext<IThemeContext>({
 });
 
 const ThemeContextProvider = ({ children }: ThemeContextProviderPropsType) => {
-	const [themeMode, setThemeMode] = useState<DarkModeEnum>(DarkModeEnum.DARK);
+	const [themeMode, setThemeMode] = useState<DarkModeEnum>(DarkModeEnum.LIGHT);
 
 	const handleThemeMode = () => {
 		setThemeMode(

@@ -1,5 +1,5 @@
 import { CommonColors, createTheme } from '@mui/material/styles';
-import { Color } from '@mui/material';
+import { Color, Theme } from '@mui/material';
 import { BreakpointEnum } from '@enums/theme.enum';
 import { TypographyOptions } from '@mui/material/styles/createTypography';
 
@@ -324,17 +324,18 @@ const typographyTheme: TypographyOptions = {
 };
 
 // Global theme
-export const globalTheme = createTheme({
+export const globalTheme: Theme = createTheme({
 	...initialTheme,
 	palette: {
 		common: commonColors,
 		grey: greyColors,
 	},
 	typography: typographyTheme,
+	spacing: 4,
 });
 
 // Dark theme
-export const darkTheme = createTheme({
+export const darkTheme: Theme = createTheme({
 	...globalTheme,
 	palette: {
 		...globalTheme.palette,
@@ -391,7 +392,7 @@ export const darkTheme = createTheme({
 });
 
 // light theme
-export const lightTheme = createTheme({
+export const lightTheme: Theme = createTheme({
 	...globalTheme,
 	palette: {
 		...globalTheme.palette,
@@ -441,8 +442,8 @@ export const lightTheme = createTheme({
 		},
 		background: {
 			paper: '#fff',
-			default: '#fff',
+			default: '#efefef',
 		},
-		divider: 'rgba(0, 0, 0, 0.12)',
+		divider: '#d6d6d6',
 	},
 });
