@@ -1,4 +1,4 @@
-import Header from '@components/header/Header';
+import HeaderContainer from '@components/header/headerContainer/HeaderContainer';
 import useTheme from '@hooks/useTheme';
 import { Box, Button } from '@mui/material';
 import { GlobalPropsType } from '../../types/global-props.type';
@@ -14,7 +14,7 @@ const Layout = ({ children }: LayoutPropsType) => {
 		<Box sx={styles.root}>
 			<Box sx={styles.contentBox}>
 				<Box>
-					<Header />
+					<HeaderContainer />
 					<Button variant='contained' onClick={handleThemeMode}>
 						dark mode
 					</Button>
