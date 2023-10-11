@@ -142,7 +142,7 @@ const typographyTheme: TypographyOptions = {
 	h5: {
 		fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
 		fontWeight: 400,
-		fontSize: '1.4rem',
+		fontSize: '0.95rem',
 		lineHeight: 1,
 		letterSpacing: '0em',
 
@@ -400,7 +400,7 @@ export const lightTheme: Theme = createTheme({
 		primary: {
 			main: '#1976d2',
 			light: 'rgb(71, 145, 219)',
-			dark: 'rgb(17, 82, 147)',
+			dark: '#030303',
 			contrastText: '#fff',
 		},
 		secondary: {

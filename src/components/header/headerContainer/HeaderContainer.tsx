@@ -32,7 +32,7 @@ const HeaderContainer = ({ window }: HeaderContainerPropsType) => {
 				<HeaderBar
 					handleDrawerToggle={handleDrawerToggle}
 					navItems={navItems}
-					brand='Estate'
+					logoText='Real Estate'
 				/>
 
 				<NavResponsiveDrawer
@@ -41,7 +41,7 @@ const HeaderContainer = ({ window }: HeaderContainerPropsType) => {
 					mobileOpen={mobileOpen}
 					handleDrawerToggle={handleDrawerToggle}
 					navItems={navItems}
-					brand='Estate'
+					logoText='Real Estate'
 				/>
 			</Box>
 			<UIDivider />

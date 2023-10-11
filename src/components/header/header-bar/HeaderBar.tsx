@@ -1,25 +1,19 @@
+import Logo from '@components/logo/Logo';
 import useTheme from '@hooks/useTheme';
 import MenuIcon from '@mui/icons-material/Menu';
-import {
-	AppBar,
-	Box,
-	Button,
-	IconButton,
-	Toolbar,
-	Typography,
-} from '@mui/material';
+import { AppBar, Box, Button, IconButton, Toolbar } from '@mui/material';
 import useStyles from './style';
 
 export type HeaderBarPropsType = {
 	handleDrawerToggle: () => void;
 	navItems: string[];
-	brand: string;
+	logoText: string;
 };
 
 const HeaderBar = ({
 	handleDrawerToggle,
 	navItems,
-	brand,
+	logoText,
 }: HeaderBarPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
@@ -37,9 +31,7 @@ const HeaderBar = ({
 					<MenuIcon sx={styles.menuIcon} />
 				</IconButton>
 
-				<Typography variant='h6' component='div' sx={styles.brandTypo}>
-					{brand}
-				</Typography>
+				<Logo title={logoText} />
 
 				<Box sx={styles.linksBox}>
 					{navItems.map(item => (
