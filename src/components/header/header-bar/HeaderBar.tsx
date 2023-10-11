@@ -1,12 +1,11 @@
+import DarkModeButton from '@components/dark-mode-button/DarkModeButton';
 import Logo from '@components/logo/Logo';
-import { BreakpointEnum, DarkModeEnum } from '@enums/theme.enum';
-import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { BreakpointEnum } from '@enums/theme.enum';
 import useTheme from '@hooks/useTheme';
 import MenuIcon from '@mui/icons-material/Menu';
 import { AppBar, Box, IconButton, Link, Toolbar } from '@mui/material';
 import routesList from '@routes/routes';
-import { NavLink as RouterLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useWindowSize } from 'usehooks-ts';
 import useStyles from './style';
 
@@ -16,7 +15,7 @@ export type HeaderBarPropsType = {
 };
 
 const HeaderBar = ({ handleDrawerToggle, logoText }: HeaderBarPropsType) => {
-	const { theme, handleThemeMode } = useTheme();
+	const { theme } = useTheme();
 	const styles = useStyles(theme);
 	const { width } = useWindowSize();
 
@@ -47,7 +46,7 @@ const HeaderBar = ({ handleDrawerToggle, logoText }: HeaderBarPropsType) => {
 								<Link
 									key={route.name.toLowerCase().split(' ').join('-')}
 									variant='h5'
-									component={RouterLink}
+									component={NavLink}
 									to={route.path}
 									sx={styles.link}
 								>
@@ -57,14 +56,7 @@ const HeaderBar = ({ handleDrawerToggle, logoText }: HeaderBarPropsType) => {
 						</Box>
 
 						<Box sx={styles.darkModeBox}>
-							<IconButton style={styles.darkModeBtn} onClick={handleThemeMode}>
-								<FontAwesomeIcon
-									icon={
-										theme.palette.mode === DarkModeEnum.DARK ? faSun : faMoon
-									}
-									style={styles.darkModeIcon}
-								/>
-							</IconButton>
+							<DarkModeButton />
 						</Box>
 					</>
 				)}

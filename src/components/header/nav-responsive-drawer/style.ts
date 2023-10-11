@@ -1,5 +1,6 @@
 const useStyles = () => ({
 	root: (drawerWidth: number) => ({
+		position: 'relative',
 		display: {
 			xs: 'block',
 			sm: 'none',
@@ -10,6 +11,12 @@ const useStyles = () => ({
 			width: drawerWidth,
 		},
 	}),
+	closeBtn: {
+		position: 'absolute',
+		top: '0.1rem',
+		right: '0.1rem',
+	},
+	closeBtnIcon: {},
 });
 
 export default useStyles;
