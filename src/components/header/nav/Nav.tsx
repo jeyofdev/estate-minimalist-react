@@ -1,32 +1,23 @@
-import {
-	Box,
-	Divider,
-	List,
-	ListItem,
-	ListItemButton,
-	ListItemText,
-	Typography,
-} from '@mui/material';
+import Logo from '@components/logo/Logo';
+import { Box, Divider } from '@mui/material';
 import useStyles from './style';
 
 export type NavPropsType = {
 	handleDrawerToggle: () => void;
-	navItems: string[];
-	brand: string;
+
+	logoText: string;
 };
 
-const Nav = ({ handleDrawerToggle, navItems, brand }: NavPropsType) => {
+const Nav = ({ handleDrawerToggle, logoText }: NavPropsType) => {
 	const styles = useStyles();
 
 	return (
 		<Box onClick={handleDrawerToggle} sx={styles.root}>
-			<Typography variant='h6' sx={styles.title}>
-				{brand}
-			</Typography>
+			<Logo title={logoText} />
 
 			<Divider />
 
-			<List>
+			{/* <List>
 				{navItems.map(item => (
 					<ListItem key={item} disablePadding>
 						<ListItemButton sx={styles.listItemBtn}>
@@ -34,7 +25,7 @@ const Nav = ({ handleDrawerToggle, navItems, brand }: NavPropsType) => {
 						</ListItemButton>
 					</ListItem>
 				))}
-			</List>
+			</List> */}
 		</Box>
 	);
 };

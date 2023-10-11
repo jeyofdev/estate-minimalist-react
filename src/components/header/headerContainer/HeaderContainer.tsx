@@ -2,7 +2,6 @@ import NavResponsiveDrawer from '@components/header/nav-responsive-drawer/NavRes
 import UIDivider from '@components/ui/divider/Divider';
 import useTheme from '@hooks/useTheme';
 import { Box } from '@mui/material';
-import routesList from '@routes/routes';
 import { useState } from 'react';
 import HeaderBar from '../header-bar/HeaderBar';
 import useStyles from './style';
@@ -17,8 +16,6 @@ const HeaderContainer = ({ window }: HeaderContainerPropsType) => {
 
 	const [mobileOpen, setMobileOpen] = useState(false);
 
-	const navItems = routesList.map(route => route.name).filter((_, i) => i > 0);
-
 	const handleDrawerToggle = () => {
 		setMobileOpen(!mobileOpen);
 	};
@@ -31,8 +28,7 @@ const HeaderContainer = ({ window }: HeaderContainerPropsType) => {
 			<Box sx={styles.root}>
 				<HeaderBar
 					handleDrawerToggle={handleDrawerToggle}
-					navItems={navItems}
-					brand='Estate'
+					logoText='Real Estate'
 				/>
 
 				<NavResponsiveDrawer
@@ -40,8 +36,7 @@ const HeaderContainer = ({ window }: HeaderContainerPropsType) => {
 					drawerWidth={240}
 					mobileOpen={mobileOpen}
 					handleDrawerToggle={handleDrawerToggle}
-					navItems={navItems}
-					brand='Estate'
+					logoText='Real Estate'
 				/>
 			</Box>
 			<UIDivider />

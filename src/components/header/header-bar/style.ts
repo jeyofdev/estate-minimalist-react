@@ -2,33 +2,48 @@ import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
 	root: {},
+	toolbar: {
+		display: 'flex',
+		justifyContent: 'space-between',
+	},
 	appBar: {
 		backgroundColor: theme.palette.background.default,
-	},
-	iconButton: {
-		display: {
-			sm: 'none',
-		},
 	},
 	menuIcon: {
 		color: theme.palette.primary.dark,
 	},
-	brandTypo: {
-		color: theme.palette.primary.dark,
-		flexGrow: 1,
-		display: {
-			xs: 'none',
-			sm: 'block',
-		},
+	logoBox: {
+		marginTop: theme.spacing(2.5),
 	},
 	linksBox: {
-		display: {
-			xs: 'none',
-			sm: 'block',
-		},
+		display: 'flex',
+		gap: '1.5rem',
+		marginTop: theme.spacing(2.5),
 	},
-	linkBtn: {
+	link: {
+		display: 'flex',
+		flexDirection: 'column',
+		alignItems: 'center',
 		color: theme.palette.primary.dark,
+		textDecoration: 'none',
+
+		'&:after': {
+			content: '""',
+			display: 'block',
+			width: 7,
+			height: 7,
+			backgroundColor: 'transparent',
+			borderRadius: '100%',
+			marginTop: theme.spacing(1.5),
+		},
+
+		'&.active': {
+			color: theme.palette.primary.main,
+
+			'&:after': {
+				backgroundColor: theme.palette.primary.main,
+			},
+		},
 	},
 });
 

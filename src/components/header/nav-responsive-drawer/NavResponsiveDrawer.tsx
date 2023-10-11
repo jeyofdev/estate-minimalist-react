@@ -7,8 +7,7 @@ export type NavResponsiveDrawerPropsType = {
 	mobileOpen: boolean;
 	drawerWidth: number;
 	handleDrawerToggle: () => void;
-	navItems: string[];
-	brand: string;
+	logoText: string;
 };
 
 const NavResponsiveDrawer = ({
@@ -16,8 +15,7 @@ const NavResponsiveDrawer = ({
 	mobileOpen,
 	handleDrawerToggle,
 	drawerWidth = 240,
-	navItems,
-	brand,
+	logoText,
 }: NavResponsiveDrawerPropsType) => {
 	const styles = useStyles();
 
@@ -33,11 +31,7 @@ const NavResponsiveDrawer = ({
 				}}
 				sx={styles.root(drawerWidth)}
 			>
-				<Nav
-					handleDrawerToggle={handleDrawerToggle}
-					navItems={navItems}
-					brand={brand}
-				/>
+				<Nav handleDrawerToggle={handleDrawerToggle} logoText={logoText} />
 			</Drawer>
 		</nav>
 	);
