@@ -1,5 +1,7 @@
 import Logo from '@components/logo/Logo';
-import { BreakpointEnum } from '@enums/theme.enum';
+import { BreakpointEnum, DarkModeEnum } from '@enums/theme.enum';
+import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useTheme from '@hooks/useTheme';
 import MenuIcon from '@mui/icons-material/Menu';
 import { AppBar, Box, IconButton, Link, Toolbar } from '@mui/material';
@@ -14,7 +16,7 @@ export type HeaderBarPropsType = {
 };
 
 const HeaderBar = ({ handleDrawerToggle, logoText }: HeaderBarPropsType) => {
-	const { theme } = useTheme();
+	const { theme, handleThemeMode } = useTheme();
 	const styles = useStyles(theme);
 	const { width } = useWindowSize();
 
@@ -54,7 +56,16 @@ const HeaderBar = ({ handleDrawerToggle, logoText }: HeaderBarPropsType) => {
 							))}
 						</Box>
 
-						<Box>{/* todo dark mode */}</Box>
+						<Box sx={styles.darkModeBox}>
+							<IconButton style={styles.darkModeBtn} onClick={handleThemeMode}>
+								<FontAwesomeIcon
+									icon={
+										theme.palette.mode === DarkModeEnum.DARK ? faSun : faMoon
+									}
+									style={styles.darkModeIcon}
+								/>
+							</IconButton>
+						</Box>
 					</>
 				)}
 			</Toolbar>

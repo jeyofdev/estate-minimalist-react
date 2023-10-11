@@ -45,6 +45,18 @@ const useStyles = (theme: Theme) => ({
 			},
 		},
 	},
+	darkModeBox: {
+		mt: theme.spacing(2.5),
+	},
+	darkModeBtn: {
+		backgroundColor: theme.palette.primary.dark,
+		width: 28,
+		height: 28,
+	},
+	darkModeIcon: {
+		fontSize: '0.8rem',
+		color: theme.palette.primary.contrastText,
+	},
 });
 
 export default useStyles;
