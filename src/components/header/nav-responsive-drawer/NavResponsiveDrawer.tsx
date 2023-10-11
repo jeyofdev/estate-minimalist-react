@@ -1,5 +1,7 @@
 import Nav from '@components/header/nav/Nav';
-import { Drawer } from '@mui/material';
+import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Drawer, IconButton } from '@mui/material';
 import useStyles from './style';
 
 export type NavResponsiveDrawerPropsType = {
@@ -31,6 +33,14 @@ const NavResponsiveDrawer = ({
 				}}
 				sx={styles.root(drawerWidth)}
 			>
+				<IconButton
+					disableRipple
+					sx={styles.closeBtn}
+					onClick={handleDrawerToggle}
+				>
+					<FontAwesomeIcon icon={faCircleXmark} style={styles.closeBtnIcon} />
+				</IconButton>
+
 				<Nav handleDrawerToggle={handleDrawerToggle} logoText={logoText} />
 			</Drawer>
 		</nav>
