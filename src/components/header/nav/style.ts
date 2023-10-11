@@ -19,6 +19,9 @@ const useStyles = (theme: Theme) => ({
 	navlist: {
 		width: '100%',
 	},
+	darkModeBox: {
+		mt: theme.spacing(2.5),
+	},
 });
 
 export default useStyles;

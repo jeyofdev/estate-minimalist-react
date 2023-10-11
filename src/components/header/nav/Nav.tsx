@@ -1,3 +1,4 @@
+import DarkModeButton from '@components/dark-mode-button/DarkModeButton';
 import Logo from '@components/logo/Logo';
 import UIDivider from '@components/ui/divider/Divider';
 import useTheme from '@hooks/useTheme';
@@ -50,6 +51,10 @@ const Nav = ({ handleDrawerToggle, logoText }: NavPropsType) => {
 					</ListItem>
 				))}
 			</List>
+
+			<Box sx={styles.darkModeBox}>
+				<DarkModeButton />
+			</Box>
 		</Box>
 	);
 };
