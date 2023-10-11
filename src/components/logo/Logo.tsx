@@ -6,14 +6,15 @@ import useStyles from './style';
 
 export type LogoPropsType = {
 	title: string;
+	heightBox: number;
 };
 
-const Logo = ({ title }: LogoPropsType) => {
+const Logo = ({ title, heightBox }: LogoPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
 
 	return (
-		<Box sx={styles.root}>
+		<Box sx={styles.root(heightBox)}>
 			<FontAwesomeIcon icon={faHouse} style={styles.icon} />
 
 			<Typography variant='h5' sx={styles.typo}>

@@ -1,21 +1,14 @@
 import Logo from '@components/logo/Logo';
-import {
-	Box,
-	Divider,
-	List,
-	ListItem,
-	ListItemButton,
-	ListItemText,
-} from '@mui/material';
+import { Box, Divider } from '@mui/material';
 import useStyles from './style';
 
 export type NavPropsType = {
 	handleDrawerToggle: () => void;
-	navItems: string[];
+
 	logoText: string;
 };
 
-const Nav = ({ handleDrawerToggle, navItems, logoText }: NavPropsType) => {
+const Nav = ({ handleDrawerToggle, logoText }: NavPropsType) => {
 	const styles = useStyles();
 
 	return (
@@ -24,7 +17,7 @@ const Nav = ({ handleDrawerToggle, navItems, logoText }: NavPropsType) => {
 
 			<Divider />
 
-			<List>
+			{/* <List>
 				{navItems.map(item => (
 					<ListItem key={item} disablePadding>
 						<ListItemButton sx={styles.listItemBtn}>
@@ -32,7 +25,7 @@ const Nav = ({ handleDrawerToggle, navItems, logoText }: NavPropsType) => {
 						</ListItemButton>
 					</ListItem>
 				))}
-			</List>
+			</List> */}
 		</Box>
 	);
 };

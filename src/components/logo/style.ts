@@ -1,11 +1,12 @@
 import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
-	root: {
+	root: (heightBox: number) => ({
 		display: 'flex',
-		alignItems: 'center',
+		alignItems: 'flex-start',
 		gap: theme.spacing(2),
-	},
+		height: heightBox,
+	}),
 	icon: {
 		color: theme.palette.primary.dark,
 		fontSize: '1rem',
