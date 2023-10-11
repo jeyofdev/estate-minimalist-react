@@ -1,13 +1,13 @@
 import HeaderContainer from '@components/header/headerContainer/HeaderContainer';
 import useTheme from '@hooks/useTheme';
-import { Box, Button } from '@mui/material';
+import { Box } from '@mui/material';
 import { GlobalPropsType } from '../../types/global-props.type';
 import useStyles from './style';
 
 export type LayoutPropsType = Pick<GlobalPropsType, 'children'>;
 
 const Layout = ({ children }: LayoutPropsType) => {
-	const { theme, handleThemeMode } = useTheme();
+	const { theme } = useTheme();
 	const styles = useStyles(theme);
 
 	return (
@@ -15,9 +15,6 @@ const Layout = ({ children }: LayoutPropsType) => {
 			<Box sx={styles.contentBox}>
 				<Box>
 					<HeaderContainer />
-					<Button variant='contained' onClick={handleThemeMode}>
-						dark mode
-					</Button>
 				</Box>
 				{children}
 			</Box>
