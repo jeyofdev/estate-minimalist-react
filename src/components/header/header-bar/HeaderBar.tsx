@@ -1,7 +1,9 @@
 import Logo from '@components/logo/Logo';
+import { BreakpointEnum } from '@enums/theme.enum';
 import useTheme from '@hooks/useTheme';
 import MenuIcon from '@mui/icons-material/Menu';
 import { AppBar, Box, Button, IconButton, Toolbar } from '@mui/material';
+import { useWindowSize } from 'usehooks-ts';
 import useStyles from './style';
 
 export type HeaderBarPropsType = {
@@ -17,29 +19,35 @@ const HeaderBar = ({
 }: HeaderBarPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
+	const { width } = useWindowSize();
 
 	return (
 		<AppBar component='nav' sx={styles.appBar}>
 			<Toolbar>
-				<IconButton
-					color='inherit'
-					aria-label='open drawer'
-					edge='start'
-					onClick={handleDrawerToggle}
-					sx={styles.iconButton}
-				>
-					<MenuIcon sx={styles.menuIcon} />
-				</IconButton>
+				{width < BreakpointEnum.SM && (
+					<IconButton
+						color='inherit'
+						aria-label='open drawer'
+						edge='start'
+						onClick={handleDrawerToggle}
+					>
+						<MenuIcon sx={styles.menuIcon} />
+					</IconButton>
+				)}
 
-				<Logo title={logoText} />
+				{width >= BreakpointEnum.SM && (
+					<>
+						<Logo title={logoText} />
 
-				<Box sx={styles.linksBox}>
-					{navItems.map(item => (
-						<Button key={item} sx={styles.linkBtn}>
-							{item}
-						</Button>
-					))}
-				</Box>
+						<Box>
+							{navItems.map(item => (
+								<Button key={item} sx={styles.linkBtn}>
+									{item}
+								</Button>
+							))}
+						</Box>
+					</>
+				)}
 			</Toolbar>
 		</AppBar>
 	);
