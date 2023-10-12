@@ -1,5 +1,6 @@
 import UIChip from '@components/ui/chip/Chip';
 import { faHospital } from '@fortawesome/free-solid-svg-icons';
+import usePagination from '@hooks/usePagination';
 import useTheme from '@hooks/useTheme';
 import {
 	Box,
@@ -7,8 +8,10 @@ import {
 	CardActionArea,
 	CardContent,
 	CardMedia,
+	Pagination,
 	Typography,
 } from '@mui/material';
+import { ChangeEvent, useState } from 'react';
 import estateImg from '../../../assets/estate.jpg';
 import { EstateType } from '../../../types/estate.type';
 import useStyles from './style';
@@ -21,6 +24,14 @@ export type EstateListPropsType = {
 const EstateList = ({ loading, estates }: EstateListPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
+	const [page, setPage] = useState(1);
+
+	const { estatesByPage, jumpToPage, count } = usePagination(estates);
+
+	const handleChange = (_e: ChangeEvent<unknown>, newPage: number) => {
+		setPage(newPage);
+		jumpToPage(newPage);
+	};
 
 	return (
 		<Box sx={styles.root}>
@@ -32,8 +43,8 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 					</Typography>
 
 					<Box sx={styles.list}>
-						{estates.map(estate => (
-							<Card key={estate.name} sx={styles.card}>
+						{estatesByPage.map((estate, i) => (
+							<Card key={i} sx={styles.card}>
 								<CardActionArea sx={styles.cardActionArea}>
 									<CardMedia
 										component='img'
@@ -75,6 +86,13 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 							</Card>
 						))}
 					</Box>
+
+					<Pagination
+						count={count}
+						variant='outlined'
+						page={page}
+						onChange={handleChange}
+					/>
 				</>
 			)}
 		</Box>
