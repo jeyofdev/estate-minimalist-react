@@ -15,6 +15,11 @@ const Layout = ({ children }: LayoutPropsType) => {
 			<Box sx={styles.contentBox}>
 				<Box>
 					<HeaderContainer />
+					<Box sx={styles.primaryContentBox}>
+						<Box sx={styles.filtersBox}>filters</Box>
+						<Box sx={styles.resultsBox}>results</Box>
+						<Box sx={styles.previewBox}>preview</Box>
+					</Box>
 				</Box>
 				{children}
 			</Box>
