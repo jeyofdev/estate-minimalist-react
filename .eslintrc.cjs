@@ -48,5 +48,6 @@ module.exports = {
 	rules: {
 		'react/react-in-jsx-scope': 0,
 		'import/no-extraneous-dependencies': 'off',
+		'react-hooks/exhaustive-deps': 'off',
 	},
 };
