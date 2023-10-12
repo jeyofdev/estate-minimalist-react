@@ -11,6 +11,9 @@ const useStyles = (theme: Theme) => ({
 		maxWidth: BreakpointEnum.XL,
 		margin: '0 auto',
 	},
+	contentPage: {
+		mt: '64px',
+	},
 });
 
 export default useStyles;

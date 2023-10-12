@@ -16,7 +16,8 @@ const Layout = ({ children }: LayoutPropsType) => {
 				<Box>
 					<HeaderContainer />
 				</Box>
-				{children}
+
+				<Box sx={styles.contentPage}>{children}</Box>
 			</Box>
 		</Box>
 	);
