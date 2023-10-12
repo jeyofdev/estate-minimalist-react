@@ -1,8 +1,8 @@
 import { IRoute } from '@interfaces/routing.interface';
-import Buy from '@pages/Buy';
-import Home from '@pages/Home';
-import Rent from '@pages/Rent';
-import RentOut from '@pages/RentOut';
+import Buy from '@pages/buy/Buy';
+import Home from '@pages/home/Home';
+import RentOut from '@pages/rent-out/RentOut';
+import Rent from '@pages/rent/Rent';
 
 const routesList: IRoute[] = [
 	{ path: '/', name: 'Home', element: <Home /> },

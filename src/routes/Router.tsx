@@ -1,4 +1,4 @@
-import ErrorNotFound from '@pages/ErrorNotFound';
+import ErrorNotFound from '@pages/error/ErrorNotFound';
 import { Route, Routes } from 'react-router-dom';
 import routesList from './routes';
 
