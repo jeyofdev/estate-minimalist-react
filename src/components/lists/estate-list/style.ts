@@ -20,6 +20,7 @@ const useStyles = (theme: Theme) => ({
 	},
 	cardActionArea: {
 		display: 'flex',
+		alignItems: 'center',
 		gap: theme.spacing(4),
 		padding: theme.spacing(2),
 	},
@@ -52,6 +53,11 @@ const useStyles = (theme: Theme) => ({
 	},
 	cardAddress: {
 		color: theme.palette.secondary.light,
+	},
+	chipsBox: {
+		display: 'flex',
+		flexWrap: 'wrap',
+		gap: theme.spacing(2),
 	},
 });
 

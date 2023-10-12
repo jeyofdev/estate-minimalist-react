@@ -1,3 +1,5 @@
+import UIChip from '@components/ui/chip/Chip';
+import { faHospital } from '@fortawesome/free-solid-svg-icons';
 import useTheme from '@hooks/useTheme';
 import {
 	Box,
@@ -58,6 +60,15 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 											<Typography variant='caption' sx={styles.cardAddress}>
 												{estate.address}
 											</Typography>
+										</Box>
+
+										<Box sx={styles.chipsBox}>
+											<UIChip label={estate.rooms} icon={faHospital} />
+											<UIChip label={`${estate.surface}m²`} icon={faHospital} />
+											<UIChip
+												label={`${estate.garage} garage`}
+												icon={faHospital}
+											/>
 										</Box>
 									</CardContent>
 								</CardActionArea>

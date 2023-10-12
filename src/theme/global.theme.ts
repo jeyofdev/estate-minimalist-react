@@ -399,7 +399,7 @@ export const lightTheme: Theme = createTheme({
 		mode: 'light',
 		primary: {
 			main: '#1976d2',
-			light: 'rgb(71, 145, 219)',
+			light: '#e5edfe',
 			dark: '#030303',
 			contrastText: '#fff',
 		},
