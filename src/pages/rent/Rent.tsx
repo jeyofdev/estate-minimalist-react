@@ -1,3 +1,4 @@
+import Filters from '@components/filters/Filters';
 import EstateList from '@components/lists/estate-list/EstateList';
 import useFetchEstates from '@hooks/useFetchEstates';
 import { Box } from '@mui/material';
@@ -9,7 +10,7 @@ const Rent = () => {
 
 	return (
 		<Box sx={styles.root}>
-			<Box sx={styles.filtersBox}>filters</Box>
+			<Filters />
 			<EstateList loading={loading} estates={datas} />
 			<Box sx={styles.previewBox}>preview</Box>
 		</Box>
