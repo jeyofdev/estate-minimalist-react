@@ -283,7 +283,7 @@ const typographyTheme: TypographyOptions = {
 	caption: {
 		fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
 		fontWeight: 400,
-		fontSize: '0.75rem',
+		fontSize: '0.725rem',
 		lineHeight: 1.66,
 		letterSpacing: '0.03333em',
 
@@ -404,9 +404,9 @@ export const lightTheme: Theme = createTheme({
 			contrastText: '#fff',
 		},
 		secondary: {
-			main: '#2ec5d3',
-			light: 'rgb(87, 208, 219)',
-			dark: 'rgb(32, 137, 147)',
+			main: '#b1b1b1',
+			light: '#cdcdcd',
+			dark: '#565656',
 			contrastText: 'rgba(0, 0, 0, 0.87)',
 		},
 		error: {
