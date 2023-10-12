@@ -8,7 +8,7 @@ const usePagination = (estates: EstateType[]) => {
 	const [currentPage, setCurrentPage] = useState<number>(1);
 	const [estatesByPage, setEstatesByPage] = useState<EstateType[]>([]);
 
-	const itemsPerPage = 10;
+	const itemsPerPage = 5;
 	const count = Math.ceil(estates.length / itemsPerPage);
 
 	const currentEstatesByPage = () => {

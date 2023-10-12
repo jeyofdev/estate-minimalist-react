@@ -59,6 +59,11 @@ const useStyles = (theme: Theme) => ({
 		flexWrap: 'wrap',
 		gap: theme.spacing(2),
 	},
+	paginationBox: {
+		display: 'flex',
+		justifyContent: 'center',
+		mt: theme.spacing(5),
+	},
 });
 
 export default useStyles;

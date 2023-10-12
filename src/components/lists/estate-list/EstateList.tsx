@@ -1,4 +1,5 @@
 import UIChip from '@components/ui/chip/Chip';
+import UIPagination from '@components/ui/pagination/Pagination';
 import { faHospital } from '@fortawesome/free-solid-svg-icons';
 import usePagination from '@hooks/usePagination';
 import useTheme from '@hooks/useTheme';
@@ -8,7 +9,6 @@ import {
 	CardActionArea,
 	CardContent,
 	CardMedia,
-	Pagination,
 	Typography,
 } from '@mui/material';
 import { ChangeEvent, useState } from 'react';
@@ -87,12 +87,9 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 						))}
 					</Box>
 
-					<Pagination
-						count={count}
-						variant='outlined'
-						page={page}
-						onChange={handleChange}
-					/>
+					<Box sx={styles.paginationBox}>
+						<UIPagination count={count} page={page} onChange={handleChange} />
+					</Box>
 				</>
 			)}
 		</Box>
