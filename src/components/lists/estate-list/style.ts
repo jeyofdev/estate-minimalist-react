@@ -2,9 +2,16 @@ import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
 	root: {
-		gridColumn: 'auto / span 4',
+		gridColumn: {
+			xs: '1 / span 12',
+			sm: 'auto / span 9',
+			md: 'auto / span 4',
+		},
 		width: '100%',
-		py: theme.spacing(10),
+		py: {
+			xs: theme.spacing(5),
+			sm: theme.spacing(10),
+		},
 	},
 	titleSection: {
 		color: theme.palette.primary.dark,
@@ -13,10 +20,17 @@ const useStyles = (theme: Theme) => ({
 		mt: theme.spacing(5),
 		display: 'flex',
 		flexDirection: 'column',
+		flexWrap: 'wrap',
 		gap: theme.spacing(4),
 	},
 	card: {
-		maxWidth: '100%',
+		width: '100%',
+		maxWidth: {
+			xs: `calc(100%)`,
+			sm: `calc(100%)`,
+			// sm: `calc((100% / 2) - ${theme.spacing(4)})`,
+			md: '100%',
+		},
 		borderRadius: theme.spacing(3),
 		boxShadow: 'none',
 		backgroundColor: theme.palette.background.paper,

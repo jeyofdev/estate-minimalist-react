@@ -5,6 +5,7 @@ const useStyles = (theme: Theme) => ({
 		'& .MuiButtonBase-root': {
 			backgroundColor: 'transparent',
 			color: theme.palette.primary.dark,
+			mb: theme.spacing(1),
 
 			'&:hover': {
 				backgroundColor: theme.palette.primary.light,
