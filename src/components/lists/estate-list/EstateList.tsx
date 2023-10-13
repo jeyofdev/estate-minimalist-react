@@ -38,7 +38,7 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 			{loading && <Typography>...loading</Typography>}
 			{!loading && (
 				<>
-					<Typography variant='h5'>
+					<Typography variant='h5' sx={styles.titleSection}>
 						Search Results ({estates.length})
 					</Typography>
 

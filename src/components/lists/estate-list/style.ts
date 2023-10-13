@@ -6,6 +6,9 @@ const useStyles = (theme: Theme) => ({
 		width: '100%',
 		py: theme.spacing(10),
 	},
+	titleSection: {
+		color: theme.palette.primary.dark,
+	},
 	list: {
 		mt: theme.spacing(5),
 		display: 'flex',
