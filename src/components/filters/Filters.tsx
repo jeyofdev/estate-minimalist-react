@@ -1,5 +1,6 @@
 import UIButton from '@components/ui/button/Button';
 import FilterGroup from '@components/ui/filter-group/FilterGroup';
+import UISelect from '@components/ui/form/select/Select';
 import {
 	StyleFlexDirectionEnum,
 	StyleVariantTypographyEnum,
@@ -7,12 +8,18 @@ import {
 import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import useTheme from '@hooks/useTheme';
 import { Box, Typography } from '@mui/material';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { EstateType } from '../../types/estate.type';
 import useStyles from './style';
 
-const Filters = () => {
+type FiltersPropsType = {
+	estates: EstateType[];
+};
+
+const Filters = ({ estates }: FiltersPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
+	const [items, setItems] = useState<{ value: string; label: string }[]>([]);
 	const [filters] = useState({
 		propertyType: {
 			house: false,
@@ -22,6 +29,16 @@ const Filters = () => {
 	});
 
 	const roomsItems = ['1', '2', '3', '4+'];
+
+	useEffect(() => {
+		const datas = estates.map(item => item.city);
+		setItems(
+			[...new Set(datas)].map(item => ({
+				value: item.toLowerCase().split(' ').join('-'),
+				label: item,
+			})),
+		);
+	}, []);
 
 	return (
 		<Box sx={styles.root}>
@@ -52,7 +69,7 @@ const Filters = () => {
 				</FilterGroup>
 
 				<FilterGroup titleGroup='Location'>
-					<Box>content</Box>
+					<UISelect items={[{ value: 'all', label: 'All' }, ...items]} />
 				</FilterGroup>
 
 				<FilterGroup titleGroup='Price range'>
