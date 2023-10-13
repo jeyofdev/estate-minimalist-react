@@ -39,7 +39,7 @@ const HeaderContainer = ({ window }: HeaderContainerPropsType) => {
 					logoText='Real Estate'
 				/>
 			</Box>
-			<UIDivider />
+			<UIDivider margin='69px 0px' />
 		</>
 	);
 };

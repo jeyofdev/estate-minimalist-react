@@ -1,24 +1,29 @@
+import { BreakpointEnum } from '@enums/theme.enum';
 import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
-	root: {},
 	toolbar: {
-		display: 'flex',
-		justifyContent: 'space-between',
+		display: 'grid',
+		gridTemplateColumns: 'repeat(12, 1fr)',
 	},
 	appBar: {
 		backgroundColor: theme.palette.background.default,
+		maxWidth: BreakpointEnum.XL,
+		right: 'auto',
+		boxShadow: 'none',
 	},
 	menuIcon: {
 		color: theme.palette.primary.dark,
 	},
 	logoBox: {
 		marginTop: theme.spacing(2.5),
+		gridColumn: '1 / span 2',
 	},
 	linksBox: {
 		display: 'flex',
 		gap: '1.5rem',
 		marginTop: theme.spacing(2.5),
+		gridColumn: 'auto / span 9',
 	},
 	link: {
 		display: 'flex',
@@ -46,6 +51,9 @@ const useStyles = (theme: Theme) => ({
 		},
 	},
 	darkModeBox: {
+		display: 'flex',
+		gridColumn: 'auto / span 1',
+		justifyContent: 'flex-end',
 		mt: theme.spacing(2.5),
 	},
 });
