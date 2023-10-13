@@ -26,6 +26,11 @@ const useStyles = (theme: Theme) => ({
 		gap: theme.spacing(2),
 		flexWrap: 'wrap',
 	},
+	additionalBox: {
+		display: 'flex',
+		flexDirection: 'column',
+		gap: theme.spacing(2),
+	},
 });
 
 export default useStyles;

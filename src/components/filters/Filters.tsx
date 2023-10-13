@@ -1,5 +1,6 @@
 import UIButton from '@components/ui/button/Button';
 import FilterGroup from '@components/ui/filter-group/FilterGroup';
+import UICheckbox from '@components/ui/form/checkbox/checkbox/Checkbox';
 import PriceRange from '@components/ui/form/price-range/PriceRange';
 import UISelect from '@components/ui/form/select/Select';
 import {
@@ -93,7 +94,9 @@ const Filters = ({ estates }: FiltersPropsType) => {
 				</FilterGroup>
 
 				<FilterGroup titleGroup='Additional conveniences'>
-					<Box>content</Box>
+					<Box sx={styles.additionalBox}>
+						<UICheckbox label='Garage' />
+					</Box>
 				</FilterGroup>
 			</Box>
 		</Box>
