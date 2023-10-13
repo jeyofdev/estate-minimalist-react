@@ -5,6 +5,7 @@ const useStyles = (theme: Theme) => ({
 	title: {
 		color: theme.palette.secondary.dark,
 		fontWeight: '600',
+		mb: theme.spacing(2),
 	},
 });
 

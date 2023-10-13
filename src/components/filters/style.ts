@@ -16,6 +16,16 @@ const useStyles = (theme: Theme) => ({
 		flexDirection: 'column',
 		gap: theme.spacing(7),
 	},
+	propertyTypeBox: {
+		display: 'flex',
+		gap: theme.spacing(2),
+		flexWrap: 'wrap',
+	},
+	roomsBox: {
+		display: 'flex',
+		gap: theme.spacing(2),
+		flexWrap: 'wrap',
+	},
 });
 
 export default useStyles;

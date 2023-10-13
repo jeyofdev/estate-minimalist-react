@@ -283,7 +283,7 @@ const typographyTheme: TypographyOptions = {
 	caption: {
 		fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
 		fontWeight: 400,
-		fontSize: '0.725rem',
+		fontSize: '0.65rem',
 		lineHeight: 1.66,
 		letterSpacing: '0.03333em',
 
