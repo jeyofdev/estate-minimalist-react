@@ -1,5 +1,6 @@
 import UIButton from '@components/ui/button/Button';
 import FilterGroup from '@components/ui/filter-group/FilterGroup';
+import PriceRange from '@components/ui/form/price-range/PriceRange';
 import UISelect from '@components/ui/form/select/Select';
 import {
 	StyleFlexDirectionEnum,
@@ -73,7 +74,7 @@ const Filters = ({ estates }: FiltersPropsType) => {
 				</FilterGroup>
 
 				<FilterGroup titleGroup='Price range'>
-					<Box>content</Box>
+					<PriceRange min={10} max={500} />
 				</FilterGroup>
 
 				<FilterGroup titleGroup='Rooms'>
