@@ -8,7 +8,7 @@ const greyColors: Color = {
 	100: '#f5f5f5',
 	200: '#eeeeee',
 	300: '#e0e0e0',
-	400: '#bdbdbd',
+	400: '#b3b3b3',
 	500: '#9e9e9e',
 	600: '#757575',
 	700: '#616161',
@@ -283,7 +283,7 @@ const typographyTheme: TypographyOptions = {
 	caption: {
 		fontFamily: "'Roboto', 'Helvetica', 'Arial', sans-serif",
 		fontWeight: 400,
-		fontSize: '0.725rem',
+		fontSize: '0.65rem',
 		lineHeight: 1.66,
 		letterSpacing: '0.03333em',
 
