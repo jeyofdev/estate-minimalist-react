@@ -1,4 +1,4 @@
-import UIButton from '@components/ui/button/Button';
+import UIButton from '@components/ui/button/Button/Button';
 import FilterGroup from '@components/ui/filter-group/FilterGroup';
 import UICheckbox from '@components/ui/form/checkbox/checkbox/Checkbox';
 import PriceRange from '@components/ui/form/price-range/PriceRange';
@@ -11,7 +11,7 @@ import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import useTheme from '@hooks/useTheme';
 import { Box, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
-import { EstateType } from '../../types/estate.type';
+import { EstateType } from '../../../types/estate.type';
 import useStyles from './style';
 
 type FiltersPropsType = {
@@ -47,6 +47,7 @@ const Filters = ({ estates }: FiltersPropsType) => {
 			<Typography variant='h5' sx={styles.titleSection}>
 				Filters
 			</Typography>
+
 			<Box sx={styles.filtersListBox}>
 				<FilterGroup titleGroup='Property type'>
 					<Box sx={styles.propertyTypeBox}>

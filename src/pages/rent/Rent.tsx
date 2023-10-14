@@ -1,4 +1,4 @@
-import Filters from '@components/filters/Filters';
+import Filters from '@components/filters/filters/Filters';
 import EstateList from '@components/lists/estate-list/EstateList';
 import useFetchEstates from '@hooks/useFetchEstates';
 import useTheme from '@hooks/useTheme';
@@ -12,7 +12,9 @@ const Rent = () => {
 
 	return (
 		<Box sx={styles.root}>
-			<Filters estates={datas} />
+			<Box sx={styles.filtersContainer}>
+				<Filters estates={datas} />
+			</Box>
 			<EstateList loading={loading} estates={datas} />
 			<Box sx={styles.previewBox}>preview</Box>
 		</Box>

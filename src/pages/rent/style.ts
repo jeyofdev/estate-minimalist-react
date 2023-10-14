@@ -9,6 +9,17 @@ const useStyles = (theme: Theme) => ({
 		mt: '-64.5px',
 		px: theme.spacing(4),
 	},
+	filtersContainer: {
+		display: 'none',
+		[theme.breakpoints.up('sm')]: {
+			gridColumn: '1 / span 3',
+			display: 'block',
+		},
+
+		[theme.breakpoints.up('md')]: {
+			gridColumn: '1 / span 2',
+		},
+	},
 	previewBox: {
 		display: {
 			xs: 'none',
