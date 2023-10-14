@@ -1,6 +1,6 @@
 import ButtonIcon from '@components/ui/button/button-icon/ButtonIcon';
 import { BreakpointEnum } from '@enums/theme.enum';
-import { faSliders } from '@fortawesome/free-solid-svg-icons';
+import { faCircleXmark, faSliders } from '@fortawesome/free-solid-svg-icons';
 import useTheme from '@hooks/useTheme';
 import useWindowSize from '@hooks/useWindowSize';
 import { Box, Drawer } from '@mui/material';
@@ -38,7 +38,7 @@ const ResponsiveFilters = ({
 
 	const content = () => (
 		<Box
-			sx={{ width: 250 }}
+			sx={styles.contentBox}
 			role='presentation'
 			// onClick={toggleDrawer(false)}
 			// onKeyDown={toggleDrawer(false)}
@@ -61,6 +61,14 @@ const ResponsiveFilters = ({
 							onClose={toggleDrawer(false)}
 							sx={styles.root}
 						>
+							<Box sx={styles.closeTriggerBox}>
+								<ButtonIcon
+									icon={faCircleXmark}
+									onClick={toggleDrawer(false)}
+									iconFontSize='1.3rem'
+								/>
+							</Box>
+
 							{content()}
 						</Drawer>
 					</>

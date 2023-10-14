@@ -2,8 +2,13 @@ import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
 	root: {
+		backgroundColor: 'red',
 		'& .MuiDrawer-paper': {
 			backgroundColor: theme.palette.background.default,
+		},
+
+		'& .MuiDrawer-root': {
+			position: 'relative',
 		},
 	},
 	iconTrigger: {
@@ -16,6 +21,14 @@ const useStyles = (theme: Theme) => ({
 		[theme.breakpoints.up('sm')]: {
 			display: 'none',
 		},
+	},
+	contentBox: {
+		width: 300,
+	},
+	closeTriggerBox: {
+		position: 'absolute',
+		top: theme.spacing(4),
+		right: theme.spacing(4),
 	},
 });
 
