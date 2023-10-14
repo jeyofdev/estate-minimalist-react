@@ -83,12 +83,24 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 										</Box>
 
 										<Box sx={styles.chipsBox}>
-											<UIChip label={estate.rooms} icon={faHospital} />
-											<UIChip label={`${estate.surface}m²`} icon={faHospital} />
+											<UIChip
+												label={estate.rooms}
+												icon={faHospital}
+												tooltipLabel='Rooms'
+												tooltipArrow
+											/>
+											<UIChip
+												label={`${estate.surface}m²`}
+												icon={faHospital}
+												tooltipLabel='Surface'
+												tooltipArrow
+											/>
 											{estate.garage > 0 && (
 												<UIChip
 													label={`${estate.garage} garage`}
 													icon={faHospital}
+													tooltipLabel='Garage'
+													tooltipArrow
 												/>
 											)}
 										</Box>
