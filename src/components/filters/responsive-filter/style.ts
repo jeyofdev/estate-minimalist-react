@@ -2,7 +2,6 @@ import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
 	root: {
-		backgroundColor: 'red',
 		'& .MuiDrawer-paper': {
 			backgroundColor: theme.palette.background.default,
 		},

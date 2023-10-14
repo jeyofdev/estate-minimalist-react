@@ -1,5 +1,6 @@
-import { ReactNode } from 'react';
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { ReactElement } from 'react';
 
 export type GlobalPropsType = {
-	children: ReactNode;
+	children: ReactElement<any, any>;
 };
