@@ -6,7 +6,7 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useTheme from '@hooks/useTheme';
 import { Button, Typography } from '@mui/material';
-import { GlobalPropsType } from '../../../types/global-props.type';
+import { GlobalPropsType } from '../../../../types/global-props.type';
 import useStyles from './style';
 
 export type UIButtonPropsType = Pick<GlobalPropsType, 'children'> & {

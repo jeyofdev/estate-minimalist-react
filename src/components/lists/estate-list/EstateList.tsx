@@ -1,5 +1,7 @@
+import ResponsiveFilters from '@components/filters/responsive-filter/ResponsiveFilter';
 import UIChip from '@components/ui/chip/Chip';
 import UIPagination from '@components/ui/pagination/Pagination';
+import { BreakpointEnum } from '@enums/theme.enum';
 import { faHospital } from '@fortawesome/free-solid-svg-icons';
 import usePagination from '@hooks/usePagination';
 import useTheme from '@hooks/useTheme';
@@ -38,9 +40,16 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 			{loading && <Typography>...loading</Typography>}
 			{!loading && (
 				<>
-					<Typography variant='h5' sx={styles.titleSection}>
-						Search Results ({estates.length})
-					</Typography>
+					<Box sx={styles.topBox}>
+						<Typography variant='h5' sx={styles.titleSection}>
+							Search Results ({estates.length})
+						</Typography>
+
+						<ResponsiveFilters
+							breakpoint={BreakpointEnum.MD}
+							estates={estates}
+						/>
+					</Box>
 
 					<Box sx={styles.list}>
 						{estatesByPage.map((estate, i) => (
