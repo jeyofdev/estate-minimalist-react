@@ -1,3 +1,4 @@
+import SingleEstateCard from '@components/card/single-estate-card/SingleEstateCard';
 import Filters from '@components/filters/filters/Filters';
 import EstateList from '@components/lists/estate-list/EstateList';
 import useFetchEstates from '@hooks/useFetchEstates';
@@ -16,7 +17,7 @@ const Rent = () => {
 				<Filters estates={datas} />
 			</Box>
 			<EstateList loading={loading} estates={datas} />
-			<Box sx={styles.previewBox}>preview</Box>
+			<SingleEstateCard loading={loading} estate={datas[0]} />
 		</Box>
 	);
 };

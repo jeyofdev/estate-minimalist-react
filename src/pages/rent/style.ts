@@ -20,16 +20,6 @@ const useStyles = (theme: Theme) => ({
 			gridColumn: '1 / span 2',
 		},
 	},
-	previewBox: {
-		display: {
-			xs: 'none',
-			md: 'flex',
-		},
-		gridColumn: {
-			xs: 'auto / span 6',
-		},
-		width: '100%',
-	},
 });
 
 export default useStyles;
