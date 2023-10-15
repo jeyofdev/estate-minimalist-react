@@ -122,7 +122,7 @@ const typographyTheme: TypographyOptions = {
 		fontFamily: "'Poppins', sans-serif",
 
 		fontWeight: 400,
-		fontSize: '1.65rem',
+		fontSize: '1.35rem',
 		lineHeight: 1.235,
 		letterSpacing: '0.00735em',
 

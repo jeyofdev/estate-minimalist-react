@@ -7,7 +7,7 @@ const useStyles = (theme: Theme) => ({
 		gap: theme.spacing(4),
 		minHeight: 'calc(100vh - 65px)',
 		mt: '-64.5px',
-		px: theme.spacing(4),
+		pl: theme.spacing(4),
 	},
 	filtersContainer: {
 		display: 'none',
@@ -19,16 +19,6 @@ const useStyles = (theme: Theme) => ({
 		[theme.breakpoints.up('md')]: {
 			gridColumn: '1 / span 2',
 		},
-	},
-	previewBox: {
-		display: {
-			xs: 'none',
-			md: 'flex',
-		},
-		gridColumn: {
-			xs: 'auto / span 6',
-		},
-		width: '100%',
 	},
 });
 

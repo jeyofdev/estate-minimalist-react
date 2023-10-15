@@ -13,7 +13,7 @@ import {
 	CardMedia,
 	Typography,
 } from '@mui/material';
-import { ChangeEvent, useState } from 'react';
+import { ChangeEvent, Dispatch, SetStateAction, useState } from 'react';
 import estateImg from '../../../assets/estate.jpg';
 import { EstateType } from '../../../types/estate.type';
 import useStyles from './style';
@@ -21,9 +21,14 @@ import useStyles from './style';
 export type EstateListPropsType = {
 	loading: boolean;
 	estates: EstateType[];
+	setActiveEstateId: Dispatch<SetStateAction<string | undefined>>;
 };
 
-const EstateList = ({ loading, estates }: EstateListPropsType) => {
+const EstateList = ({
+	loading,
+	estates,
+	setActiveEstateId,
+}: EstateListPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
 	const [page, setPage] = useState(1);
@@ -53,7 +58,11 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 
 					<Box sx={styles.list}>
 						{estatesByPage.map((estate, i) => (
-							<Card key={i} sx={styles.card}>
+							<Card
+								key={i}
+								sx={styles.card}
+								onClick={() => setActiveEstateId(estate.id)}
+							>
 								<CardActionArea sx={styles.cardActionArea}>
 									<CardMedia
 										component='img'
@@ -97,7 +106,7 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 											/>
 											{estate.garage > 0 && (
 												<UIChip
-													label={`${estate.garage} garage`}
+													label={`${estate.garage} Garage`}
 													icon={faHospital}
 													tooltipLabel='Garage'
 													tooltipArrow
