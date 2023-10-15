@@ -19,7 +19,10 @@ const useStyles = (theme: Theme) => ({
 		width: '100%',
 	},
 	contentBox: {
+		display: 'flex',
+		flexDirection: 'column',
 		padding: theme.spacing(6),
+		gap: theme.spacing(7),
 
 		'&:last-child': {
 			pb: theme.spacing(6),
@@ -37,8 +40,18 @@ const useStyles = (theme: Theme) => ({
 		lineHeight: 1.3,
 		mb: theme.spacing(1.5),
 	},
+	addressBox: {
+		display: 'flex',
+		alignItems: 'center',
+		gap: theme.spacing(2),
+	},
+	icon: {
+		color: theme.palette.primary.dark,
+		fontSize: '0.8rem',
+	},
 	address: {
 		color: theme.palette.secondary.light,
+		lineHeight: 1,
 	},
 	priceBox: {
 		display: 'flex',
@@ -52,6 +65,24 @@ const useStyles = (theme: Theme) => ({
 	priceMonth: {
 		color: theme.palette.secondary.main,
 		alignSelf: 'flex-end',
+	},
+	chipsBox: {
+		display: 'flex',
+		flexWrap: 'wrap',
+		gap: theme.spacing(3),
+	},
+	detailsBox: {
+		display: 'flex',
+		flexDirection: 'column',
+		gap: theme.spacing(1.5),
+	},
+	detailsSection: {
+		color: theme.palette.secondary.dark,
+		fontWeight: '600',
+		lineHeight: 1.3,
+	},
+	details: {
+		color: theme.palette.secondary.main,
 	},
 });
 

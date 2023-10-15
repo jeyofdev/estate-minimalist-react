@@ -97,7 +97,7 @@ const EstateList = ({ loading, estates }: EstateListPropsType) => {
 											/>
 											{estate.garage > 0 && (
 												<UIChip
-													label={`${estate.garage} garage`}
+													label={`${estate.garage} Garage`}
 													icon={faHospital}
 													tooltipLabel='Garage'
 													tooltipArrow
