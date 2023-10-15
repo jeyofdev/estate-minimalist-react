@@ -2,6 +2,7 @@ import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
 	root: {
+		position: 'relative',
 		display: {
 			xs: 'none',
 			md: 'flex',
@@ -12,11 +13,14 @@ const useStyles = (theme: Theme) => ({
 		},
 		backgroundColor: theme.palette.background.paper,
 		width: '100%',
-		borderRadius: theme.spacing(0),
-		boxShadow: 'none',
+	},
+	blockPage: {
+		position: 'fixed',
 	},
 	card: {
 		width: '100%',
+		borderRadius: theme.spacing(0),
+		boxShadow: 'none',
 	},
 	contentBox: {
 		display: 'flex',

@@ -1,5 +1,5 @@
 export type EstateType = {
-	id: object;
+	id: string;
 	name: string;
 	address: string;
 	city: string;

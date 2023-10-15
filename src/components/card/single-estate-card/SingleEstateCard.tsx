@@ -1,30 +1,34 @@
 import UIChip from '@components/ui/chip/Chip';
+import ReadMore from '@components/ui/read-more/ReadMore';
 import { faHospital, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import useFetchEstate from '@hooks/useFetchEstate';
 import useTheme from '@hooks/useTheme';
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
 import defaultEstateImg from '../../../assets/estate.jpg';
-import { EstateType } from '../../../types/estate.type';
 import useStyles from './style';
 
 export type SingleEstateCardPropsType = {
-	loading: boolean;
-	estate: EstateType;
+	activeEstateId: string;
 };
 
-const SingleEstateCard = ({ loading, estate }: SingleEstateCardPropsType) => {
+const SingleEstateCard = ({ activeEstateId }: SingleEstateCardPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
+	const { datas: estate, loading } = useFetchEstate(activeEstateId);
 
-	return (
-		<>
-			{loading && <Typography>...loading</Typography>}
-			{!loading && (
-				<>
-					<Card sx={styles.root}>
+	if (loading || !activeEstateId) {
+		return <Typography>...loading</Typography>;
+	}
+
+	if (estate) {
+		return (
+			<Box sx={styles.root}>
+				<Box sx={styles.blockPage}>
+					<Card sx={styles.card}>
 						<CardMedia
 							component='img'
-							height='200'
+							height='300'
 							image={defaultEstateImg}
 							alt='green iguana'
 						/>
@@ -32,20 +36,20 @@ const SingleEstateCard = ({ loading, estate }: SingleEstateCardPropsType) => {
 							<Box sx={styles.topBox}>
 								<Box sx={styles.nameBox}>
 									<Typography variant='h4' sx={styles.title}>
-										{estate.name}
+										{estate?.name}
 									</Typography>
 
 									<Box sx={styles.addressBox}>
 										<FontAwesomeIcon icon={faLocationDot} style={styles.icon} />
 										<Typography variant='h6' sx={styles.address}>
-											{estate.address}
+											{estate?.address}
 										</Typography>
 									</Box>
 								</Box>
 
 								<Box sx={styles.priceBox}>
 									<Typography variant='h4' sx={styles.priceTypo}>
-										€{estate.price_rent}
+										€{estate?.price_rent}
 									</Typography>
 
 									<Typography variant='h6' sx={styles.priceMonth}>
@@ -56,32 +60,32 @@ const SingleEstateCard = ({ loading, estate }: SingleEstateCardPropsType) => {
 
 							<Box sx={styles.chipsBox}>
 								<UIChip
-									label={`${estate.surface}m²`}
+									label={`${estate?.surface}m²`}
 									icon={faHospital}
 									tooltipLabel='Surface'
 									tooltipArrow
 								/>
 								<UIChip
-									label={`${estate.bedroom} Bedrooms`}
+									label={`${estate?.bedroom} Bedrooms`}
 									icon={faHospital}
 									tooltipLabel='Rooms'
 									tooltipArrow
 								/>
 								<UIChip
-									label={`${estate.bathroom} Bathrooms`}
+									label={`${estate?.bathroom} Bathrooms`}
 									icon={faHospital}
 									tooltipLabel='Rooms'
 									tooltipArrow
 								/>
-								{estate.garage > 0 && (
+								{estate?.garage > 0 && (
 									<UIChip
-										label={`${estate.garage} Garage`}
+										label={`${estate?.garage} Garage`}
 										icon={faHospital}
 										tooltipLabel='Garage'
 										tooltipArrow
 									/>
 								)}
-								{estate.pool > 0 && (
+								{estate?.pool > 0 && (
 									<UIChip
 										label='Pool'
 										icon={faHospital}
@@ -96,16 +100,18 @@ const SingleEstateCard = ({ loading, estate }: SingleEstateCardPropsType) => {
 									Properties details
 								</Typography>
 
-								<Typography variant='body1' sx={styles.details}>
-									{estate.details}
+								<Typography variant='h6' sx={styles.details}>
+									<ReadMore content={estate?.details} truncateLimit={200} />
 								</Typography>
 							</Box>
 						</CardContent>
 					</Card>
-				</>
-			)}
-		</>
-	);
+				</Box>
+			</Box>
+		);
+	}
+
+	return <></>;
 };
 
 export default SingleEstateCard;

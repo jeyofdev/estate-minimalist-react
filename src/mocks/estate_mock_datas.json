@@ -1,6 +1,6 @@
 [
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82ed" },
+		"id": "6527b39cfc13ae20ca6c82ed",
 		"name": "Marketing",
 		"address": "9305 Westridge Plaza",
 		"city": "Pittsburgh",
@@ -18,7 +18,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82ee" },
+		"id": "6527b39cfc13ae20ca6c82ee",
 		"name": "Engineering",
 		"address": "46858 Cascade Point",
 		"city": "Rueil-Malmaison",
@@ -36,7 +36,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82ef" },
+		"id": "6527b39cfc13ae20ca6c82ef",
 		"name": "Marketing",
 		"address": "5772 Londonderry Terrace",
 		"city": "Liverpool",
@@ -54,7 +54,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f0" },
+		"id": "6527b39cfc13ae20ca6c82f0",
 		"name": "Training",
 		"address": "56 Schurz Place",
 		"city": "La Tour-du-Pin",
@@ -72,7 +72,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f1" },
+		"id": "6527b39cfc13ae20ca6c82f1",
 		"name": "Legal",
 		"address": "6011 Meadow Valley Avenue",
 		"city": "Saint-Gaudens",
@@ -90,7 +90,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f2" },
+		"id": "6527b39cfc13ae20ca6c82f2",
 		"name": "Product Management",
 		"address": "62 Columbus Trail",
 		"city": "Saint-Denis",
@@ -108,7 +108,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f3" },
+		"id": "6527b39cfc13ae20ca6c82f3",
 		"name": "Business Development",
 		"address": "549 Mockingbird Court",
 		"city": "Nogent-sur-Marne",
@@ -126,7 +126,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f4" },
+		"id": "6527b39cfc13ae20ca6c82f4",
 		"name": "Accounting",
 		"address": "62158 Dunning Alley",
 		"city": "Clearwater",
@@ -144,7 +144,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f5" },
+		"id": "6527b39cfc13ae20ca6c82f5",
 		"name": "Services",
 		"address": "098 Manley Avenue",
 		"city": "Paris 13",
@@ -162,7 +162,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f6" },
+		"id": "6527b39cfc13ae20ca6c82f6",
 		"name": "Support",
 		"address": "32 Jackson Road",
 		"city": "München",
@@ -180,7 +180,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f7" },
+		"id": "6527b39cfc13ae20ca6c82f7",
 		"name": "Product Management",
 		"address": "939 Moose Way",
 		"city": "Paterson",
@@ -198,7 +198,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f8" },
+		"id": "6527b39cfc13ae20ca6c82f8",
 		"name": "Accounting",
 		"address": "9060 Kings Center",
 		"city": "Reno",
@@ -216,7 +216,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82f9" },
+		"id": "6527b39cfc13ae20ca6c82f9",
 		"name": "Human Resources",
 		"address": "2 Independence Parkway",
 		"city": "Nîmes",
@@ -234,7 +234,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82fa" },
+		"id": "6527b39cfc13ae20ca6c82fa",
 		"name": "Services",
 		"address": "4797 Hooker Street",
 		"city": "Alhambra",
@@ -252,7 +252,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82fb" },
+		"id": "6527b39cfc13ae20ca6c82fb",
 		"name": "Research and Development",
 		"address": "037 Raven Drive",
 		"city": "Issoire",
@@ -270,7 +270,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82fc" },
+		"id": "6527b39cfc13ae20ca6c82fc",
 		"name": "Engineering",
 		"address": "94194 Arizona Place",
 		"city": "Kansas City",
@@ -288,7 +288,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82fd" },
+		"id": "6527b39cfc13ae20ca6c82fd",
 		"name": "Engineering",
 		"address": "7 Harbort Alley",
 		"city": "Cergy-Pontoise",
@@ -306,7 +306,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82fe" },
+		"id": "6527b39cfc13ae20ca6c82fe",
 		"name": "Services",
 		"address": "809 Vidon Trail",
 		"city": "Firminy",
@@ -324,7 +324,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c82ff" },
+		"id": "6527b39cfc13ae20ca6c82ff",
 		"name": "Marketing",
 		"address": "90595 Red Cloud Road",
 		"city": "Anaheim",
@@ -342,7 +342,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8300" },
+		"id": "6527b39cfc13ae20ca6c8300",
 		"name": "Sales",
 		"address": "62 Grasskamp Center",
 		"city": "New York City",
@@ -360,7 +360,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8301" },
+		"id": "6527b39cfc13ae20ca6c8301",
 		"name": "Training",
 		"address": "651 Schiller Hill",
 		"city": "Rennes",
@@ -378,7 +378,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8302" },
+		"id": "6527b39cfc13ae20ca6c8302",
 		"name": "Support",
 		"address": "6071 Buell Lane",
 		"city": "Monticello",
@@ -396,7 +396,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8303" },
+		"id": "6527b39cfc13ae20ca6c8303",
 		"name": "Support",
 		"address": "2 Thierer Crossing",
 		"city": "Paris 18",
@@ -414,7 +414,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8304" },
+		"id": "6527b39cfc13ae20ca6c8304",
 		"name": "Accounting",
 		"address": "42466 Nelson Court",
 		"city": "Jacksonville",
@@ -432,7 +432,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8305" },
+		"id": "6527b39cfc13ae20ca6c8305",
 		"name": "Business Development",
 		"address": "09 Valley Edge Street",
 		"city": "Cartagena",
@@ -450,7 +450,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8306" },
+		"id": "6527b39cfc13ae20ca6c8306",
 		"name": "Engineering",
 		"address": "1975 Straubel Lane",
 		"city": "Houston",
@@ -468,7 +468,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8307" },
+		"id": "6527b39cfc13ae20ca6c8307",
 		"name": "Engineering",
 		"address": "21 Hansons Court",
 		"city": "Chicago",
@@ -486,7 +486,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8308" },
+		"id": "6527b39cfc13ae20ca6c8308",
 		"name": "Marketing",
 		"address": "15870 Karstens Place",
 		"city": "Scottsdale",
@@ -504,7 +504,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8309" },
+		"id": "6527b39cfc13ae20ca6c8309",
 		"name": "Engineering",
 		"address": "4735 Sunfield Plaza",
 		"city": "New Orleans",
@@ -522,7 +522,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c830a" },
+		"id": "6527b39cfc13ae20ca6c830a",
 		"name": "Business Development",
 		"address": "8378 Springs Terrace",
 		"city": "Blois",
@@ -540,7 +540,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c830b" },
+		"id": "6527b39cfc13ae20ca6c830b",
 		"name": "Human Resources",
 		"address": "62 Ridge Oak Place",
 		"city": "Montreuil",
@@ -558,7 +558,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c830c" },
+		"id": "6527b39cfc13ae20ca6c830c",
 		"name": "Research and Development",
 		"address": "1 Morning Point",
 		"city": "Madison",
@@ -576,7 +576,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c830d" },
+		"id": "6527b39cfc13ae20ca6c830d",
 		"name": "Services",
 		"address": "4 Meadow Vale Street",
 		"city": "Portland",
@@ -594,7 +594,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c830e" },
+		"id": "6527b39cfc13ae20ca6c830e",
 		"name": "Business Development",
 		"address": "314 Ryan Junction",
 		"city": "West Palm Beach",
@@ -612,7 +612,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c830f" },
+		"id": "6527b39cfc13ae20ca6c830f",
 		"name": "Legal",
 		"address": "9 Kim Road",
 		"city": "Ivry-sur-Seine",
@@ -630,7 +630,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8310" },
+		"id": "6527b39cfc13ae20ca6c8310",
 		"name": "Accounting",
 		"address": "00480 Shopko Crossing",
 		"city": "La Ferté-Bernard",
@@ -648,7 +648,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8311" },
+		"id": "6527b39cfc13ae20ca6c8311",
 		"name": "Research and Development",
 		"address": "96 Londonderry Drive",
 		"city": "Saint Louis",
@@ -666,7 +666,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8312" },
+		"id": "6527b39cfc13ae20ca6c8312",
 		"name": "Business Development",
 		"address": "1917 Old Gate Place",
 		"city": "Cernay",
@@ -684,7 +684,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8313" },
+		"id": "6527b39cfc13ae20ca6c8313",
 		"name": "Human Resources",
 		"address": "758 Ilene Court",
 		"city": "Sheffield",
@@ -702,7 +702,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8314" },
+		"id": "6527b39cfc13ae20ca6c8314",
 		"name": "Services",
 		"address": "9 Springview Crossing",
 		"city": "Angers",
@@ -720,7 +720,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8315" },
+		"id": "6527b39cfc13ae20ca6c8315",
 		"name": "Business Development",
 		"address": "6 Mcguire Avenue",
 		"city": "Seminole",
@@ -738,7 +738,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8316" },
+		"id": "6527b39cfc13ae20ca6c8316",
 		"name": "Product Management",
 		"address": "01914 5th Parkway",
 		"city": "Évry",
@@ -756,7 +756,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8317" },
+		"id": "6527b39cfc13ae20ca6c8317",
 		"name": "Support",
 		"address": "443 Manufacturers Point",
 		"city": "Tallahassee",
@@ -774,7 +774,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8318" },
+		"id": "6527b39cfc13ae20ca6c8318",
 		"name": "Marketing",
 		"address": "99 Clemons Junction",
 		"city": "Boise",
@@ -792,7 +792,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8319" },
+		"id": "6527b39cfc13ae20ca6c8319",
 		"name": "Legal",
 		"address": "00279 Clyde Gallagher Street",
 		"city": "West End",
@@ -810,7 +810,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c831a" },
+		"id": "6527b39cfc13ae20ca6c831a",
 		"name": "Research and Development",
 		"address": "0 Glendale Avenue",
 		"city": "Nashville",
@@ -828,7 +828,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c831b" },
+		"id": "6527b39cfc13ae20ca6c831b",
 		"name": "Research and Development",
 		"address": "487 Caliangt Plaza",
 		"city": "Paris 15",
@@ -846,7 +846,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c831c" },
+		"id": "6527b39cfc13ae20ca6c831c",
 		"name": "Research and Development",
 		"address": "88 Kim Plaza",
 		"city": "Lyon",
@@ -864,7 +864,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c831d" },
+		"id": "6527b39cfc13ae20ca6c831d",
 		"name": "Product Management",
 		"address": "3 Harbort Drive",
 		"city": "Paris 15",
@@ -882,7 +882,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c831e" },
+		"id": "6527b39cfc13ae20ca6c831e",
 		"name": "Training",
 		"address": "75376 Carberry Court",
 		"city": "Zaragoza",
@@ -900,7 +900,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c831f" },
+		"id": "6527b39cfc13ae20ca6c831f",
 		"name": "Services",
 		"address": "61 Summerview Crossing",
 		"city": "Bobigny",
@@ -918,7 +918,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8320" },
+		"id": "6527b39cfc13ae20ca6c8320",
 		"name": "Engineering",
 		"address": "792 Longview Alley",
 		"city": "Montélimar",
@@ -936,7 +936,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8321" },
+		"id": "6527b39cfc13ae20ca6c8321",
 		"name": "Human Resources",
 		"address": "38464 Becker Parkway",
 		"city": "Dortmund",
@@ -954,7 +954,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8322" },
+		"id": "6527b39cfc13ae20ca6c8322",
 		"name": "Business Development",
 		"address": "98271 Logan Pass",
 		"city": "Lavaur",
@@ -972,7 +972,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8323" },
+		"id": "6527b39cfc13ae20ca6c8323",
 		"name": "Research and Development",
 		"address": "73 Crest Line Place",
 		"city": "Livorno",
@@ -990,7 +990,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8324" },
+		"id": "6527b39cfc13ae20ca6c8324",
 		"name": "Product Management",
 		"address": "6663 Trailsway Point",
 		"city": "Almeria",
@@ -1008,7 +1008,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8325" },
+		"id": "6527b39cfc13ae20ca6c8325",
 		"name": "Research and Development",
 		"address": "490 Monument Way",
 		"city": "Aurora",
@@ -1026,7 +1026,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8326" },
+		"id": "6527b39cfc13ae20ca6c8326",
 		"name": "Sales",
 		"address": "9738 Shelley Avenue",
 		"city": "Vandœuvre-lès-Nancy",
@@ -1044,7 +1044,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8327" },
+		"id": "6527b39cfc13ae20ca6c8327",
 		"name": "Marketing",
 		"address": "84051 Daystar Avenue",
 		"city": "Washington",
@@ -1062,7 +1062,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8328" },
+		"id": "6527b39cfc13ae20ca6c8328",
 		"name": "Product Management",
 		"address": "6401 Talmadge Street",
 		"city": "Saint-Maurice-l'Exil",
@@ -1080,7 +1080,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8329" },
+		"id": "6527b39cfc13ae20ca6c8329",
 		"name": "Services",
 		"address": "40454 Fisk Parkway",
 		"city": "Durham",
@@ -1098,7 +1098,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c832a" },
+		"id": "6527b39cfc13ae20ca6c832a",
 		"name": "Support",
 		"address": "026 Division Terrace",
 		"city": "Coruña, A",
@@ -1116,7 +1116,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c832b" },
+		"id": "6527b39cfc13ae20ca6c832b",
 		"name": "Human Resources",
 		"address": "15324 Carioca Plaza",
 		"city": "Arras",
@@ -1134,7 +1134,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c832c" },
+		"id": "6527b39cfc13ae20ca6c832c",
 		"name": "Business Development",
 		"address": "06 Hanover Place",
 		"city": "Berlin",
@@ -1152,7 +1152,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c832d" },
+		"id": "6527b39cfc13ae20ca6c832d",
 		"name": "Legal",
 		"address": "83 Starling Parkway",
 		"city": "Stamford",
@@ -1170,7 +1170,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c832e" },
+		"id": "6527b39cfc13ae20ca6c832e",
 		"name": "Business Development",
 		"address": "36 Comanche Avenue",
 		"city": "Fort Smith",
@@ -1188,7 +1188,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c832f" },
+		"id": "6527b39cfc13ae20ca6c832f",
 		"name": "Support",
 		"address": "044 Esker Alley",
 		"city": "Merton",
@@ -1206,7 +1206,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8330" },
+		"id": "6527b39cfc13ae20ca6c8330",
 		"name": "Product Management",
 		"address": "7861 Nancy Junction",
 		"city": "Rodez",
@@ -1224,7 +1224,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8331" },
+		"id": "6527b39cfc13ae20ca6c8331",
 		"name": "Training",
 		"address": "2 Cherokee Trail",
 		"city": "Washington",
@@ -1242,7 +1242,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8332" },
+		"id": "6527b39cfc13ae20ca6c8332",
 		"name": "Accounting",
 		"address": "2 Harbort Street",
 		"city": "Wasquehal",
@@ -1260,7 +1260,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8333" },
+		"id": "6527b39cfc13ae20ca6c8333",
 		"name": "Support",
 		"address": "417 Sherman Circle",
 		"city": "Brooklyn",
@@ -1278,7 +1278,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8334" },
+		"id": "6527b39cfc13ae20ca6c8334",
 		"name": "Human Resources",
 		"address": "13017 Crownhardt Alley",
 		"city": "Bonn",
@@ -1296,7 +1296,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8335" },
+		"id": "6527b39cfc13ae20ca6c8335",
 		"name": "Product Management",
 		"address": "2 Independence Terrace",
 		"city": "Newark",
@@ -1314,7 +1314,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8336" },
+		"id": "6527b39cfc13ae20ca6c8336",
 		"name": "Marketing",
 		"address": "81 Forest Dale Parkway",
 		"city": "Torrance",
@@ -1332,7 +1332,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8337" },
+		"id": "6527b39cfc13ae20ca6c8337",
 		"name": "Human Resources",
 		"address": "00 Armistice Junction",
 		"city": "Marseille",
@@ -1350,7 +1350,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8338" },
+		"id": "6527b39cfc13ae20ca6c8338",
 		"name": "Sales",
 		"address": "77 Tomscot Road",
 		"city": "Toulon",
@@ -1368,7 +1368,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8339" },
+		"id": "6527b39cfc13ae20ca6c8339",
 		"name": "Legal",
 		"address": "95704 Gerald Junction",
 		"city": "Louisville",
@@ -1386,7 +1386,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c833a" },
+		"id": "6527b39cfc13ae20ca6c833a",
 		"name": "Support",
 		"address": "052 Blaine Point",
 		"city": "Winston Salem",
@@ -1404,7 +1404,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c833b" },
+		"id": "6527b39cfc13ae20ca6c833b",
 		"name": "Training",
 		"address": "59 Muir Street",
 		"city": "Tourcoing",
@@ -1422,7 +1422,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c833c" },
+		"id": "6527b39cfc13ae20ca6c833c",
 		"name": "Research and Development",
 		"address": "32 Sauthoff Drive",
 		"city": "Lincoln",
@@ -1440,7 +1440,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c833d" },
+		"id": "6527b39cfc13ae20ca6c833d",
 		"name": "Services",
 		"address": "4 Chinook Park",
 		"city": "Sedan",
@@ -1458,7 +1458,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c833e" },
+		"id": "6527b39cfc13ae20ca6c833e",
 		"name": "Support",
 		"address": "124 Tennyson Hill",
 		"city": "Detroit",
@@ -1476,7 +1476,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c833f" },
+		"id": "6527b39cfc13ae20ca6c833f",
 		"name": "Services",
 		"address": "3 Sycamore Trail",
 		"city": "Moulins",
@@ -1494,7 +1494,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8340" },
+		"id": "6527b39cfc13ae20ca6c8340",
 		"name": "Services",
 		"address": "37388 Dryden Plaza",
 		"city": "Washington",
@@ -1512,7 +1512,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8341" },
+		"id": "6527b39cfc13ae20ca6c8341",
 		"name": "Research and Development",
 		"address": "97 Montana Plaza",
 		"city": "Thouars",
@@ -1530,7 +1530,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8342" },
+		"id": "6527b39cfc13ae20ca6c8342",
 		"name": "Human Resources",
 		"address": "928 4th Circle",
 		"city": "Austin",
@@ -1548,7 +1548,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8343" },
+		"id": "6527b39cfc13ae20ca6c8343",
 		"name": "Research and Development",
 		"address": "9 Muir Way",
 		"city": "Saint-Étienne",
@@ -1566,7 +1566,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8344" },
+		"id": "6527b39cfc13ae20ca6c8344",
 		"name": "Services",
 		"address": "5341 New Castle Lane",
 		"city": "Saint Paul",
@@ -1584,7 +1584,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8345" },
+		"id": "6527b39cfc13ae20ca6c8345",
 		"name": "Research and Development",
 		"address": "629 Jackson Parkway",
 		"city": "Logroño",
@@ -1602,7 +1602,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8346" },
+		"id": "6527b39cfc13ae20ca6c8346",
 		"name": "Marketing",
 		"address": "9 Ludington Junction",
 		"city": "Villeneuve-la-Garenne",
@@ -1620,7 +1620,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8347" },
+		"id": "6527b39cfc13ae20ca6c8347",
 		"name": "Legal",
 		"address": "9 Green Ridge Street",
 		"city": "Birmingham",
@@ -1638,7 +1638,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8348" },
+		"id": "6527b39cfc13ae20ca6c8348",
 		"name": "Legal",
 		"address": "36 Spohn Plaza",
 		"city": "Brampton",
@@ -1656,7 +1656,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8349" },
+		"id": "6527b39cfc13ae20ca6c8349",
 		"name": "Accounting",
 		"address": "505 Bashford Point",
 		"city": "Deauville",
@@ -1674,7 +1674,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c834a" },
+		"id": "6527b39cfc13ae20ca6c834a",
 		"name": "Sales",
 		"address": "55 Arrowood Point",
 		"city": "Boé",
@@ -1692,7 +1692,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c834b" },
+		"id": "6527b39cfc13ae20ca6c834b",
 		"name": "Legal",
 		"address": "18364 Roth Road",
 		"city": "Dole",
@@ -1710,7 +1710,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c834c" },
+		"id": "6527b39cfc13ae20ca6c834c",
 		"name": "Services",
 		"address": "01 Valley Edge Crossing",
 		"city": "Clearwater",
@@ -1728,7 +1728,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c834d" },
+		"id": "6527b39cfc13ae20ca6c834d",
 		"name": "Support",
 		"address": "534 Daystar Hill",
 		"city": "Lincoln",
@@ -1746,7 +1746,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c834e" },
+		"id": "6527b39cfc13ae20ca6c834e",
 		"name": "Services",
 		"address": "182 Rutledge Junction",
 		"city": "Noyon",
@@ -1764,7 +1764,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c834f" },
+		"id": "6527b39cfc13ae20ca6c834f",
 		"name": "Business Development",
 		"address": "529 American Point",
 		"city": "Virginia Beach",
@@ -1782,7 +1782,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8350" },
+		"id": "6527b39cfc13ae20ca6c8350",
 		"name": "Accounting",
 		"address": "76655 Rowland Lane",
 		"city": "Los Angeles",
@@ -1800,7 +1800,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8351" },
+		"id": "6527b39cfc13ae20ca6c8351",
 		"name": "Legal",
 		"address": "0673 Arkansas Lane",
 		"city": "El Paso",
@@ -1818,7 +1818,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8352" },
+		"id": "6527b39cfc13ae20ca6c8352",
 		"name": "Accounting",
 		"address": "864 Carpenter Trail",
 		"city": "Trélissac",
@@ -1836,7 +1836,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8353" },
+		"id": "6527b39cfc13ae20ca6c8353",
 		"name": "Marketing",
 		"address": "28961 Superior Place",
 		"city": "Cincinnati",
@@ -1854,7 +1854,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8354" },
+		"id": "6527b39cfc13ae20ca6c8354",
 		"name": "Business Development",
 		"address": "4 Dottie Circle",
 		"city": "Cergy-Pontoise",
@@ -1872,7 +1872,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8355" },
+		"id": "6527b39cfc13ae20ca6c8355",
 		"name": "Accounting",
 		"address": "7 Dwight Center",
 		"city": "San Francisco",
@@ -1890,7 +1890,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8356" },
+		"id": "6527b39cfc13ae20ca6c8356",
 		"name": "Research and Development",
 		"address": "903 American Crossing",
 		"city": "Dijon",
@@ -1908,7 +1908,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8357" },
+		"id": "6527b39cfc13ae20ca6c8357",
 		"name": "Training",
 		"address": "6 Nova Way",
 		"city": "La Charité-sur-Loire",
@@ -1926,7 +1926,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8358" },
+		"id": "6527b39cfc13ae20ca6c8358",
 		"name": "Marketing",
 		"address": "81 Pine View Plaza",
 		"city": "Memphis",
@@ -1944,7 +1944,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8359" },
+		"id": "6527b39cfc13ae20ca6c8359",
 		"name": "Product Management",
 		"address": "33845 Maple Wood Crossing",
 		"city": "Paris 17",
@@ -1962,7 +1962,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c835a" },
+		"id": "6527b39cfc13ae20ca6c835a",
 		"name": "Business Development",
 		"address": "0046 Pine View Junction",
 		"city": "Las Vegas",
@@ -1980,7 +1980,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c835b" },
+		"id": "6527b39cfc13ae20ca6c835b",
 		"name": "Services",
 		"address": "299 Spenser Court",
 		"city": "Detroit",
@@ -1998,7 +1998,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c835c" },
+		"id": "6527b39cfc13ae20ca6c835c",
 		"name": "Engineering",
 		"address": "03276 Anhalt Parkway",
 		"city": "Dijon",
@@ -2016,7 +2016,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c835d" },
+		"id": "6527b39cfc13ae20ca6c835d",
 		"name": "Legal",
 		"address": "20 Becker Trail",
 		"city": "Huntington",
@@ -2034,7 +2034,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c835e" },
+		"id": "6527b39cfc13ae20ca6c835e",
 		"name": "Human Resources",
 		"address": "9057 Crest Line Hill",
 		"city": "Les Clayes-sous-Bois",
@@ -2052,7 +2052,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c835f" },
+		"id": "6527b39cfc13ae20ca6c835f",
 		"name": "Sales",
 		"address": "173 Schlimgen Street",
 		"city": "Springfield",
@@ -2070,7 +2070,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8360" },
+		"id": "6527b39cfc13ae20ca6c8360",
 		"name": "Engineering",
 		"address": "43 Merchant Court",
 		"city": "Pescara",
@@ -2088,7 +2088,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8361" },
+		"id": "6527b39cfc13ae20ca6c8361",
 		"name": "Research and Development",
 		"address": "534 Coleman Terrace",
 		"city": "Houston",
@@ -2106,7 +2106,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8362" },
+		"id": "6527b39cfc13ae20ca6c8362",
 		"name": "Support",
 		"address": "22373 Rusk Place",
 		"city": "Nîmes",
@@ -2124,7 +2124,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8363" },
+		"id": "6527b39cfc13ae20ca6c8363",
 		"name": "Services",
 		"address": "161 Ilene Junction",
 		"city": "Bristol",
@@ -2142,7 +2142,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8364" },
+		"id": "6527b39cfc13ae20ca6c8364",
 		"name": "Marketing",
 		"address": "24175 Carey Street",
 		"city": "Kingston",
@@ -2160,7 +2160,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8365" },
+		"id": "6527b39cfc13ae20ca6c8365",
 		"name": "Engineering",
 		"address": "68975 Cordelia Hill",
 		"city": "Huntington",
@@ -2178,7 +2178,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8366" },
+		"id": "6527b39cfc13ae20ca6c8366",
 		"name": "Business Development",
 		"address": "7 Dexter Hill",
 		"city": "Portland",
@@ -2196,7 +2196,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8367" },
+		"id": "6527b39cfc13ae20ca6c8367",
 		"name": "Business Development",
 		"address": "2739 Spaight Avenue",
 		"city": "Paris 12",
@@ -2214,7 +2214,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8368" },
+		"id": "6527b39cfc13ae20ca6c8368",
 		"name": "Services",
 		"address": "4513 Vermont Terrace",
 		"city": "Newark",
@@ -2232,7 +2232,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8369" },
+		"id": "6527b39cfc13ae20ca6c8369",
 		"name": "Services",
 		"address": "9 Debs Circle",
 		"city": "Cognac",
@@ -2250,7 +2250,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c836a" },
+		"id": "6527b39cfc13ae20ca6c836a",
 		"name": "Accounting",
 		"address": "44 Grasskamp Way",
 		"city": "Aulnay-sous-Bois",
@@ -2268,7 +2268,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c836b" },
+		"id": "6527b39cfc13ae20ca6c836b",
 		"name": "Training",
 		"address": "40 Vernon Hill",
 		"city": "Angoulême",
@@ -2286,7 +2286,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c836c" },
+		"id": "6527b39cfc13ae20ca6c836c",
 		"name": "Services",
 		"address": "0851 Red Cloud Lane",
 		"city": "Knoxville",
@@ -2304,7 +2304,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c836d" },
+		"id": "6527b39cfc13ae20ca6c836d",
 		"name": "Sales",
 		"address": "1410 Sutteridge Trail",
 		"city": "Nice",
@@ -2322,7 +2322,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c836e" },
+		"id": "6527b39cfc13ae20ca6c836e",
 		"name": "Human Resources",
 		"address": "72050 Homewood Hill",
 		"city": "Les Clayes-sous-Bois",
@@ -2340,7 +2340,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c836f" },
+		"id": "6527b39cfc13ae20ca6c836f",
 		"name": "Product Management",
 		"address": "5 Bay Pass",
 		"city": "Las Vegas",
@@ -2358,7 +2358,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8370" },
+		"id": "6527b39cfc13ae20ca6c8370",
 		"name": "Marketing",
 		"address": "46 Grasskamp Drive",
 		"city": "Genova",
@@ -2376,7 +2376,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8371" },
+		"id": "6527b39cfc13ae20ca6c8371",
 		"name": "Support",
 		"address": "15 Lakewood Circle",
 		"city": "Lubbock",
@@ -2394,7 +2394,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8372" },
+		"id": "6527b39cfc13ae20ca6c8372",
 		"name": "Marketing",
 		"address": "7611 Sachtjen Drive",
 		"city": "Pontevedra",
@@ -2412,7 +2412,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8373" },
+		"id": "6527b39cfc13ae20ca6c8373",
 		"name": "Legal",
 		"address": "07884 Leroy Trail",
 		"city": "Philadelphia",
@@ -2430,7 +2430,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8374" },
+		"id": "6527b39cfc13ae20ca6c8374",
 		"name": "Engineering",
 		"address": "0 Arizona Road",
 		"city": "Albuquerque",
@@ -2448,7 +2448,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8375" },
+		"id": "6527b39cfc13ae20ca6c8375",
 		"name": "Support",
 		"address": "97562 Fairview Avenue",
 		"city": "Roissy Charles-de-Gaulle",
@@ -2466,7 +2466,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8376" },
+		"id": "6527b39cfc13ae20ca6c8376",
 		"name": "Engineering",
 		"address": "1466 Basil Junction",
 		"city": "Chalon-sur-Saône",
@@ -2484,7 +2484,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8377" },
+		"id": "6527b39cfc13ae20ca6c8377",
 		"name": "Support",
 		"address": "39519 Del Mar Plaza",
 		"city": "Rungis",
@@ -2502,7 +2502,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8378" },
+		"id": "6527b39cfc13ae20ca6c8378",
 		"name": "Research and Development",
 		"address": "4796 Forster Parkway",
 		"city": "West Hartford",
@@ -2520,7 +2520,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8379" },
+		"id": "6527b39cfc13ae20ca6c8379",
 		"name": "Research and Development",
 		"address": "0618 Dakota Plaza",
 		"city": "Cagliari",
@@ -2538,7 +2538,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c837a" },
+		"id": "6527b39cfc13ae20ca6c837a",
 		"name": "Human Resources",
 		"address": "30200 Maryland Court",
 		"city": "Lille",
@@ -2556,7 +2556,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c837b" },
+		"id": "6527b39cfc13ae20ca6c837b",
 		"name": "Business Development",
 		"address": "117 Warbler Point",
 		"city": "Evansville",
@@ -2574,7 +2574,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c837c" },
+		"id": "6527b39cfc13ae20ca6c837c",
 		"name": "Business Development",
 		"address": "22 Banding Terrace",
 		"city": "Marne-la-Vallée",
@@ -2592,7 +2592,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c837d" },
+		"id": "6527b39cfc13ae20ca6c837d",
 		"name": "Accounting",
 		"address": "0243 Columbus Park",
 		"city": "Quimper",
@@ -2610,7 +2610,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c837e" },
+		"id": "6527b39cfc13ae20ca6c837e",
 		"name": "Accounting",
 		"address": "14 Shopko Pass",
 		"city": "Fort Wayne",
@@ -2628,7 +2628,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c837f" },
+		"id": "6527b39cfc13ae20ca6c837f",
 		"name": "Human Resources",
 		"address": "8195 Lien Park",
 		"city": "Avignon",
@@ -2646,7 +2646,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8380" },
+		"id": "6527b39cfc13ae20ca6c8380",
 		"name": "Product Management",
 		"address": "39499 Eagle Crest Circle",
 		"city": "Sacramento",
@@ -2664,7 +2664,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8381" },
+		"id": "6527b39cfc13ae20ca6c8381",
 		"name": "Engineering",
 		"address": "3 Miller Point",
 		"city": "Hamburg Winterhude",
@@ -2682,7 +2682,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8382" },
+		"id": "6527b39cfc13ae20ca6c8382",
 		"name": "Product Management",
 		"address": "19 Grover Trail",
 		"city": "Lyon",
@@ -2700,7 +2700,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8383" },
+		"id": "6527b39cfc13ae20ca6c8383",
 		"name": "Training",
 		"address": "37409 Merchant Avenue",
 		"city": "Washington",
@@ -2718,7 +2718,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8384" },
+		"id": "6527b39cfc13ae20ca6c8384",
 		"name": "Research and Development",
 		"address": "615 Canary Circle",
 		"city": "Lyon",
@@ -2736,7 +2736,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8385" },
+		"id": "6527b39cfc13ae20ca6c8385",
 		"name": "Research and Development",
 		"address": "34861 Killdeer Place",
 		"city": "Edinburgh",
@@ -2754,7 +2754,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8386" },
+		"id": "6527b39cfc13ae20ca6c8386",
 		"name": "Legal",
 		"address": "513 Montana Circle",
 		"city": "Flushing",
@@ -2772,7 +2772,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8387" },
+		"id": "6527b39cfc13ae20ca6c8387",
 		"name": "Support",
 		"address": "699 Kennedy Junction",
 		"city": "Lorient",
@@ -2790,7 +2790,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39cfc13ae20ca6c8388" },
+		"id": "6527b39cfc13ae20ca6c8388",
 		"name": "Engineering",
 		"address": "97 Hagan Center",
 		"city": "San Jose",
@@ -2808,7 +2808,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8389" },
+		"id": "6527b39dfc13ae20ca6c8389",
 		"name": "Marketing",
 		"address": "76 Northwestern Parkway",
 		"city": "Le Havre",
@@ -2826,7 +2826,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c838a" },
+		"id": "6527b39dfc13ae20ca6c838a",
 		"name": "Product Management",
 		"address": "3334 Welch Center",
 		"city": "Le Cannet",
@@ -2844,7 +2844,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c838b" },
+		"id": "6527b39dfc13ae20ca6c838b",
 		"name": "Training",
 		"address": "7291 6th Junction",
 		"city": "Ancenis",
@@ -2862,7 +2862,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c838c" },
+		"id": "6527b39dfc13ae20ca6c838c",
 		"name": "Support",
 		"address": "28699 Westerfield Way",
 		"city": "Nantes",
@@ -2880,7 +2880,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c838d" },
+		"id": "6527b39dfc13ae20ca6c838d",
 		"name": "Legal",
 		"address": "8774 Oakridge Pass",
 		"city": "Baltimore",
@@ -2898,7 +2898,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c838e" },
+		"id": "6527b39dfc13ae20ca6c838e",
 		"name": "Human Resources",
 		"address": "3413 Old Shore Park",
 		"city": "Brive-la-Gaillarde",
@@ -2916,7 +2916,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c838f" },
+		"id": "6527b39dfc13ae20ca6c838f",
 		"name": "Engineering",
 		"address": "02909 Hazelcrest Point",
 		"city": "Arcueil",
@@ -2934,7 +2934,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8390" },
+		"id": "6527b39dfc13ae20ca6c8390",
 		"name": "Human Resources",
 		"address": "60080 Moulton Street",
 		"city": "Rostock",
@@ -2952,7 +2952,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8391" },
+		"id": "6527b39dfc13ae20ca6c8391",
 		"name": "Sales",
 		"address": "425 Mccormick Avenue",
 		"city": "Orlando",
@@ -2970,7 +2970,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8392" },
+		"id": "6527b39dfc13ae20ca6c8392",
 		"name": "Product Management",
 		"address": "97369 Spaight Pass",
 		"city": "Cherbourg-Octeville",
@@ -2988,7 +2988,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8393" },
+		"id": "6527b39dfc13ae20ca6c8393",
 		"name": "Business Development",
 		"address": "96 Comanche Crossing",
 		"city": "Chesapeake",
@@ -3006,7 +3006,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8394" },
+		"id": "6527b39dfc13ae20ca6c8394",
 		"name": "Services",
 		"address": "329 Farragut Trail",
 		"city": "Paris 10",
@@ -3024,7 +3024,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8395" },
+		"id": "6527b39dfc13ae20ca6c8395",
 		"name": "Training",
 		"address": "3 Swallow Crossing",
 		"city": "Boston",
@@ -3042,7 +3042,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8396" },
+		"id": "6527b39dfc13ae20ca6c8396",
 		"name": "Product Management",
 		"address": "381 Beilfuss Avenue",
 		"city": "Minneapolis",
@@ -3060,7 +3060,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8397" },
+		"id": "6527b39dfc13ae20ca6c8397",
 		"name": "Human Resources",
 		"address": "53 Spenser Road",
 		"city": "Arles",
@@ -3078,7 +3078,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8398" },
+		"id": "6527b39dfc13ae20ca6c8398",
 		"name": "Human Resources",
 		"address": "04396 Mifflin Street",
 		"city": "Paris 12",
@@ -3096,7 +3096,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8399" },
+		"id": "6527b39dfc13ae20ca6c8399",
 		"name": "Training",
 		"address": "64093 Lerdahl Crossing",
 		"city": "Chaumont",
@@ -3114,7 +3114,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c839a" },
+		"id": "6527b39dfc13ae20ca6c839a",
 		"name": "Training",
 		"address": "91549 Burning Wood Street",
 		"city": "Agen",
@@ -3132,7 +3132,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c839b" },
+		"id": "6527b39dfc13ae20ca6c839b",
 		"name": "Business Development",
 		"address": "3781 Brown Crossing",
 		"city": "Lorient",
@@ -3150,7 +3150,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c839c" },
+		"id": "6527b39dfc13ae20ca6c839c",
 		"name": "Training",
 		"address": "37805 Lindbergh Drive",
 		"city": "Hayange",
@@ -3168,7 +3168,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c839d" },
+		"id": "6527b39dfc13ae20ca6c839d",
 		"name": "Research and Development",
 		"address": "01266 Lukken Trail",
 		"city": "Vedène",
@@ -3186,7 +3186,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c839e" },
+		"id": "6527b39dfc13ae20ca6c839e",
 		"name": "Business Development",
 		"address": "138 Old Shore Plaza",
 		"city": "Nancy",
@@ -3204,7 +3204,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c839f" },
+		"id": "6527b39dfc13ae20ca6c839f",
 		"name": "Legal",
 		"address": "49 Waywood Drive",
 		"city": "Villeneuve-lès-Avignon",
@@ -3222,7 +3222,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a0" },
+		"id": "6527b39dfc13ae20ca6c83a0",
 		"name": "Support",
 		"address": "7 Logan Drive",
 		"city": "Bordeaux",
@@ -3240,7 +3240,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a1" },
+		"id": "6527b39dfc13ae20ca6c83a1",
 		"name": "Engineering",
 		"address": "8 Stang Road",
 		"city": "Wirral",
@@ -3258,7 +3258,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a2" },
+		"id": "6527b39dfc13ae20ca6c83a2",
 		"name": "Services",
 		"address": "9 Brown Junction",
 		"city": "Palma De Mallorca",
@@ -3276,7 +3276,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a3" },
+		"id": "6527b39dfc13ae20ca6c83a3",
 		"name": "Research and Development",
 		"address": "159 Southridge Center",
 		"city": "Antony",
@@ -3294,7 +3294,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a4" },
+		"id": "6527b39dfc13ae20ca6c83a4",
 		"name": "Business Development",
 		"address": "55 Elka Junction",
 		"city": "Firenze",
@@ -3312,7 +3312,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a5" },
+		"id": "6527b39dfc13ae20ca6c83a5",
 		"name": "Accounting",
 		"address": "305 Mcbride Place",
 		"city": "Rungis",
@@ -3330,7 +3330,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a6" },
+		"id": "6527b39dfc13ae20ca6c83a6",
 		"name": "Services",
 		"address": "987 American Parkway",
 		"city": "Compiègne",
@@ -3348,7 +3348,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a7" },
+		"id": "6527b39dfc13ae20ca6c83a7",
 		"name": "Business Development",
 		"address": "0259 Anhalt Road",
 		"city": "Baltimore",
@@ -3366,7 +3366,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a8" },
+		"id": "6527b39dfc13ae20ca6c83a8",
 		"name": "Services",
 		"address": "44 Beilfuss Pass",
 		"city": "Newport News",
@@ -3384,7 +3384,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83a9" },
+		"id": "6527b39dfc13ae20ca6c83a9",
 		"name": "Accounting",
 		"address": "00 Hayes Terrace",
 		"city": "Brest",
@@ -3402,7 +3402,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83aa" },
+		"id": "6527b39dfc13ae20ca6c83aa",
 		"name": "Training",
 		"address": "1549 Arkansas Way",
 		"city": "Avranches",
@@ -3420,7 +3420,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ab" },
+		"id": "6527b39dfc13ae20ca6c83ab",
 		"name": "Accounting",
 		"address": "99 Brickson Park Hill",
 		"city": "Dearborn",
@@ -3438,7 +3438,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ac" },
+		"id": "6527b39dfc13ae20ca6c83ac",
 		"name": "Accounting",
 		"address": "8 Troy Junction",
 		"city": "Roissy Charles-de-Gaulle",
@@ -3456,7 +3456,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ad" },
+		"id": "6527b39dfc13ae20ca6c83ad",
 		"name": "Sales",
 		"address": "868 Sommers Alley",
 		"city": "Lyon",
@@ -3474,7 +3474,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ae" },
+		"id": "6527b39dfc13ae20ca6c83ae",
 		"name": "Sales",
 		"address": "4621 Lunder Place",
 		"city": "Boise",
@@ -3492,7 +3492,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83af" },
+		"id": "6527b39dfc13ae20ca6c83af",
 		"name": "Training",
 		"address": "5 Magdeline Drive",
 		"city": "Baltimore",
@@ -3510,7 +3510,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b0" },
+		"id": "6527b39dfc13ae20ca6c83b0",
 		"name": "Product Management",
 		"address": "0056 South Parkway",
 		"city": "Durham",
@@ -3528,7 +3528,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b1" },
+		"id": "6527b39dfc13ae20ca6c83b1",
 		"name": "Research and Development",
 		"address": "20 Kenwood Place",
 		"city": "Sablé-sur-Sarthe",
@@ -3546,7 +3546,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b2" },
+		"id": "6527b39dfc13ae20ca6c83b2",
 		"name": "Accounting",
 		"address": "7 Schiller Plaza",
 		"city": "Fontenay-sous-Bois",
@@ -3564,7 +3564,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b3" },
+		"id": "6527b39dfc13ae20ca6c83b3",
 		"name": "Research and Development",
 		"address": "8618 Buhler Center",
 		"city": "Carcassonne",
@@ -3582,7 +3582,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b4" },
+		"id": "6527b39dfc13ae20ca6c83b4",
 		"name": "Research and Development",
 		"address": "81894 Annamark Way",
 		"city": "Vannes",
@@ -3600,7 +3600,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b5" },
+		"id": "6527b39dfc13ae20ca6c83b5",
 		"name": "Engineering",
 		"address": "29 Troy Alley",
 		"city": "San Diego",
@@ -3618,7 +3618,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b6" },
+		"id": "6527b39dfc13ae20ca6c83b6",
 		"name": "Support",
 		"address": "858 Artisan Park",
 		"city": "Birmingham",
@@ -3636,7 +3636,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b7" },
+		"id": "6527b39dfc13ae20ca6c83b7",
 		"name": "Marketing",
 		"address": "51 Towne Place",
 		"city": "Nuits-Saint-Georges",
@@ -3654,7 +3654,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b8" },
+		"id": "6527b39dfc13ae20ca6c83b8",
 		"name": "Engineering",
 		"address": "7 Warner Center",
 		"city": "Harrisburg",
@@ -3672,7 +3672,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83b9" },
+		"id": "6527b39dfc13ae20ca6c83b9",
 		"name": "Accounting",
 		"address": "371 Twin Pines Hill",
 		"city": "Locminé",
@@ -3690,7 +3690,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ba" },
+		"id": "6527b39dfc13ae20ca6c83ba",
 		"name": "Sales",
 		"address": "586 Bayside Junction",
 		"city": "Saint-Avold",
@@ -3708,7 +3708,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83bb" },
+		"id": "6527b39dfc13ae20ca6c83bb",
 		"name": "Support",
 		"address": "4 Continental Circle",
 		"city": "Nancy",
@@ -3726,7 +3726,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83bc" },
+		"id": "6527b39dfc13ae20ca6c83bc",
 		"name": "Sales",
 		"address": "95496 Northview Parkway",
 		"city": "Maubeuge",
@@ -3744,7 +3744,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83bd" },
+		"id": "6527b39dfc13ae20ca6c83bd",
 		"name": "Services",
 		"address": "22 Ilene Terrace",
 		"city": "Saint-Brieuc",
@@ -3762,7 +3762,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83be" },
+		"id": "6527b39dfc13ae20ca6c83be",
 		"name": "Research and Development",
 		"address": "9674 Annamark Park",
 		"city": "Buckland",
@@ -3780,7 +3780,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83bf" },
+		"id": "6527b39dfc13ae20ca6c83bf",
 		"name": "Marketing",
 		"address": "296 Bashford Circle",
 		"city": "Paris 20",
@@ -3798,7 +3798,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c0" },
+		"id": "6527b39dfc13ae20ca6c83c0",
 		"name": "Engineering",
 		"address": "5 Fuller Alley",
 		"city": "Tucson",
@@ -3816,7 +3816,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c1" },
+		"id": "6527b39dfc13ae20ca6c83c1",
 		"name": "Training",
 		"address": "6 Ronald Regan Center",
 		"city": "Leeds",
@@ -3834,7 +3834,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c2" },
+		"id": "6527b39dfc13ae20ca6c83c2",
 		"name": "Marketing",
 		"address": "31565 Colorado Pass",
 		"city": "Fort Worth",
@@ -3852,7 +3852,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c3" },
+		"id": "6527b39dfc13ae20ca6c83c3",
 		"name": "Research and Development",
 		"address": "2132 Pond Court",
 		"city": "Tours",
@@ -3870,7 +3870,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c4" },
+		"id": "6527b39dfc13ae20ca6c83c4",
 		"name": "Research and Development",
 		"address": "3 Independence Lane",
 		"city": "Saint-Étienne",
@@ -3888,7 +3888,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c5" },
+		"id": "6527b39dfc13ae20ca6c83c5",
 		"name": "Engineering",
 		"address": "79 Green Alley",
 		"city": "Montgomery",
@@ -3906,7 +3906,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c6" },
+		"id": "6527b39dfc13ae20ca6c83c6",
 		"name": "Legal",
 		"address": "55 Monument Street",
 		"city": "Cergy-Pontoise",
@@ -3924,7 +3924,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c7" },
+		"id": "6527b39dfc13ae20ca6c83c7",
 		"name": "Engineering",
 		"address": "281 Meadow Valley Way",
 		"city": "Charlotte",
@@ -3942,7 +3942,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c8" },
+		"id": "6527b39dfc13ae20ca6c83c8",
 		"name": "Training",
 		"address": "2 Stang Hill",
 		"city": "Elx/Elche",
@@ -3960,7 +3960,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83c9" },
+		"id": "6527b39dfc13ae20ca6c83c9",
 		"name": "Legal",
 		"address": "2 Anhalt Lane",
 		"city": "Peoria",
@@ -3978,7 +3978,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ca" },
+		"id": "6527b39dfc13ae20ca6c83ca",
 		"name": "Product Management",
 		"address": "889 Kim Hill",
 		"city": "Evansville",
@@ -3996,7 +3996,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83cb" },
+		"id": "6527b39dfc13ae20ca6c83cb",
 		"name": "Research and Development",
 		"address": "00829 Banding Point",
 		"city": "Chantilly",
@@ -4014,7 +4014,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83cc" },
+		"id": "6527b39dfc13ae20ca6c83cc",
 		"name": "Marketing",
 		"address": "0361 Dakota Pass",
 		"city": "Montpellier",
@@ -4032,7 +4032,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83cd" },
+		"id": "6527b39dfc13ae20ca6c83cd",
 		"name": "Research and Development",
 		"address": "7057 Anthes Hill",
 		"city": "Paris 08",
@@ -4050,7 +4050,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ce" },
+		"id": "6527b39dfc13ae20ca6c83ce",
 		"name": "Accounting",
 		"address": "10 Maple Pass",
 		"city": "Düsseldorf",
@@ -4068,7 +4068,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83cf" },
+		"id": "6527b39dfc13ae20ca6c83cf",
 		"name": "Support",
 		"address": "6532 Derek Hill",
 		"city": "Créteil",
@@ -4086,7 +4086,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d0" },
+		"id": "6527b39dfc13ae20ca6c83d0",
 		"name": "Human Resources",
 		"address": "1 Florence Center",
 		"city": "Compiègne",
@@ -4104,7 +4104,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d1" },
+		"id": "6527b39dfc13ae20ca6c83d1",
 		"name": "Legal",
 		"address": "91256 Shoshone Road",
 		"city": "Avignon",
@@ -4122,7 +4122,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d2" },
+		"id": "6527b39dfc13ae20ca6c83d2",
 		"name": "Accounting",
 		"address": "5004 Eastlawn Trail",
 		"city": "Halton",
@@ -4140,7 +4140,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d3" },
+		"id": "6527b39dfc13ae20ca6c83d3",
 		"name": "Human Resources",
 		"address": "19 Lakewood Terrace",
 		"city": "Montargis",
@@ -4158,7 +4158,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d4" },
+		"id": "6527b39dfc13ae20ca6c83d4",
 		"name": "Accounting",
 		"address": "422 Shasta Trail",
 		"city": "Bonneuil-sur-Marne",
@@ -4176,7 +4176,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d5" },
+		"id": "6527b39dfc13ae20ca6c83d5",
 		"name": "Training",
 		"address": "54 Katie Way",
 		"city": "Tournan-en-Brie",
@@ -4194,7 +4194,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d6" },
+		"id": "6527b39dfc13ae20ca6c83d6",
 		"name": "Legal",
 		"address": "6 Nova Circle",
 		"city": "Santa Ana",
@@ -4212,7 +4212,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d7" },
+		"id": "6527b39dfc13ae20ca6c83d7",
 		"name": "Legal",
 		"address": "34 Duke Road",
 		"city": "Ashley",
@@ -4230,7 +4230,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d8" },
+		"id": "6527b39dfc13ae20ca6c83d8",
 		"name": "Sales",
 		"address": "539 Logan Park",
 		"city": "Marseille",
@@ -4248,7 +4248,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83d9" },
+		"id": "6527b39dfc13ae20ca6c83d9",
 		"name": "Human Resources",
 		"address": "40 Ohio Circle",
 		"city": "El Paso",
@@ -4266,7 +4266,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83da" },
+		"id": "6527b39dfc13ae20ca6c83da",
 		"name": "Product Management",
 		"address": "19 Arrowood Plaza",
 		"city": "Dieppe",
@@ -4284,7 +4284,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83db" },
+		"id": "6527b39dfc13ae20ca6c83db",
 		"name": "Business Development",
 		"address": "899 Brentwood Street",
 		"city": "Bloomington",
@@ -4302,7 +4302,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83dc" },
+		"id": "6527b39dfc13ae20ca6c83dc",
 		"name": "Business Development",
 		"address": "72026 Center Plaza",
 		"city": "Dallas",
@@ -4320,7 +4320,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83dd" },
+		"id": "6527b39dfc13ae20ca6c83dd",
 		"name": "Services",
 		"address": "0532 Reinke Crossing",
 		"city": "Villeneuve-lès-Avignon",
@@ -4338,7 +4338,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83de" },
+		"id": "6527b39dfc13ae20ca6c83de",
 		"name": "Services",
 		"address": "791 Green Terrace",
 		"city": "Guebwiller",
@@ -4356,7 +4356,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83df" },
+		"id": "6527b39dfc13ae20ca6c83df",
 		"name": "Engineering",
 		"address": "9 Goodland Trail",
 		"city": "San Diego",
@@ -4374,7 +4374,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e0" },
+		"id": "6527b39dfc13ae20ca6c83e0",
 		"name": "Human Resources",
 		"address": "42309 Main Avenue",
 		"city": "Hamburg Sankt Pauli",
@@ -4392,7 +4392,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e1" },
+		"id": "6527b39dfc13ae20ca6c83e1",
 		"name": "Business Development",
 		"address": "2 Sunnyside Avenue",
 		"city": "Perpignan",
@@ -4410,7 +4410,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e2" },
+		"id": "6527b39dfc13ae20ca6c83e2",
 		"name": "Product Management",
 		"address": "774 Saint Paul Park",
 		"city": "Essen",
@@ -4428,7 +4428,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e3" },
+		"id": "6527b39dfc13ae20ca6c83e3",
 		"name": "Training",
 		"address": "498 Namekagon Park",
 		"city": "Montgomery",
@@ -4446,7 +4446,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e4" },
+		"id": "6527b39dfc13ae20ca6c83e4",
 		"name": "Training",
 		"address": "2 Sheridan Trail",
 		"city": "Le Blanc-Mesnil",
@@ -4464,7 +4464,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e5" },
+		"id": "6527b39dfc13ae20ca6c83e5",
 		"name": "Sales",
 		"address": "4 Milwaukee Junction",
 		"city": "Montpellier",
@@ -4482,7 +4482,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e6" },
+		"id": "6527b39dfc13ae20ca6c83e6",
 		"name": "Research and Development",
 		"address": "4 Crowley Way",
 		"city": "Cleveland",
@@ -4500,7 +4500,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e7" },
+		"id": "6527b39dfc13ae20ca6c83e7",
 		"name": "Services",
 		"address": "19 Macpherson Court",
 		"city": "Madrid",
@@ -4518,7 +4518,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e8" },
+		"id": "6527b39dfc13ae20ca6c83e8",
 		"name": "Product Management",
 		"address": "7879 Clove Lane",
 		"city": "Alexandria",
@@ -4536,7 +4536,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83e9" },
+		"id": "6527b39dfc13ae20ca6c83e9",
 		"name": "Legal",
 		"address": "06375 Mifflin Lane",
 		"city": "Nantes",
@@ -4554,7 +4554,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ea" },
+		"id": "6527b39dfc13ae20ca6c83ea",
 		"name": "Training",
 		"address": "9 Cottonwood Center",
 		"city": "Massy",
@@ -4572,7 +4572,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83eb" },
+		"id": "6527b39dfc13ae20ca6c83eb",
 		"name": "Training",
 		"address": "848 Thackeray Alley",
 		"city": "San Antonio",
@@ -4590,7 +4590,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ec" },
+		"id": "6527b39dfc13ae20ca6c83ec",
 		"name": "Human Resources",
 		"address": "217 Farwell Point",
 		"city": "Ferrol",
@@ -4608,7 +4608,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ed" },
+		"id": "6527b39dfc13ae20ca6c83ed",
 		"name": "Services",
 		"address": "48689 Weeping Birch Street",
 		"city": "Cheyenne",
@@ -4626,7 +4626,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ee" },
+		"id": "6527b39dfc13ae20ca6c83ee",
 		"name": "Research and Development",
 		"address": "2 Corry Lane",
 		"city": "Mestre",
@@ -4644,7 +4644,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ef" },
+		"id": "6527b39dfc13ae20ca6c83ef",
 		"name": "Marketing",
 		"address": "24 Stoughton Street",
 		"city": "Nantes",
@@ -4662,7 +4662,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f0" },
+		"id": "6527b39dfc13ae20ca6c83f0",
 		"name": "Sales",
 		"address": "750 Ruskin Terrace",
 		"city": "Chalon-sur-Saône",
@@ -4680,7 +4680,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f1" },
+		"id": "6527b39dfc13ae20ca6c83f1",
 		"name": "Marketing",
 		"address": "2 Bultman Circle",
 		"city": "Great Neck",
@@ -4698,7 +4698,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f2" },
+		"id": "6527b39dfc13ae20ca6c83f2",
 		"name": "Engineering",
 		"address": "503 Oriole Terrace",
 		"city": "Paris 15",
@@ -4716,7 +4716,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f3" },
+		"id": "6527b39dfc13ae20ca6c83f3",
 		"name": "Human Resources",
 		"address": "14 Dovetail Circle",
 		"city": "Caluire-et-Cuire",
@@ -4734,7 +4734,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f4" },
+		"id": "6527b39dfc13ae20ca6c83f4",
 		"name": "Product Management",
 		"address": "66 Westridge Parkway",
 		"city": "Erie",
@@ -4752,7 +4752,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f5" },
+		"id": "6527b39dfc13ae20ca6c83f5",
 		"name": "Business Development",
 		"address": "040 Mandrake Point",
 		"city": "Kiel",
@@ -4770,7 +4770,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f6" },
+		"id": "6527b39dfc13ae20ca6c83f6",
 		"name": "Research and Development",
 		"address": "76802 Warbler Center",
 		"city": "Brooklyn",
@@ -4788,7 +4788,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f7" },
+		"id": "6527b39dfc13ae20ca6c83f7",
 		"name": "Legal",
 		"address": "10685 La Follette Avenue",
 		"city": "Dallas",
@@ -4806,7 +4806,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f8" },
+		"id": "6527b39dfc13ae20ca6c83f8",
 		"name": "Training",
 		"address": "252 Macpherson Avenue",
 		"city": "Wirral",
@@ -4824,7 +4824,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83f9" },
+		"id": "6527b39dfc13ae20ca6c83f9",
 		"name": "Support",
 		"address": "405 John Wall Lane",
 		"city": "Saint-Denis",
@@ -4842,7 +4842,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83fa" },
+		"id": "6527b39dfc13ae20ca6c83fa",
 		"name": "Services",
 		"address": "80 Stang Park",
 		"city": "Le Cannet",
@@ -4860,7 +4860,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83fb" },
+		"id": "6527b39dfc13ae20ca6c83fb",
 		"name": "Legal",
 		"address": "639 Mcbride Avenue",
 		"city": "Hamburg Sankt Pauli",
@@ -4878,7 +4878,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83fc" },
+		"id": "6527b39dfc13ae20ca6c83fc",
 		"name": "Legal",
 		"address": "96118 Lunder Plaza",
 		"city": "Leipzig",
@@ -4896,7 +4896,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83fd" },
+		"id": "6527b39dfc13ae20ca6c83fd",
 		"name": "Product Management",
 		"address": "14189 Lake View Parkway",
 		"city": "Beauvais",
@@ -4914,7 +4914,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83fe" },
+		"id": "6527b39dfc13ae20ca6c83fe",
 		"name": "Product Management",
 		"address": "3 Warrior Drive",
 		"city": "Marseille",
@@ -4932,7 +4932,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c83ff" },
+		"id": "6527b39dfc13ae20ca6c83ff",
 		"name": "Support",
 		"address": "25498 Hollow Ridge Drive",
 		"city": "San Antonio",
@@ -4950,7 +4950,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8400" },
+		"id": "6527b39dfc13ae20ca6c8400",
 		"name": "Marketing",
 		"address": "842 Carey Lane",
 		"city": "Montgomery",
@@ -4968,7 +4968,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8401" },
+		"id": "6527b39dfc13ae20ca6c8401",
 		"name": "Training",
 		"address": "834 Summer Ridge Point",
 		"city": "Périgueux",
@@ -4986,7 +4986,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8402" },
+		"id": "6527b39dfc13ae20ca6c8402",
 		"name": "Support",
 		"address": "58534 North Street",
 		"city": "Baltimore",
@@ -5004,7 +5004,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8403" },
+		"id": "6527b39dfc13ae20ca6c8403",
 		"name": "Services",
 		"address": "36 Sheridan Lane",
 		"city": "Goussainville",
@@ -5022,7 +5022,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8404" },
+		"id": "6527b39dfc13ae20ca6c8404",
 		"name": "Engineering",
 		"address": "740 Del Sol Hill",
 		"city": "Rodez",
@@ -5040,7 +5040,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8405" },
+		"id": "6527b39dfc13ae20ca6c8405",
 		"name": "Accounting",
 		"address": "20 Arapahoe Way",
 		"city": "Agen",
@@ -5058,7 +5058,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8406" },
+		"id": "6527b39dfc13ae20ca6c8406",
 		"name": "Engineering",
 		"address": "6 Lindbergh Avenue",
 		"city": "Nuits-Saint-Georges",
@@ -5076,7 +5076,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8407" },
+		"id": "6527b39dfc13ae20ca6c8407",
 		"name": "Business Development",
 		"address": "0457 Morningstar Plaza",
 		"city": "Vanves",
@@ -5094,7 +5094,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8408" },
+		"id": "6527b39dfc13ae20ca6c8408",
 		"name": "Product Management",
 		"address": "0 Orin Center",
 		"city": "Roanoke",
@@ -5112,7 +5112,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8409" },
+		"id": "6527b39dfc13ae20ca6c8409",
 		"name": "Accounting",
 		"address": "3 Merchant Circle",
 		"city": "Saint Augustine",
@@ -5130,7 +5130,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c840a" },
+		"id": "6527b39dfc13ae20ca6c840a",
 		"name": "Research and Development",
 		"address": "43472 Tennyson Point",
 		"city": "Troyes",
@@ -5148,7 +5148,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c840b" },
+		"id": "6527b39dfc13ae20ca6c840b",
 		"name": "Sales",
 		"address": "6 Forest Court",
 		"city": "Lawrenceville",
@@ -5166,7 +5166,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c840c" },
+		"id": "6527b39dfc13ae20ca6c840c",
 		"name": "Research and Development",
 		"address": "924 Milwaukee Parkway",
 		"city": "Poitiers",
@@ -5184,7 +5184,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c840d" },
+		"id": "6527b39dfc13ae20ca6c840d",
 		"name": "Legal",
 		"address": "7713 Longview Way",
 		"city": "Toledo",
@@ -5202,7 +5202,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c840e" },
+		"id": "6527b39dfc13ae20ca6c840e",
 		"name": "Research and Development",
 		"address": "05 Sunnyside Street",
 		"city": "Molsheim",
@@ -5220,7 +5220,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c840f" },
+		"id": "6527b39dfc13ae20ca6c840f",
 		"name": "Business Development",
 		"address": "8297 Graedel Point",
 		"city": "Alfortville",
@@ -5238,7 +5238,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8410" },
+		"id": "6527b39dfc13ae20ca6c8410",
 		"name": "Training",
 		"address": "932 Morning Avenue",
 		"city": "Chicago",
@@ -5256,7 +5256,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8411" },
+		"id": "6527b39dfc13ae20ca6c8411",
 		"name": "Support",
 		"address": "855 Mandrake Pass",
 		"city": "Des Moines",
@@ -5274,7 +5274,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8412" },
+		"id": "6527b39dfc13ae20ca6c8412",
 		"name": "Business Development",
 		"address": "74201 Burning Wood Road",
 		"city": "Issoire",
@@ -5292,7 +5292,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8413" },
+		"id": "6527b39dfc13ae20ca6c8413",
 		"name": "Sales",
 		"address": "78 Amoth Place",
 		"city": "Pittsburgh",
@@ -5310,7 +5310,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8414" },
+		"id": "6527b39dfc13ae20ca6c8414",
 		"name": "Training",
 		"address": "37012 Coleman Drive",
 		"city": "Rennes",
@@ -5328,7 +5328,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8415" },
+		"id": "6527b39dfc13ae20ca6c8415",
 		"name": "Engineering",
 		"address": "78451 Cardinal Road",
 		"city": "Décines-Charpieu",
@@ -5346,7 +5346,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8416" },
+		"id": "6527b39dfc13ae20ca6c8416",
 		"name": "Support",
 		"address": "8 Dovetail Lane",
 		"city": "Carpentras",
@@ -5364,7 +5364,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8417" },
+		"id": "6527b39dfc13ae20ca6c8417",
 		"name": "Research and Development",
 		"address": "7426 Moland Street",
 		"city": "Élancourt",
@@ -5382,7 +5382,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8418" },
+		"id": "6527b39dfc13ae20ca6c8418",
 		"name": "Research and Development",
 		"address": "42650 Mockingbird Street",
 		"city": "Bordeaux",
@@ -5400,7 +5400,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8419" },
+		"id": "6527b39dfc13ae20ca6c8419",
 		"name": "Services",
 		"address": "0 Logan Hill",
 		"city": "Dresden",
@@ -5418,7 +5418,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c841a" },
+		"id": "6527b39dfc13ae20ca6c841a",
 		"name": "Services",
 		"address": "92126 Lien Terrace",
 		"city": "Perpignan",
@@ -5436,7 +5436,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c841b" },
+		"id": "6527b39dfc13ae20ca6c841b",
 		"name": "Product Management",
 		"address": "0 South Drive",
 		"city": "Dijon",
@@ -5454,7 +5454,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c841c" },
+		"id": "6527b39dfc13ae20ca6c841c",
 		"name": "Business Development",
 		"address": "8 Trailsway Street",
 		"city": "Perpignan",
@@ -5472,7 +5472,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c841d" },
+		"id": "6527b39dfc13ae20ca6c841d",
 		"name": "Support",
 		"address": "5 Atwood Way",
 		"city": "Perpignan",
@@ -5490,7 +5490,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c841e" },
+		"id": "6527b39dfc13ae20ca6c841e",
 		"name": "Research and Development",
 		"address": "61839 Eliot Alley",
 		"city": "Besançon",
@@ -5508,7 +5508,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c841f" },
+		"id": "6527b39dfc13ae20ca6c841f",
 		"name": "Research and Development",
 		"address": "70858 Artisan Court",
 		"city": "Des Moines",
@@ -5526,7 +5526,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8420" },
+		"id": "6527b39dfc13ae20ca6c8420",
 		"name": "Human Resources",
 		"address": "5209 Dixon Plaza",
 		"city": "Chambéry",
@@ -5544,7 +5544,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8421" },
+		"id": "6527b39dfc13ae20ca6c8421",
 		"name": "Product Management",
 		"address": "360 Butterfield Plaza",
 		"city": "Pessac",
@@ -5562,7 +5562,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8422" },
+		"id": "6527b39dfc13ae20ca6c8422",
 		"name": "Product Management",
 		"address": "8919 Summit Avenue",
 		"city": "Baltimore",
@@ -5580,7 +5580,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8423" },
+		"id": "6527b39dfc13ae20ca6c8423",
 		"name": "Accounting",
 		"address": "55 Barnett Plaza",
 		"city": "Alicante/Alacant",
@@ -5598,7 +5598,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8424" },
+		"id": "6527b39dfc13ae20ca6c8424",
 		"name": "Accounting",
 		"address": "10076 Roth Circle",
 		"city": "Clichy",
@@ -5616,7 +5616,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8425" },
+		"id": "6527b39dfc13ae20ca6c8425",
 		"name": "Research and Development",
 		"address": "5 Vidon Lane",
 		"city": "Saginaw",
@@ -5634,7 +5634,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8426" },
+		"id": "6527b39dfc13ae20ca6c8426",
 		"name": "Product Management",
 		"address": "59 David Parkway",
 		"city": "Saint-Avold",
@@ -5652,7 +5652,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8427" },
+		"id": "6527b39dfc13ae20ca6c8427",
 		"name": "Engineering",
 		"address": "3 Red Cloud Parkway",
 		"city": "Nice",
@@ -5670,7 +5670,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8428" },
+		"id": "6527b39dfc13ae20ca6c8428",
 		"name": "Support",
 		"address": "116 Michigan Street",
 		"city": "Laon",
@@ -5688,7 +5688,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8429" },
+		"id": "6527b39dfc13ae20ca6c8429",
 		"name": "Marketing",
 		"address": "03070 3rd Hill",
 		"city": "New Brunswick",
@@ -5706,7 +5706,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c842a" },
+		"id": "6527b39dfc13ae20ca6c842a",
 		"name": "Legal",
 		"address": "447 Londonderry Center",
 		"city": "Düsseldorf",
@@ -5724,7 +5724,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c842b" },
+		"id": "6527b39dfc13ae20ca6c842b",
 		"name": "Services",
 		"address": "12466 Bartillon Hill",
 		"city": "Castelsarrasin",
@@ -5742,7 +5742,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c842c" },
+		"id": "6527b39dfc13ae20ca6c842c",
 		"name": "Sales",
 		"address": "3 Sachs Avenue",
 		"city": "Granada",
@@ -5760,7 +5760,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c842d" },
+		"id": "6527b39dfc13ae20ca6c842d",
 		"name": "Human Resources",
 		"address": "50079 Mandrake Trail",
 		"city": "Newton",
@@ -5778,7 +5778,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c842e" },
+		"id": "6527b39dfc13ae20ca6c842e",
 		"name": "Accounting",
 		"address": "05186 Southridge Lane",
 		"city": "Fort Wayne",
@@ -5796,7 +5796,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c842f" },
+		"id": "6527b39dfc13ae20ca6c842f",
 		"name": "Training",
 		"address": "018 Delladonna Way",
 		"city": "Wilmington",
@@ -5814,7 +5814,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8430" },
+		"id": "6527b39dfc13ae20ca6c8430",
 		"name": "Support",
 		"address": "59 Bunting Point",
 		"city": "Detroit",
@@ -5832,7 +5832,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8431" },
+		"id": "6527b39dfc13ae20ca6c8431",
 		"name": "Business Development",
 		"address": "3678 Moland Lane",
 		"city": "Roissy Charles-de-Gaulle",
@@ -5850,7 +5850,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8432" },
+		"id": "6527b39dfc13ae20ca6c8432",
 		"name": "Engineering",
 		"address": "17191 Gerald Place",
 		"city": "Le Bourget-du-Lac",
@@ -5868,7 +5868,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8433" },
+		"id": "6527b39dfc13ae20ca6c8433",
 		"name": "Research and Development",
 		"address": "44 Bay Plaza",
 		"city": "Las Vegas",
@@ -5886,7 +5886,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8434" },
+		"id": "6527b39dfc13ae20ca6c8434",
 		"name": "Legal",
 		"address": "434 Cambridge Center",
 		"city": "Midland",
@@ -5904,7 +5904,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8435" },
+		"id": "6527b39dfc13ae20ca6c8435",
 		"name": "Marketing",
 		"address": "95599 Crest Line Way",
 		"city": "Houston",
@@ -5922,7 +5922,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8436" },
+		"id": "6527b39dfc13ae20ca6c8436",
 		"name": "Human Resources",
 		"address": "59 Stang Hill",
 		"city": "Braunschweig",
@@ -5940,7 +5940,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8437" },
+		"id": "6527b39dfc13ae20ca6c8437",
 		"name": "Services",
 		"address": "5935 Shopko Center",
 		"city": "Arras",
@@ -5958,7 +5958,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8438" },
+		"id": "6527b39dfc13ae20ca6c8438",
 		"name": "Research and Development",
 		"address": "16840 Marcy Lane",
 		"city": "Rouen",
@@ -5976,7 +5976,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8439" },
+		"id": "6527b39dfc13ae20ca6c8439",
 		"name": "Marketing",
 		"address": "701 Novick Crossing",
 		"city": "Billère",
@@ -5994,7 +5994,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c843a" },
+		"id": "6527b39dfc13ae20ca6c843a",
 		"name": "Training",
 		"address": "07021 Leroy Park",
 		"city": "Valence",
@@ -6012,7 +6012,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c843b" },
+		"id": "6527b39dfc13ae20ca6c843b",
 		"name": "Sales",
 		"address": "70837 Bellgrove Avenue",
 		"city": "Toulouse",
@@ -6030,7 +6030,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c843c" },
+		"id": "6527b39dfc13ae20ca6c843c",
 		"name": "Product Management",
 		"address": "9 Eastlawn Circle",
 		"city": "Dijon",
@@ -6048,7 +6048,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c843d" },
+		"id": "6527b39dfc13ae20ca6c843d",
 		"name": "Marketing",
 		"address": "36 Goodland Avenue",
 		"city": "Kansas City",
@@ -6066,7 +6066,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c843e" },
+		"id": "6527b39dfc13ae20ca6c843e",
 		"name": "Engineering",
 		"address": "39562 New Castle Place",
 		"city": "Rostock",
@@ -6084,7 +6084,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c843f" },
+		"id": "6527b39dfc13ae20ca6c843f",
 		"name": "Accounting",
 		"address": "66777 Lunder Drive",
 		"city": "Caen",
@@ -6102,7 +6102,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8440" },
+		"id": "6527b39dfc13ae20ca6c8440",
 		"name": "Marketing",
 		"address": "18765 Waxwing Place",
 		"city": "Dole",
@@ -6120,7 +6120,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8441" },
+		"id": "6527b39dfc13ae20ca6c8441",
 		"name": "Business Development",
 		"address": "75 Hallows Center",
 		"city": "Valence",
@@ -6138,7 +6138,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8442" },
+		"id": "6527b39dfc13ae20ca6c8442",
 		"name": "Training",
 		"address": "312 Hoepker Hill",
 		"city": "Toulouse",
@@ -6156,7 +6156,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8443" },
+		"id": "6527b39dfc13ae20ca6c8443",
 		"name": "Support",
 		"address": "92629 Clemons Center",
 		"city": "Girona",
@@ -6174,7 +6174,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8444" },
+		"id": "6527b39dfc13ae20ca6c8444",
 		"name": "Accounting",
 		"address": "68 Northport Crossing",
 		"city": "Nashville",
@@ -6192,7 +6192,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8445" },
+		"id": "6527b39dfc13ae20ca6c8445",
 		"name": "Marketing",
 		"address": "00 Raven Pass",
 		"city": "Guebwiller",
@@ -6210,7 +6210,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8446" },
+		"id": "6527b39dfc13ae20ca6c8446",
 		"name": "Human Resources",
 		"address": "93 Rieder Street",
 		"city": "Phoenix",
@@ -6228,7 +6228,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8447" },
+		"id": "6527b39dfc13ae20ca6c8447",
 		"name": "Marketing",
 		"address": "064 Jackson Pass",
 		"city": "Martigues",
@@ -6246,7 +6246,7 @@
 		"property_type": "house"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8448" },
+		"id": "6527b39dfc13ae20ca6c8448",
 		"name": "Services",
 		"address": "40951 Cody Trail",
 		"city": "Évry",
@@ -6264,7 +6264,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c8449" },
+		"id": "6527b39dfc13ae20ca6c8449",
 		"name": "Engineering",
 		"address": "1358 Fairfield Drive",
 		"city": "Wissembourg",
@@ -6282,7 +6282,7 @@
 		"property_type": "appartment"
 	},
 	{
-		"id": { "$oid": "6527b39dfc13ae20ca6c844a" },
+		"id": "6527b39dfc13ae20ca6c844a",
 		"name": "Sales",
 		"address": "08 American Alley",
 		"city": "Washington",
