@@ -15,6 +15,10 @@ const useStyles = (theme: Theme) => ({
 		'& .MuiOutlinedInput-notchedOutline': {
 			border: 'none',
 		},
+
+		'& .MuiSelect-icon': {
+			color: theme.palette.primary.dark,
+		},
 	},
 	valueBox: {
 		display: 'flex',
