@@ -344,12 +344,12 @@ export const darkTheme: Theme = createTheme({
 			main: '#90caf9',
 			light: 'rgb(166, 212, 250)',
 			dark: '#efefef',
-			contrastText: 'rgba(0, 0, 0, 0.87)',
+			contrastText: '#030303',
 		},
 		secondary: {
-			main: '#2ec5d3',
-			light: 'rgb(87, 208, 219)',
-			dark: 'rgb(32, 137, 147)',
+			main: '#ccc',
+			light: '#b5abab',
+			dark: 'rgb(240, 240, 246)',
 			contrastText: 'rgba(0, 0, 0, 0.87)',
 		},
 		error: {
@@ -384,7 +384,7 @@ export const darkTheme: Theme = createTheme({
 			disabled: 'rgba(255, 255, 255, 0.5)',
 		},
 		background: {
-			paper: '#424242',
+			paper: '#4a4848',
 			default: '#212121',
 		},
 		divider: 'rgba(255, 255, 255, 0.12)',

@@ -1,4 +1,5 @@
 import { StyleFlexDirectionEnum } from '@enums/style.enum';
+import { DarkModeEnum } from '@enums/theme.enum';
 import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
@@ -23,7 +24,10 @@ const useStyles = (theme: Theme) => ({
 
 		'&:hover': {
 			backgroundColor: theme.palette.primary.light,
-			color: theme.palette.primary.dark,
+			color:
+				theme.palette.mode === DarkModeEnum.LIGHT
+					? theme.palette.primary.dark
+					: theme.palette.primary.contrastText,
 			boxShadow: 'none',
 		},
 
