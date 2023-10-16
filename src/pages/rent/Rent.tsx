@@ -1,39 +1,32 @@
 import Filters from '@components/filters/filters/Filters';
+import LayoutPage from '@components/layout/layout-page/LayoutPage';
 import EstateList from '@components/lists/estate-list/EstateList';
 import Preview from '@components/preview/Preview';
 import useFetchEstates from '@hooks/useFetchEstates';
-import useTheme from '@hooks/useTheme';
-import { Box } from '@mui/material';
 import { useState } from 'react';
-import useStyles from './style';
 
 const Rent = () => {
-	const { theme } = useTheme();
-	const styles = useStyles(theme);
-
 	const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
 	const [activeEstateId, setActiveEstateId] = useState<string | undefined>();
 	const { loading, datas } = useFetchEstates();
 
 	return (
-		<Box sx={styles.root}>
-			<Box sx={styles.filtersContainer}>
-				<Filters estates={datas} />
-			</Box>
+		<LayoutPage renderFilters={<Filters estates={datas} />}>
+			<>
+				<EstateList
+					loading={loading}
+					estates={datas}
+					setActiveEstateId={setActiveEstateId}
+					setModalIsOpen={setModalIsOpen}
+				/>
 
-			<EstateList
-				loading={loading}
-				estates={datas}
-				setActiveEstateId={setActiveEstateId}
-				setModalIsOpen={setModalIsOpen}
-			/>
-
-			<Preview
-				activeEstateId={activeEstateId ?? datas[0].id}
-				modalIsOpen={modalIsOpen}
-				setModalIsOpen={setModalIsOpen}
-			/>
-		</Box>
+				<Preview
+					activeEstateId={activeEstateId ?? datas[0].id}
+					modalIsOpen={modalIsOpen}
+					setModalIsOpen={setModalIsOpen}
+				/>
+			</>
+		</LayoutPage>
 	);
 };
 

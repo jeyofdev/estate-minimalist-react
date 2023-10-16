@@ -1,4 +1,4 @@
-import Layout from '@components/layout/Layout';
+import LayoutGlobal from '@components/layout/layout-global/LayoutGlobal';
 import useTheme from '@hooks/useTheme';
 import { ThemeProvider } from '@mui/material';
 import Router from '@routes/Router';
@@ -9,9 +9,9 @@ const App = () => {
 
 	return (
 		<ThemeProvider theme={theme}>
-			<Layout>
+			<LayoutGlobal>
 				<Router />
-			</Layout>
+			</LayoutGlobal>
 		</ThemeProvider>
 	);
 };

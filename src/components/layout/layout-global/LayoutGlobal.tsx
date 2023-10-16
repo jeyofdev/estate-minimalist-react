@@ -1,12 +1,12 @@
 import HeaderContainer from '@components/header/headerContainer/HeaderContainer';
 import useTheme from '@hooks/useTheme';
 import { Box } from '@mui/material';
-import { GlobalPropsType } from '../../types/global-props.type';
+import { GlobalPropsType } from '../../../types/global-props.type';
 import useStyles from './style';
 
-export type LayoutPropsType = Pick<GlobalPropsType, 'children'>;
+export type LayoutGlobalPropsType = Pick<GlobalPropsType, 'children'>;
 
-const Layout = ({ children }: LayoutPropsType) => {
+const LayoutGlobal = ({ children }: LayoutGlobalPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
 
@@ -23,4 +23,4 @@ const Layout = ({ children }: LayoutPropsType) => {
 	);
 };
 
-export default Layout;
+export default LayoutGlobal;
