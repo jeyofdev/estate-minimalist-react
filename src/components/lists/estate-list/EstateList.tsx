@@ -78,8 +78,6 @@ const EstateList = ({
 										sx={styles.cardImg}
 									/>
 									<CardContent sx={styles.cardContent}>
-										{estate.type}
-										{estate.id}
 										<Box sx={styles.cardPrice}>
 											<Typography variant='h5' sx={styles.priceTypo}>
 												€{estate.price_rent}
