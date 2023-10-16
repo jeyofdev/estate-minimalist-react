@@ -7,10 +7,15 @@ import {
 	StyleFlexDirectionEnum,
 	StyleVariantTypographyEnum,
 } from '@enums/style.enum';
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import {
+	faCartShopping,
+	faDoorOpen,
+	faHouse,
+} from '@fortawesome/free-solid-svg-icons';
 import useTheme from '@hooks/useTheme';
 import { Box, Typography } from '@mui/material';
 import { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import { EstateType } from '../../../types/estate.type';
 import useStyles from './style';
 
@@ -21,8 +26,13 @@ type FiltersPropsType = {
 const Filters = ({ estates }: FiltersPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
+	const location = useLocation();
 	const [items, setItems] = useState<{ value: string; label: string }[]>([]);
 	const [filters] = useState({
+		type: {
+			buy: false,
+			rent: true,
+		},
 		propertyType: {
 			house: false,
 			apartment: true,
@@ -49,6 +59,30 @@ const Filters = ({ estates }: FiltersPropsType) => {
 			</Typography>
 
 			<Box sx={styles.filtersListBox}>
+				{(location.pathname === '/' || location.pathname === '/home') && (
+					<FilterGroup titleGroup='Type'>
+						<Box sx={styles.propertyTypeBox}>
+							<UIButton
+								startIcon={faCartShopping}
+								direction={StyleFlexDirectionEnum.COLUMN}
+								typoVariant={StyleVariantTypographyEnum.CAPTION}
+								active={filters.type.buy}
+							>
+								Buy
+							</UIButton>
+
+							<UIButton
+								startIcon={faDoorOpen}
+								direction={StyleFlexDirectionEnum.COLUMN}
+								typoVariant={StyleVariantTypographyEnum.CAPTION}
+								active={filters.type.rent}
+							>
+								rent
+							</UIButton>
+						</Box>
+					</FilterGroup>
+				)}
+
 				<FilterGroup titleGroup='Property type'>
 					<Box sx={styles.propertyTypeBox}>
 						<UIButton

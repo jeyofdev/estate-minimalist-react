@@ -1,4 +1,4 @@
-import { faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useTheme from '@hooks/useTheme';
 import Box from '@mui/material/Box';
@@ -21,7 +21,7 @@ const UISelect = ({ items }: UISelectPropsType) => {
 			displayEmpty
 			renderValue={value => (
 				<Box sx={styles.valueBox}>
-					<FontAwesomeIcon icon={faHouse} style={styles.icon} />
+					<FontAwesomeIcon icon={faLocationDot} style={styles.icon} />
 					{value}
 				</Box>
 			)}

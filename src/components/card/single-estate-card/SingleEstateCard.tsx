@@ -1,7 +1,11 @@
 import UIChip from '@components/ui/chip/Chip';
 import ReadMore from '@components/ui/read-more/ReadMore';
 import { EstateTypeEnum } from '@enums/estate.enum';
-import { faHospital, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import {
+	faHospital,
+	faLocationDot,
+	faSquareParking,
+} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useFetchEstate from '@hooks/useFetchEstate';
 import useTheme from '@hooks/useTheme';
@@ -73,19 +77,19 @@ const SingleEstateCard = ({
 						<UIChip
 							label={`${estate?.bedroom} Bedrooms`}
 							icon={faHospital}
-							tooltipLabel='Rooms'
+							tooltipLabel='Bedrooms'
 							tooltipArrow
 						/>
 						<UIChip
 							label={`${estate?.bathroom} Bathrooms`}
 							icon={faHospital}
-							tooltipLabel='Rooms'
+							tooltipLabel='Bathrooms'
 							tooltipArrow
 						/>
 						{estate?.garage > 0 && (
 							<UIChip
 								label={`${estate?.garage} Garage`}
-								icon={faHospital}
+								icon={faSquareParking}
 								tooltipLabel='Garage'
 								tooltipArrow
 							/>

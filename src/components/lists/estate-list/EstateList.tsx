@@ -3,7 +3,7 @@ import UIChip from '@components/ui/chip/Chip';
 import UIPagination from '@components/ui/pagination/Pagination';
 import { EstateTypeEnum } from '@enums/estate.enum';
 import { BreakpointEnum } from '@enums/theme.enum';
-import { faHospital } from '@fortawesome/free-solid-svg-icons';
+import { faHospital, faSquareParking } from '@fortawesome/free-solid-svg-icons';
 import usePagination from '@hooks/usePagination';
 import useTheme from '@hooks/useTheme';
 import {
@@ -116,7 +116,7 @@ const EstateList = ({
 											{estate.garage > 0 && (
 												<UIChip
 													label={`${estate.garage} Garage`}
-													icon={faHospital}
+													icon={faSquareParking}
 													tooltipLabel='Garage'
 													tooltipArrow
 												/>
