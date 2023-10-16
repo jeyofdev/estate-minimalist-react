@@ -38,8 +38,9 @@ const HeaderContainer = ({ window }: HeaderContainerPropsType) => {
 					handleDrawerToggle={handleDrawerToggle}
 					logoText='Real Estate'
 				/>
+
+				<UIDivider margin='64px 0px 0px' position='fixed' />
 			</Box>
-			<UIDivider margin='69px 0px' />
 		</>
 	);
 };

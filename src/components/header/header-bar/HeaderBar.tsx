@@ -30,6 +30,7 @@ const HeaderBar = ({ handleDrawerToggle, logoText }: HeaderBarPropsType) => {
 						aria-label='open drawer'
 						edge='start'
 						onClick={handleDrawerToggle}
+						sx={{ ml: theme.spacing(0) }}
 					>
 						<MenuIcon sx={styles.menuIcon} />
 					</IconButton>

@@ -7,6 +7,7 @@ export type UIDividerPtopsType = {
 	variant?: 'fullWidth' | 'inset' | 'middle';
 	borderColor?: string;
 	margin?: string;
+	position?: 'relative' | 'absolute' | 'fixed';
 };
 
 const UIDivider = ({
@@ -14,6 +15,7 @@ const UIDivider = ({
 	variant = 'middle',
 	borderColor,
 	margin,
+	position,
 }: UIDividerPtopsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
@@ -22,7 +24,7 @@ const UIDivider = ({
 		<Divider
 			orientation={orientation}
 			variant={variant}
-			sx={styles.root(borderColor, margin)}
+			sx={styles.root(borderColor, margin, position)}
 		/>
 	);
 };
