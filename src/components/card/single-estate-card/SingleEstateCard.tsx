@@ -1,5 +1,6 @@
 import UIChip from '@components/ui/chip/Chip';
 import ReadMore from '@components/ui/read-more/ReadMore';
+import { EstateTypeEnum } from '@enums/estate.enum';
 import { faHospital, faLocationDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useFetchEstate from '@hooks/useFetchEstate';
@@ -54,9 +55,11 @@ const SingleEstateCard = ({
 								€{estate?.price_rent}
 							</Typography>
 
-							<Typography variant='h6' sx={styles.priceMonth}>
-								/ month
-							</Typography>
+							{estate.type === EstateTypeEnum.RENT && (
+								<Typography variant='h6' sx={styles.priceMonth}>
+									/ month
+								</Typography>
+							)}
 						</Box>
 					</Box>
 

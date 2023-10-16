@@ -3,12 +3,12 @@ import { useEffect, useState } from 'react';
 import estateMock from '../mocks/estate_mock_datas.json';
 import { EstateType } from '../types/estate.type';
 
-const useFetchEstates = () => {
+const useFetchEstates = (estateType: EstateTypeEnum) => {
 	const [estates, setEstates] = useState<EstateType[]>(estateMock);
 	const [loading, setLoading] = useState<boolean>(true);
 
 	const filteredEstateByType = () =>
-		estates.filter((estate: EstateType) => estate.type === EstateTypeEnum.RENT);
+		estates.filter((estate: EstateType) => estate.type === estateType);
 
 	useEffect(() => {
 		setEstates(filteredEstateByType());
