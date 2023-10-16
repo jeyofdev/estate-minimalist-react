@@ -1,7 +1,8 @@
+import SingleEstateCard from '@components/card/single-estate-card/SingleEstateCard';
 import ButtonIcon from '@components/ui/button/button-icon/ButtonIcon';
 import { faCircleXmark } from '@fortawesome/free-solid-svg-icons';
 import useTheme from '@hooks/useTheme';
-import { Box, Modal, Typography } from '@mui/material';
+import { Box, Modal } from '@mui/material';
 import { Dispatch, SetStateAction } from 'react';
 import useStyles from './style';
 
@@ -29,12 +30,11 @@ const ModalEstate = ({
 						icon={faCircleXmark}
 						onClick={handleShow}
 						iconFontSize='1.5rem'
-						iconColor={theme.palette.primary.dark}
+						iconColor={theme.palette.primary.contrastText}
 					/>
 				</Box>
 
-				<Typography variant='h6'>Modal</Typography>
-				<Typography variant='h6'>estate id : {activeEstateId}</Typography>
+				<SingleEstateCard activeEstateId={activeEstateId} limitDetails={50} />
 			</Box>
 		</Modal>
 	);
