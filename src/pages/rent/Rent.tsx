@@ -20,12 +20,14 @@ const Rent = () => {
 			<Box sx={styles.filtersContainer}>
 				<Filters estates={datas} />
 			</Box>
+
 			<EstateList
 				loading={loading}
 				estates={datas}
 				setActiveEstateId={setActiveEstateId}
 				setModalIsOpen={setModalIsOpen}
 			/>
+
 			<Preview
 				activeEstateId={activeEstateId ?? datas[0].id}
 				modalIsOpen={modalIsOpen}

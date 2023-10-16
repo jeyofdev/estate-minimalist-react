@@ -2,6 +2,11 @@ import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
 	root: {
+		mr: {
+			xs: theme.spacing(4),
+			md: 0,
+		},
+
 		'& .MuiButtonBase-root': {
 			backgroundColor: 'transparent',
 			color: theme.palette.primary.dark,
