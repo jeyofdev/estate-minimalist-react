@@ -11,6 +11,7 @@ type ButtonIconPropsType = {
 	iconFontSize?: string;
 	iconColor?: string;
 	padding?: string;
+	margin?: string;
 };
 
 const ButtonIcon = ({
@@ -19,11 +20,12 @@ const ButtonIcon = ({
 	iconFontSize,
 	iconColor,
 	padding,
+	margin,
 }: ButtonIconPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
 	return (
-		<IconButton sx={styles.root(padding)} onClick={onClick}>
+		<IconButton sx={styles.root(padding, margin)} onClick={onClick}>
 			<FontAwesomeIcon
 				icon={icon}
 				style={styles.icon(iconFontSize, iconColor)}

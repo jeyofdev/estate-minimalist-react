@@ -4,7 +4,7 @@ import { EstateType } from '../types/estate.type';
 
 const useFetchEstate = (activeEstateId: string) => {
 	const [estate, setEstate] = useState<EstateType>();
-	const [loading, setLoading] = useState(true);
+	const [loading, setLoading] = useState<boolean>(true);
 
 	const getEstate = () =>
 		estateMock.find(

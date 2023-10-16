@@ -2,22 +2,6 @@ import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
 	root: {
-		position: 'relative',
-		display: {
-			xs: 'none',
-			md: 'flex',
-		},
-		flexDirection: 'column',
-		gridColumn: {
-			xs: 'auto / span 6',
-		},
-		backgroundColor: theme.palette.background.paper,
-		width: '100%',
-	},
-	blockPage: {
-		position: 'fixed',
-	},
-	card: {
 		width: '100%',
 		borderRadius: theme.spacing(0),
 		boxShadow: 'none',
@@ -34,8 +18,22 @@ const useStyles = (theme: Theme) => ({
 	},
 	topBox: {
 		display: 'flex',
-		alignItems: 'center',
-		justifyContent: 'space-between',
+		flexDirection: {
+			xs: 'column',
+			md: 'row',
+		},
+		alignItems: {
+			xs: 'flex-start',
+			md: 'center',
+		},
+		justifyContent: {
+			xs: 'center',
+			md: 'space-between',
+		},
+		gap: {
+			xs: theme.spacing(1.5),
+			md: 0,
+		},
 	},
 	nameBox: {},
 	title: {

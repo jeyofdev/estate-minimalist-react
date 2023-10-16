@@ -2,6 +2,9 @@ import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
 	root: {
+		mr: theme.spacing(4),
+	},
+	drawer: {
 		'& .MuiDrawer-paper': {
 			backgroundColor: theme.palette.background.default,
 		},

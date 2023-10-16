@@ -50,31 +50,29 @@ const ResponsiveFilters = ({
 	);
 
 	return (
-		<div>
-			<>
-				{width < breakpoint && (
-					<>
-						<ButtonIcon icon={faSliders} onClick={toggleDrawer(true)} />
-						<Drawer
-							anchor={'right'}
-							open={isOpen}
-							onClose={toggleDrawer(false)}
-							sx={styles.root}
-						>
-							<Box sx={styles.closeTriggerBox}>
-								<ButtonIcon
-									icon={faCircleXmark}
-									onClick={toggleDrawer(false)}
-									iconFontSize='1.3rem'
-								/>
-							</Box>
+		<Box sx={styles.root}>
+			{width < breakpoint && (
+				<>
+					<ButtonIcon icon={faSliders} onClick={toggleDrawer(true)} />
+					<Drawer
+						anchor={'right'}
+						open={isOpen}
+						onClose={toggleDrawer(false)}
+						sx={styles.drawer}
+					>
+						<Box sx={styles.closeTriggerBox}>
+							<ButtonIcon
+								icon={faCircleXmark}
+								onClick={toggleDrawer(false)}
+								iconFontSize='1.3rem'
+							/>
+						</Box>
 
-							{content()}
-						</Drawer>
-					</>
-				)}
-			</>
-		</div>
+						{content()}
+					</Drawer>
+				</>
+			)}
+		</Box>
 	);
 };
 

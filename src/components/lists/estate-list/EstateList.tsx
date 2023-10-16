@@ -22,12 +22,14 @@ export type EstateListPropsType = {
 	loading: boolean;
 	estates: EstateType[];
 	setActiveEstateId: Dispatch<SetStateAction<string | undefined>>;
+	setModalIsOpen: Dispatch<SetStateAction<boolean>>;
 };
 
 const EstateList = ({
 	loading,
 	estates,
 	setActiveEstateId,
+	setModalIsOpen,
 }: EstateListPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
@@ -61,7 +63,10 @@ const EstateList = ({
 							<Card
 								key={i}
 								sx={styles.card}
-								onClick={() => setActiveEstateId(estate.id)}
+								onClick={() => {
+									setActiveEstateId(estate.id);
+									setModalIsOpen(true);
+								}}
 							>
 								<CardActionArea sx={styles.cardActionArea}>
 									<CardMedia
