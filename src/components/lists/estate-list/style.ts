@@ -22,6 +22,10 @@ const useStyles = (theme: Theme) => ({
 	},
 	list: {
 		mt: theme.spacing(5),
+		mr: {
+			xs: theme.spacing(4),
+			md: theme.spacing(0),
+		},
 		display: 'flex',
 		flexDirection: 'column',
 		flexWrap: 'wrap',

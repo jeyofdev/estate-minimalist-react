@@ -5,7 +5,7 @@ import { EstateType } from '../types/estate.type';
 
 const useFetchEstates = () => {
 	const [estates, setEstates] = useState<EstateType[]>(estateMock);
-	const [loading, setLoading] = useState(true);
+	const [loading, setLoading] = useState<boolean>(true);
 
 	const filteredEstateByType = () =>
 		estates.filter((estate: EstateType) => estate.type === EstateTypeEnum.RENT);
