@@ -14,6 +14,7 @@ const usePagination = (estates: EstateType[]) => {
 	const currentEstatesByPage = () => {
 		const begin = (currentPage - 1) * itemsPerPage;
 		const end = begin + itemsPerPage;
+
 		setEstatesByPage(estates.slice(begin, end));
 	};
 
@@ -41,7 +42,7 @@ const usePagination = (estates: EstateType[]) => {
 
 	useEffect(() => {
 		currentEstatesByPage();
-	}, [currentPage]);
+	}, [currentPage, estates]);
 
 	return {
 		nextPage,
