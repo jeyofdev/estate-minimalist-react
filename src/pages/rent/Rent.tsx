@@ -1,6 +1,7 @@
 import Filters from '@components/filters/filters/Filters';
 import LayoutPage from '@components/layout/layout-page/LayoutPage';
 import EstateList from '@components/lists/estate-list/EstateList';
+import NoResult from '@components/no-result/NoResult';
 import Preview from '@components/preview/Preview';
 import { EstateTypeEnum } from '@enums/estate.enum';
 import useFilter from '@hooks/useFilter';
@@ -54,7 +55,7 @@ const Rent = () => {
 					/>
 				</>
 			) : (
-				'no result'
+				<NoResult content='No Results found' />
 			)}
 		</LayoutPage>
 	);
