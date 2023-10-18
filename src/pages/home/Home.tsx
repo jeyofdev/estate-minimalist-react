@@ -1,6 +1,7 @@
 import Filters from '@components/filters/filters/Filters';
 import LayoutPage from '@components/layout/layout-page/LayoutPage';
 import EstateList from '@components/lists/estate-list/EstateList';
+import NoResult from '@components/no-result/NoResult';
 import Preview from '@components/preview/Preview';
 import useFilter from '@hooks/useFilter';
 import { Ifilter } from '@interfaces/hook.interface';
@@ -51,7 +52,7 @@ const Home = () => {
 					/>
 				</>
 			) : (
-				'no result'
+				<NoResult content='No Results found' />
 			)}
 		</LayoutPage>
 	);
