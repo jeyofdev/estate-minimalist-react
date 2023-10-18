@@ -80,7 +80,10 @@ const EstateList = ({
 									<CardContent sx={styles.cardContent}>
 										<Box sx={styles.cardPrice}>
 											<Typography variant='h5' sx={styles.priceTypo}>
-												€{estate.price_rent}
+												€
+												{estate.type === EstateTypeEnum.RENT
+													? estate.price_rent
+													: estate.price_buy}
 											</Typography>
 
 											{estate.type === EstateTypeEnum.RENT && (
@@ -96,7 +99,7 @@ const EstateList = ({
 											</Typography>
 
 											<Typography variant='caption' sx={styles.cardAddress}>
-												{estate.address}
+												{estate.address}, {estate?.city}
 											</Typography>
 										</Box>
 
