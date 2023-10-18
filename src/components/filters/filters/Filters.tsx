@@ -4,6 +4,7 @@ import UICheckbox from '@components/ui/form/checkbox/checkbox/Checkbox';
 import PriceRange from '@components/ui/form/price-range/PriceRange';
 import UISelect from '@components/ui/form/select/Select';
 import { EstatePropertyTypeEnum, EstateTypeEnum } from '@enums/estate.enum';
+import { FilterNameEnum } from '@enums/filter.enum';
 import {
 	StyleFlexDirectionEnum,
 	StyleVariantTypographyEnum,
@@ -13,10 +14,11 @@ import {
 	faDoorOpen,
 	faHouse,
 } from '@fortawesome/free-solid-svg-icons';
+import useFilter from '@hooks/useFilter';
 import useTheme from '@hooks/useTheme';
 import { Ifilter } from '@interfaces/hook.interface';
 import { Box, Typography } from '@mui/material';
-import { useEffect, useState } from 'react';
+import { MouseEvent, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { EstateType } from '../../../types/estate.type';
 import useStyles from './style';
@@ -30,7 +32,8 @@ const Filters = ({ estates }: FiltersPropsType) => {
 	const styles = useStyles(theme);
 	const location = useLocation();
 	const [items, setItems] = useState<{ value: string; label: string }[]>([]);
-	const [filters] = useState<Ifilter>({
+
+	const defaultFilters: Ifilter = {
 		type: EstateTypeEnum.BUY,
 		propertyType: EstatePropertyTypeEnum.APPARTMENT,
 		rooms: '2',
@@ -39,7 +42,9 @@ const Filters = ({ estates }: FiltersPropsType) => {
 			garage: 'off',
 		},
 		price: [10, 1000],
-	});
+	};
+
+	const { filters, setFilters } = useFilter(defaultFilters);
 
 	const roomsItems = ['1', '2', '3', '4+'];
 
@@ -68,9 +73,9 @@ const Filters = ({ estates }: FiltersPropsType) => {
 								direction={StyleFlexDirectionEnum.COLUMN}
 								typoVariant={StyleVariantTypographyEnum.CAPTION}
 								active={filters.type === EstateTypeEnum.BUY}
-								onClick={() => {
-									// todo
-								}}
+								onClick={(e: MouseEvent<HTMLElement>) =>
+									setFilters(e, FilterNameEnum.TYPE, EstateTypeEnum.BUY)
+								}
 							>
 								Buy
 							</UIButton>
@@ -80,9 +85,9 @@ const Filters = ({ estates }: FiltersPropsType) => {
 								direction={StyleFlexDirectionEnum.COLUMN}
 								typoVariant={StyleVariantTypographyEnum.CAPTION}
 								active={filters.type === EstateTypeEnum.RENT}
-								onClick={() => {
-									// todo
-								}}
+								onClick={(e: MouseEvent<HTMLElement>) =>
+									setFilters(e, FilterNameEnum.TYPE, EstateTypeEnum.RENT)
+								}
 							>
 								rent
 							</UIButton>
@@ -97,9 +102,13 @@ const Filters = ({ estates }: FiltersPropsType) => {
 							direction={StyleFlexDirectionEnum.COLUMN}
 							typoVariant={StyleVariantTypographyEnum.CAPTION}
 							active={filters.propertyType === EstatePropertyTypeEnum.HOUSE}
-							onClick={() => {
-								// todo
-							}}
+							onClick={(e: MouseEvent<HTMLElement>) =>
+								setFilters(
+									e,
+									FilterNameEnum.PROPERTY_TYPE,
+									EstatePropertyTypeEnum.HOUSE,
+								)
+							}
 						>
 							House
 						</UIButton>
@@ -111,9 +120,13 @@ const Filters = ({ estates }: FiltersPropsType) => {
 							active={
 								filters.propertyType === EstatePropertyTypeEnum.APPARTMENT
 							}
-							onClick={() => {
-								// todo
-							}}
+							onClick={(e: MouseEvent<HTMLElement>) =>
+								setFilters(
+									e,
+									FilterNameEnum.PROPERTY_TYPE,
+									EstatePropertyTypeEnum.APPARTMENT,
+								)
+							}
 						>
 							Apartment
 						</UIButton>
@@ -124,9 +137,7 @@ const Filters = ({ estates }: FiltersPropsType) => {
 					<UISelect
 						items={[{ value: 'all', label: 'All' }, ...items]}
 						value={filters.location}
-						onChange={() => {
-							// todo
-						}}
+						onChange={e => setFilters(e, FilterNameEnum.LOCATION)}
 					/>
 				</FilterGroup>
 
@@ -134,8 +145,12 @@ const Filters = ({ estates }: FiltersPropsType) => {
 					<PriceRange
 						min={10}
 						max={500}
-						onChange={() => {
-							// todo
+						onChange={(e: Event) => {
+							setFilters(
+								e,
+								FilterNameEnum.PRICE,
+								(e.target as HTMLInputElement)?.value,
+							);
 						}}
 					/>
 				</FilterGroup>
@@ -148,9 +163,9 @@ const Filters = ({ estates }: FiltersPropsType) => {
 								typoVariant={StyleVariantTypographyEnum.CAPTION}
 								active={filters.rooms === item}
 								width={30}
-								onClick={() => {
-									// todo
-								}}
+								onClick={(e: MouseEvent<HTMLElement>) =>
+									setFilters(e, FilterNameEnum.ROOMS, item)
+								}
 							>
 								{item}
 							</UIButton>
