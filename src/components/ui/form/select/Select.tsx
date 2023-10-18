@@ -3,26 +3,40 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useTheme from '@hooks/useTheme';
 import Box from '@mui/material/Box';
 import MenuItem from '@mui/material/MenuItem';
-import Select from '@mui/material/Select';
+import Select, { SelectChangeEvent } from '@mui/material/Select';
+import { useState } from 'react';
 import useStyles from './style';
 
 type UISelectPropsType = {
 	items: { value: string; label: string }[];
+	value: string;
+	onChange: (event: SelectChangeEvent) => void;
 };
 
-const UISelect = ({ items }: UISelectPropsType) => {
+const UISelect = ({ items, value, onChange }: UISelectPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
+
+	const [selectValue, setSelectValue] = useState(value);
+
+	const handleChange = (e: SelectChangeEvent) => {
+		setSelectValue(e.target.value as string);
+	};
 
 	return (
 		<Select
 			sx={styles.root}
-			defaultValue=''
+			defaultValue={value}
 			displayEmpty
-			renderValue={value => (
+			value={selectValue}
+			onChange={e => {
+				onChange(e);
+				handleChange(e);
+			}}
+			renderValue={v => (
 				<Box sx={styles.valueBox}>
 					<FontAwesomeIcon icon={faLocationDot} style={styles.icon} />
-					{value}
+					{v}
 				</Box>
 			)}
 			MenuProps={{
