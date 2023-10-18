@@ -49,14 +49,17 @@ const SingleEstateCard = ({
 							<Box sx={styles.addressBox}>
 								<FontAwesomeIcon icon={faLocationDot} style={styles.icon} />
 								<Typography variant='h6' sx={styles.address}>
-									{estate?.address}
+									{estate?.address}, {estate?.city}
 								</Typography>
 							</Box>
 						</Box>
 
 						<Box sx={styles.priceBox}>
 							<Typography variant='h4' sx={styles.priceTypo}>
-								€{estate?.price_rent}
+								€
+								{estate.type === EstateTypeEnum.RENT
+									? estate.price_rent
+									: estate.price_buy}
 							</Typography>
 
 							{estate.type === EstateTypeEnum.RENT && (
