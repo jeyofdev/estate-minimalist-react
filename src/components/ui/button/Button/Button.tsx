@@ -6,6 +6,7 @@ import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useTheme from '@hooks/useTheme';
 import { Button, Typography } from '@mui/material';
+import { MouseEvent } from 'react';
 import { GlobalPropsType } from '../../../../types/global-props.type';
 import useStyles from './style';
 
@@ -15,6 +16,7 @@ export type UIButtonPropsType = Pick<GlobalPropsType, 'children'> & {
 	typoVariant: StyleVariantTypographyEnum;
 	active: boolean;
 	width?: number | 'auto';
+	onClick?: (e: MouseEvent<HTMLElement>) => void;
 };
 
 const UIButton = ({
@@ -22,6 +24,7 @@ const UIButton = ({
 	typoVariant,
 	children,
 	active,
+	onClick,
 	width = 'auto',
 	direction = StyleFlexDirectionEnum.ROW,
 }: UIButtonPropsType) => {
@@ -37,6 +40,7 @@ const UIButton = ({
 				) : null
 			}
 			sx={styles.root(direction, active, width)}
+			onClick={onClick}
 		>
 			<Typography variant={typoVariant} sx={styles.typo}>
 				{children}

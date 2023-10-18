@@ -1,8 +1,6 @@
 export enum EstateTypeEnum {
 	RENT = 'rent',
 	BUY = 'buy',
-	SELL = 'sell',
-	SELL_OUT = 'sell_out',
 }
 
 export enum EstatePropertyTypeEnum {

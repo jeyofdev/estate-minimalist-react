@@ -7,9 +7,10 @@ import useStyles from './style';
 type PriceRangePropsType = {
 	min: number;
 	max: number;
+	onChange: (e: Event) => void;
 };
 
-const PriceRange = ({ min, max }: PriceRangePropsType) => {
+const PriceRange = ({ min, max, onChange }: PriceRangePropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
 	const [priceRangeValue, setPriceRangeValue] = useState<number[]>([min, max]);
@@ -33,7 +34,10 @@ const PriceRange = ({ min, max }: PriceRangePropsType) => {
 		<Box sx={styles.root}>
 			<Slider
 				value={priceRangeValue}
-				onChange={handlePriceRangeChange}
+				onChange={(e, newValue) => {
+					handlePriceRangeChange(e, newValue);
+					onChange(e);
+				}}
 				min={min}
 				max={max}
 				sx={styles.slider}
