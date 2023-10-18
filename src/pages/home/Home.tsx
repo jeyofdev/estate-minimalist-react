@@ -1,33 +1,24 @@
-import Filters from '@components/filters/filters/Filters';
-import LayoutPage from '@components/layout/layout-page/LayoutPage';
-import EstateList from '@components/lists/estate-list/EstateList';
-import Preview from '@components/preview/Preview';
-import useFetchEstates from '@hooks/useFetchEstates';
-import { useState } from 'react';
+const Home = () =>
+	// const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
+	// const [activeEstateId, setActiveEstateId] = useState<string | undefined>();
+	// const { loading, datas } = useFetchEstates();
 
-const Home = () => {
-	const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
-	const [activeEstateId, setActiveEstateId] = useState<string | undefined>();
-	const { loading, datas } = useFetchEstates();
+	'ok';
+// <LayoutPage renderFilters={<Filters estates={datas} />}>
+// 	<>
+// 		<EstateList
+// 			loading={loading}
+// 			estates={datas}
+// 			setActiveEstateId={setActiveEstateId}
+// 			setModalIsOpen={setModalIsOpen}
+// 		/>
 
-	return (
-		<LayoutPage renderFilters={<Filters estates={datas} />}>
-			<>
-				<EstateList
-					loading={loading}
-					estates={datas}
-					setActiveEstateId={setActiveEstateId}
-					setModalIsOpen={setModalIsOpen}
-				/>
-
-				<Preview
-					activeEstateId={activeEstateId ?? datas[0].id}
-					modalIsOpen={modalIsOpen}
-					setModalIsOpen={setModalIsOpen}
-				/>
-			</>
-		</LayoutPage>
-	);
-};
+// 		<Preview
+// 			activeEstateId={activeEstateId ?? datas[0].id}
+// 			modalIsOpen={modalIsOpen}
+// 			setModalIsOpen={setModalIsOpen}
+// 		/>
+// 	</>
+// </LayoutPage>
 
 export default Home;
