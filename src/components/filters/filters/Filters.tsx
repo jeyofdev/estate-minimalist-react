@@ -14,37 +14,39 @@ import {
 	faDoorOpen,
 	faHouse,
 } from '@fortawesome/free-solid-svg-icons';
-import useFilter from '@hooks/useFilter';
 import useTheme from '@hooks/useTheme';
 import { Ifilter } from '@interfaces/hook.interface';
-import { Box, Typography } from '@mui/material';
-import { MouseEvent, useEffect, useState } from 'react';
+import { Box, SelectChangeEvent, Typography } from '@mui/material';
+import { ChangeEvent, MouseEvent, useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { EstateType } from '../../../types/estate.type';
 import useStyles from './style';
 
 type FiltersPropsType = {
 	estates: EstateType[];
+	defaultFilters: Ifilter;
+	filters: Ifilter;
+	setFilters: (
+		e:
+			| SelectChangeEvent
+			| MouseEvent<HTMLElement>
+			| ChangeEvent<HTMLInputElement>
+			| Event,
+		updatedFilter: string,
+		newFilterValue?: string | boolean,
+	) => void;
 };
 
-const Filters = ({ estates }: FiltersPropsType) => {
+const Filters = ({
+	estates,
+	defaultFilters,
+	filters,
+	setFilters,
+}: FiltersPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
 	const location = useLocation();
 	const [items, setItems] = useState<{ value: string; label: string }[]>([]);
-
-	const defaultFilters: Ifilter = {
-		type: EstateTypeEnum.BUY,
-		propertyType: EstatePropertyTypeEnum.APPARTMENT,
-		rooms: '2',
-		location: '',
-		additionnal: {
-			garage: 'off',
-		},
-		price: [10, 1000],
-	};
-
-	const { filters, setFilters } = useFilter(defaultFilters);
 
 	const roomsItems = ['1', '2', '3', '4+'];
 
@@ -143,8 +145,8 @@ const Filters = ({ estates }: FiltersPropsType) => {
 
 				<FilterGroup titleGroup='Price range'>
 					<PriceRange
-						min={10}
-						max={500}
+						min={defaultFilters.price[0]}
+						max={defaultFilters.price[1]}
 						onChange={(e: Event) => {
 							setFilters(
 								e,
