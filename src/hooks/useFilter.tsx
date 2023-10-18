@@ -32,6 +32,12 @@ const useFilter = (filter: Ifilter, estateType?: EstateTypeEnum) => {
 	const getfilteredEstates = () => {
 		let filteredEstates: EstateType[] = datas;
 
+		if (currentFilters.type) {
+			filteredEstates = filteredEstates.filter(
+				data => data.type === currentFilters.type,
+			);
+		}
+
 		if (currentFilters.propertyType) {
 			filteredEstates = filteredEstates.filter(
 				data => data.property_type === currentFilters.propertyType,
