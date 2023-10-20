@@ -5,7 +5,11 @@ import Loader from '@components/ui/loader/Loader';
 import UIPagination from '@components/ui/pagination/Pagination';
 import { EstateTypeEnum } from '@enums/estate.enum';
 import { BreakpointEnum } from '@enums/theme.enum';
-import { faHospital, faSquareParking } from '@fortawesome/free-solid-svg-icons';
+import {
+	faHospital,
+	faHouseUser,
+	faSquareParking,
+} from '@fortawesome/free-solid-svg-icons';
 import usePagination from '@hooks/usePagination';
 import useTheme from '@hooks/useTheme';
 import { Ifilter } from '@interfaces/hook.interface';
@@ -18,6 +22,7 @@ import {
 	SelectChangeEvent,
 	Typography,
 } from '@mui/material';
+import { formatPrice } from '@utils/index';
 import {
 	ChangeEvent,
 	Dispatch,
@@ -111,10 +116,10 @@ const EstateList = ({
 												<CardContent sx={styles.cardContent}>
 													<Box sx={styles.cardPrice}>
 														<Typography variant='h5' sx={styles.priceTypo}>
-															€
+															$
 															{estate.type === EstateTypeEnum.RENT
-																? estate.price_rent
-																: estate.price_buy}
+																? formatPrice(estate.price_rent, 'en-US')
+																: formatPrice(estate.price_buy, 'en-US')}
 														</Typography>
 
 														{estate.type === EstateTypeEnum.RENT && (
@@ -146,7 +151,7 @@ const EstateList = ({
 														/>
 														<UIChip
 															label={`${estate.surface}m²`}
-															icon={faHospital}
+															icon={faHouseUser}
 															tooltipLabel='Surface'
 															tooltipArrow
 														/>

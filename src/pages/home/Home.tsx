@@ -22,7 +22,7 @@ const Home = () => {
 			garage: false,
 			pool: false,
 		},
-		price: [100, 1000000],
+		price: [100, 10000],
 	};
 
 	const { filters, setFilters, loading, datas, filteredDatas } =

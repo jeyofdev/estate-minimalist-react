@@ -3,14 +3,18 @@ import Loader from '@components/ui/loader/Loader';
 import ReadMore from '@components/ui/read-more/ReadMore';
 import { EstateTypeEnum } from '@enums/estate.enum';
 import {
-	faHospital,
+	faBath,
+	faBed,
+	faHouseUser,
 	faLocationDot,
+	faPersonSwimming,
 	faSquareParking,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useFetchEstate from '@hooks/useFetchEstate';
 import useTheme from '@hooks/useTheme';
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
+import { formatPrice } from '@utils/index';
 import defaultEstateImg from '../../../assets/estate.jpg';
 import useStyles from './style';
 
@@ -57,10 +61,10 @@ const SingleEstateCard = ({
 
 						<Box sx={styles.priceBox}>
 							<Typography variant='h4' sx={styles.priceTypo}>
-								€
+								$
 								{estate.type === EstateTypeEnum.RENT
-									? estate.price_rent
-									: estate.price_buy}
+									? formatPrice(estate.price_rent, 'en-US')
+									: formatPrice(estate.price_buy, 'en-US')}
 							</Typography>
 
 							{estate.type === EstateTypeEnum.RENT && (
@@ -74,19 +78,19 @@ const SingleEstateCard = ({
 					<Box sx={styles.chipsBox}>
 						<UIChip
 							label={`${estate?.surface}m²`}
-							icon={faHospital}
+							icon={faHouseUser}
 							tooltipLabel='Surface'
 							tooltipArrow
 						/>
 						<UIChip
 							label={`${estate?.bedroom} Bedrooms`}
-							icon={faHospital}
+							icon={faBed}
 							tooltipLabel='Bedrooms'
 							tooltipArrow
 						/>
 						<UIChip
 							label={`${estate?.bathroom} Bathrooms`}
-							icon={faHospital}
+							icon={faBath}
 							tooltipLabel='Bathrooms'
 							tooltipArrow
 						/>
@@ -101,8 +105,8 @@ const SingleEstateCard = ({
 						{estate?.pool > 0 && (
 							<UIChip
 								label='Pool'
-								icon={faHospital}
-								tooltipLabel='Garage'
+								icon={faPersonSwimming}
+								tooltipLabel='Pool'
 								tooltipArrow
 							/>
 						)}

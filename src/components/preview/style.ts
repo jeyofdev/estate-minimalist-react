@@ -16,6 +16,8 @@ const useStyles = (theme: Theme) => ({
 	},
 	blockPage: {
 		position: 'relative',
+		minHeight: 'calc(100vh - 65px)',
+		height: '100%',
 	},
 });
 
