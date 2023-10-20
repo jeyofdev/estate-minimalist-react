@@ -2,5 +2,5 @@
 import { ReactElement } from 'react';
 
 export type GlobalPropsType = {
-	children: ReactElement<any, any> | string;
+	children: ReactElement<any, any>;
 };
