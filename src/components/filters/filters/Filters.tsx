@@ -22,7 +22,7 @@ import { useLocation } from 'react-router-dom';
 import { EstateType } from '../../../types/estate.type';
 import useStyles from './style';
 
-type FiltersPropsType = {
+export type FiltersPropsType = {
 	estates: EstateType[];
 	defaultFilters: Ifilter;
 	filters: Ifilter;

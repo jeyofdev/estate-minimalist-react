@@ -1,7 +1,6 @@
 import Filters from '@components/filters/filters/Filters';
 import LayoutPage from '@components/layout/layout-page/LayoutPage';
 import EstateList from '@components/lists/estate-list/EstateList';
-import NoResult from '@components/no-result/NoResult';
 import Preview from '@components/preview/Preview';
 import useFilter from '@hooks/useFilter';
 import { Ifilter } from '@interfaces/hook.interface';
@@ -46,24 +45,25 @@ const Home = () => {
 				/>
 			}
 		>
-			{filteredDatas.length ? (
-				<>
-					<EstateList
-						loading={loading}
-						estates={filteredDatas}
-						setActiveEstateId={setActiveEstateId}
-						setModalIsOpen={setModalIsOpen}
-					/>
+			<>
+				<EstateList
+					loading={loading}
+					estates={filteredDatas}
+					defaultFilters={defaultFilters}
+					filters={filters}
+					setFilters={setFilters}
+					setActiveEstateId={setActiveEstateId}
+					setModalIsOpen={setModalIsOpen}
+				/>
 
+				{filteredDatas.length && (
 					<Preview
 						activeEstateId={activeEstateId ?? filteredDatas[0].id}
 						modalIsOpen={modalIsOpen}
 						setModalIsOpen={setModalIsOpen}
 					/>
-				</>
-			) : (
-				<NoResult content='No Results found' />
-			)}
+				)}
+			</>
 		</LayoutPage>
 	);
 };

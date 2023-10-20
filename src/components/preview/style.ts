@@ -15,7 +15,7 @@ const useStyles = (theme: Theme) => ({
 		width: '100%',
 	},
 	blockPage: {
-		position: 'fixed',
+		position: 'relative',
 	},
 });
 

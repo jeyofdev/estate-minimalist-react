@@ -45,6 +45,9 @@ const Buy = () => {
 					<EstateList
 						loading={loading}
 						estates={filteredDatas}
+						defaultFilters={defaultFilters}
+						filters={filters}
+						setFilters={setFilters}
 						setActiveEstateId={setActiveEstateId}
 						setModalIsOpen={setModalIsOpen}
 					/>
