@@ -1,7 +1,6 @@
 import Filters from '@components/filters/filters/Filters';
 import LayoutPage from '@components/layout/layout-page/LayoutPage';
 import EstateList from '@components/lists/estate-list/EstateList';
-import NoResult from '@components/no-result/NoResult';
 import Preview from '@components/preview/Preview';
 import { EstateTypeEnum } from '@enums/estate.enum';
 import useFilter from '@hooks/useFilter';
@@ -21,7 +20,7 @@ const Buy = () => {
 			garage: false,
 			pool: false,
 		},
-		price: [100000, 1000000],
+		price: [100000, 500000],
 	};
 
 	const { filters, setFilters, loading, datas, filteredDatas } = useFilter(
@@ -40,27 +39,25 @@ const Buy = () => {
 				/>
 			}
 		>
-			{filteredDatas.length ? (
-				<>
-					<EstateList
-						loading={loading}
-						estates={filteredDatas}
-						defaultFilters={defaultFilters}
-						filters={filters}
-						setFilters={setFilters}
-						setActiveEstateId={setActiveEstateId}
-						setModalIsOpen={setModalIsOpen}
-					/>
+			<>
+				<EstateList
+					loading={loading}
+					estates={filteredDatas}
+					defaultFilters={defaultFilters}
+					filters={filters}
+					setFilters={setFilters}
+					setActiveEstateId={setActiveEstateId}
+					setModalIsOpen={setModalIsOpen}
+				/>
 
+				{filteredDatas.length ? (
 					<Preview
 						activeEstateId={activeEstateId ?? filteredDatas[0].id}
 						modalIsOpen={modalIsOpen}
 						setModalIsOpen={setModalIsOpen}
 					/>
-				</>
-			) : (
-				<NoResult content='No Results found' />
-			)}
+				) : null}
+			</>
 		</LayoutPage>
 	);
 };

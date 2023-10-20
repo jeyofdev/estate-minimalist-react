@@ -13,10 +13,10 @@ const useStyles = (theme: Theme) => ({
 			sm: theme.spacing(10),
 		},
 	},
-	topBox: {
+	topBox: (results: boolean) => ({
 		display: 'flex',
-		justifyContent: 'space-between',
-	},
+		justifyContent: results ? 'space-between' : 'flex-end',
+	}),
 	titleSection: {
 		color: theme.palette.primary.dark,
 	},

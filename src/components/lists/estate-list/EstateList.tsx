@@ -79,10 +79,12 @@ const EstateList = ({
 			{!loading && (
 				<>
 					<>
-						<Box sx={styles.topBox}>
-							<Typography variant='h5' sx={styles.titleSection}>
-								Search Results ({estates.length})
-							</Typography>
+						<Box sx={styles.topBox(!!estates.length)}>
+							{estates.length ? (
+								<Typography variant='h5' sx={styles.titleSection}>
+									Search Results ({estates.length})
+								</Typography>
+							) : null}
 
 							<ResponsiveFilters
 								breakpoint={BreakpointEnum.MD}

@@ -104,7 +104,7 @@ const SingleEstateCard = ({
 						)}
 						{estate?.pool > 0 && (
 							<UIChip
-								label='Pool'
+								label={`${estate?.pool} Pool`}
 								icon={faPersonSwimming}
 								tooltipLabel='Pool'
 								tooltipArrow
