@@ -3,8 +3,9 @@ import { BreakpointEnum } from '@enums/theme.enum';
 import { faCircleXmark, faSliders } from '@fortawesome/free-solid-svg-icons';
 import useTheme from '@hooks/useTheme';
 import useWindowSize from '@hooks/useWindowSize';
-import { Box, Drawer } from '@mui/material';
-import { KeyboardEvent, MouseEvent, useState } from 'react';
+import { Ifilter } from '@interfaces/hook.interface';
+import { Box, Drawer, SelectChangeEvent } from '@mui/material';
+import { ChangeEvent, KeyboardEvent, MouseEvent, useState } from 'react';
 import { EstateType } from '../../../types/estate.type';
 import Filters from '../filters/Filters';
 import useStyles from './style';
@@ -12,11 +13,26 @@ import useStyles from './style';
 type ResponsiveFiltersPropsType = {
 	breakpoint: BreakpointEnum;
 	estates: EstateType[];
+	defaultFilters: Ifilter;
+	filters: Ifilter;
+	setFilters: (
+		e:
+			| SelectChangeEvent
+			| MouseEvent<HTMLElement>
+			| ChangeEvent<HTMLInputElement>
+			| Event,
+		isAdditionnal: boolean,
+		updatedFilter: string,
+		newFilterValue?: string | boolean,
+	) => void;
 };
 
 const ResponsiveFilters = ({
 	breakpoint,
 	estates,
+	defaultFilters,
+	filters,
+	setFilters,
 }: ResponsiveFiltersPropsType) => {
 	const { theme } = useTheme();
 	const styles = useStyles(theme);
@@ -44,7 +60,12 @@ const ResponsiveFilters = ({
 			// onKeyDown={toggleDrawer(false)}
 		>
 			<Box sx={styles.filtersContainer}>
-				<Filters estates={estates} />
+				<Filters
+					estates={estates}
+					defaultFilters={defaultFilters}
+					filters={filters}
+					setFilters={setFilters}
+				/>
 			</Box>
 		</Box>
 	);

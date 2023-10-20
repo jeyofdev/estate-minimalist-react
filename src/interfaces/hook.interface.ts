@@ -6,7 +6,8 @@ export interface Ifilter {
 	rooms: string | number | null;
 	location: string;
 	additionnal: {
-		garage: 'on' | 'off';
+		garage: boolean;
+		pool: boolean;
 	};
 	price: number[];
 }

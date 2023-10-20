@@ -22,7 +22,7 @@ import { useLocation } from 'react-router-dom';
 import { EstateType } from '../../../types/estate.type';
 import useStyles from './style';
 
-type FiltersPropsType = {
+export type FiltersPropsType = {
 	estates: EstateType[];
 	defaultFilters: Ifilter;
 	filters: Ifilter;
@@ -32,6 +32,7 @@ type FiltersPropsType = {
 			| MouseEvent<HTMLElement>
 			| ChangeEvent<HTMLInputElement>
 			| Event,
+		isAdditionnal: boolean,
 		updatedFilter: string,
 		newFilterValue?: string | boolean,
 	) => void;
@@ -76,7 +77,7 @@ const Filters = ({
 								typoVariant={StyleVariantTypographyEnum.CAPTION}
 								active={filters.type === EstateTypeEnum.BUY}
 								onClick={(e: MouseEvent<HTMLElement>) =>
-									setFilters(e, FilterNameEnum.TYPE, EstateTypeEnum.BUY)
+									setFilters(e, false, FilterNameEnum.TYPE, EstateTypeEnum.BUY)
 								}
 							>
 								Buy
@@ -88,7 +89,7 @@ const Filters = ({
 								typoVariant={StyleVariantTypographyEnum.CAPTION}
 								active={filters.type === EstateTypeEnum.RENT}
 								onClick={(e: MouseEvent<HTMLElement>) =>
-									setFilters(e, FilterNameEnum.TYPE, EstateTypeEnum.RENT)
+									setFilters(e, false, FilterNameEnum.TYPE, EstateTypeEnum.RENT)
 								}
 							>
 								rent
@@ -107,6 +108,7 @@ const Filters = ({
 							onClick={(e: MouseEvent<HTMLElement>) =>
 								setFilters(
 									e,
+									false,
 									FilterNameEnum.PROPERTY_TYPE,
 									EstatePropertyTypeEnum.HOUSE,
 								)
@@ -125,6 +127,7 @@ const Filters = ({
 							onClick={(e: MouseEvent<HTMLElement>) =>
 								setFilters(
 									e,
+									false,
 									FilterNameEnum.PROPERTY_TYPE,
 									EstatePropertyTypeEnum.APPARTMENT,
 								)
@@ -139,7 +142,7 @@ const Filters = ({
 					<UISelect
 						items={[{ value: 'all', label: 'All' }, ...items]}
 						value={filters.location}
-						onChange={e => setFilters(e, FilterNameEnum.LOCATION)}
+						onChange={e => setFilters(e, false, FilterNameEnum.LOCATION)}
 					/>
 				</FilterGroup>
 
@@ -150,6 +153,7 @@ const Filters = ({
 						onChange={(e: Event) => {
 							setFilters(
 								e,
+								false,
 								FilterNameEnum.PRICE,
 								(e.target as HTMLInputElement)?.value,
 							);
@@ -166,7 +170,7 @@ const Filters = ({
 								active={filters.rooms === item}
 								width={30}
 								onClick={(e: MouseEvent<HTMLElement>) =>
-									setFilters(e, FilterNameEnum.ROOMS, item)
+									setFilters(e, false, FilterNameEnum.ROOMS, item)
 								}
 							>
 								{item}
@@ -177,7 +181,21 @@ const Filters = ({
 
 				<FilterGroup titleGroup='Additional conveniences'>
 					<Box sx={styles.additionalBox}>
-						<UICheckbox label='Garage' />
+						<UICheckbox
+							label='Garage'
+							checked={filters.additionnal.garage}
+							onChange={(e: ChangeEvent<HTMLInputElement>) => {
+								setFilters(e, true, FilterNameEnum.GARAGE);
+							}}
+						/>
+
+						<UICheckbox
+							label='Pool'
+							checked={filters.additionnal.pool}
+							onChange={(e: ChangeEvent<HTMLInputElement>) => {
+								setFilters(e, true, FilterNameEnum.POOL);
+							}}
+						/>
 					</Box>
 				</FilterGroup>
 			</Box>

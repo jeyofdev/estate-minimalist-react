@@ -1,15 +1,17 @@
 import Filters from '@components/filters/filters/Filters';
 import LayoutPage from '@components/layout/layout-page/LayoutPage';
 import EstateList from '@components/lists/estate-list/EstateList';
-import NoResult from '@components/no-result/NoResult';
 import Preview from '@components/preview/Preview';
 import useFilter from '@hooks/useFilter';
 import { Ifilter } from '@interfaces/hook.interface';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Home = () => {
 	const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
 	const [activeEstateId, setActiveEstateId] = useState<string | undefined>();
+	const location = useLocation();
+	const navigate = useNavigate();
 
 	const defaultFilters: Ifilter = {
 		type: null,
@@ -17,13 +19,20 @@ const Home = () => {
 		rooms: null,
 		location: 'all',
 		additionnal: {
-			garage: 'off',
+			garage: false,
+			pool: false,
 		},
 		price: [100, 1000000],
 	};
 
 	const { filters, setFilters, loading, datas, filteredDatas } =
 		useFilter(defaultFilters);
+
+	useEffect(() => {
+		if (location.pathname === '/') {
+			navigate('/home');
+		}
+	}, []);
 
 	return (
 		<LayoutPage
@@ -36,24 +45,25 @@ const Home = () => {
 				/>
 			}
 		>
-			{filteredDatas.length ? (
-				<>
-					<EstateList
-						loading={loading}
-						estates={filteredDatas}
-						setActiveEstateId={setActiveEstateId}
-						setModalIsOpen={setModalIsOpen}
-					/>
+			<>
+				<EstateList
+					loading={loading}
+					estates={filteredDatas}
+					defaultFilters={defaultFilters}
+					filters={filters}
+					setFilters={setFilters}
+					setActiveEstateId={setActiveEstateId}
+					setModalIsOpen={setModalIsOpen}
+				/>
 
+				{filteredDatas.length && (
 					<Preview
 						activeEstateId={activeEstateId ?? filteredDatas[0].id}
 						modalIsOpen={modalIsOpen}
 						setModalIsOpen={setModalIsOpen}
 					/>
-				</>
-			) : (
-				<NoResult content='No Results found' />
-			)}
+				)}
+			</>
 		</LayoutPage>
 	);
 };
