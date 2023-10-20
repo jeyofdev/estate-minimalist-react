@@ -94,17 +94,17 @@ const SingleEstateCard = ({
 							tooltipLabel='Bathrooms'
 							tooltipArrow
 						/>
-						{estate?.garage > 0 && (
+						{estate?.garage && (
 							<UIChip
-								label={`${estate?.garage} Garage`}
+								label='1 Garage'
 								icon={faSquareParking}
 								tooltipLabel='Garage'
 								tooltipArrow
 							/>
 						)}
-						{estate?.pool > 0 && (
+						{estate?.pool && (
 							<UIChip
-								label={`${estate?.pool} Pool`}
+								label='1 Pool'
 								icon={faPersonSwimming}
 								tooltipLabel='Pool'
 								tooltipArrow

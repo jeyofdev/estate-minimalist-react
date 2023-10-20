@@ -3,14 +3,13 @@ export type EstateType = {
 	name: string;
 	address: string;
 	city: string;
-	country: string;
 	price_rent: number;
 	price_buy: number;
 	surface: number;
 	bedroom: number;
 	bathroom: number;
-	garage: number;
-	pool: number;
+	garage: boolean;
+	pool: boolean;
 	details: string;
 	type: string;
 	rooms: number;
