@@ -30,3 +30,7 @@ Install all dependencies :
 ### Run Dev server
 
 `npm run dev` or `pnpm run dev` or `yarn run dev`.
+
+### Production
+
+Project available on this [link](https://estate-minimalist-react.vercel.app/).
