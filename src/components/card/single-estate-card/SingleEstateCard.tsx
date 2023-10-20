@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useFetchEstate from '@hooks/useFetchEstate';
 import useTheme from '@hooks/useTheme';
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
-import { formatPrice } from '@utils/index';
+import { formatPrice, formatTitle } from '@utils/index';
 import defaultEstateImg from '../../../assets/estate.jpg';
 import useStyles from './style';
 
@@ -48,7 +48,7 @@ const SingleEstateCard = ({
 					<Box sx={styles.topBox}>
 						<Box sx={styles.nameBox}>
 							<Typography variant='h4' sx={styles.title}>
-								{estate?.name}
+								{formatTitle(estate?.name)}
 							</Typography>
 
 							<Box sx={styles.addressBox}>
