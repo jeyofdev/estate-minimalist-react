@@ -85,7 +85,7 @@ const ResponsiveFilters = ({
 							<ButtonIcon
 								icon={faCircleXmark}
 								onClick={toggleDrawer(false)}
-								iconFontSize='1.3rem'
+								iconFontSize='1.8rem'
 							/>
 						</Box>
 

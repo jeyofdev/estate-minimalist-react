@@ -56,13 +56,13 @@ const Home = () => {
 					setModalIsOpen={setModalIsOpen}
 				/>
 
-				{filteredDatas.length && (
+				{filteredDatas.length ? (
 					<Preview
 						activeEstateId={activeEstateId ?? filteredDatas[0].id}
 						modalIsOpen={modalIsOpen}
 						setModalIsOpen={setModalIsOpen}
 					/>
-				)}
+				) : null}
 			</>
 		</LayoutPage>
 	);
