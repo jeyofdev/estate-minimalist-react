@@ -35,6 +35,7 @@ const UITextField = ({
 					sx={styles.textField}
 					value={value}
 					onChange={onChange}
+					disabled
 				/>
 			}
 			label={

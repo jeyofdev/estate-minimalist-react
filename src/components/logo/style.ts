@@ -1,6 +1,9 @@
 import { Theme } from '@mui/material';
 
 const useStyles = (theme: Theme) => ({
+	link: {
+		textDecoration: 'none',
+	},
 	root: (heightBox: number | 'auto', mobile: boolean) => ({
 		display: 'flex',
 		alignItems: mobile ? 'center' : 'flex-start',
@@ -17,6 +20,7 @@ const useStyles = (theme: Theme) => ({
 		display: {
 			sm: 'block',
 		},
+		textDecoration: 'none',
 	},
 });
 

@@ -5,11 +5,14 @@ import NoResult from '@components/no-result/NoResult';
 import Preview from '@components/preview/Preview';
 import useFilter from '@hooks/useFilter';
 import { Ifilter } from '@interfaces/hook.interface';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const Home = () => {
 	const [modalIsOpen, setModalIsOpen] = useState<boolean>(false);
 	const [activeEstateId, setActiveEstateId] = useState<string | undefined>();
+	const location = useLocation();
+	const navigate = useNavigate();
 
 	const defaultFilters: Ifilter = {
 		type: null,
@@ -25,6 +28,12 @@ const Home = () => {
 
 	const { filters, setFilters, loading, datas, filteredDatas } =
 		useFilter(defaultFilters);
+
+	useEffect(() => {
+		if (location.pathname === '/') {
+			navigate('/home');
+		}
+	}, []);
 
 	return (
 		<LayoutPage
