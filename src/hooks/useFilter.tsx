@@ -16,11 +16,25 @@ const useFilter = (filter: Ifilter, estateType?: EstateTypeEnum) => {
 			| MouseEvent<HTMLElement>
 			| ChangeEvent<HTMLInputElement>
 			| Event,
+		isAdditionnal: boolean,
 		updatedFilter: string,
 		newFilterValue?: string | boolean,
 	) => {
 		if (newFilterValue) {
-			setCurrentFilters({ ...currentFilters, [updatedFilter]: newFilterValue });
+			setCurrentFilters({
+				...currentFilters,
+				[updatedFilter]: newFilterValue,
+			});
+		} else if (isAdditionnal) {
+			const filterName = updatedFilter === 'garage' ? 'garage' : 'pool';
+
+			setCurrentFilters({
+				...currentFilters,
+				additionnal: {
+					...currentFilters.additionnal,
+					[updatedFilter]: !currentFilters.additionnal?.[filterName],
+				},
+			});
 		} else {
 			setCurrentFilters({
 				...currentFilters,
@@ -76,6 +90,18 @@ const useFilter = (filter: Ifilter, estateType?: EstateTypeEnum) => {
 					data.price_rent <= currentFilters.price[1]
 				);
 			});
+		}
+
+		if (currentFilters?.additionnal.garage) {
+			filteredEstates = filteredEstates.filter(data => data.garage);
+		} else if (!currentFilters?.additionnal.garage) {
+			filteredEstates = filteredEstates.filter(data => !data.garage);
+		}
+
+		if (currentFilters?.additionnal.pool) {
+			filteredEstates = filteredEstates.filter(data => data.pool);
+		} else if (!currentFilters?.additionnal.pool) {
+			filteredEstates = filteredEstates.filter(data => !data.pool);
 		}
 
 		setFilteredDatas(filteredEstates);

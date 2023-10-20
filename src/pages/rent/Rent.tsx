@@ -18,7 +18,8 @@ const Rent = () => {
 		rooms: null,
 		location: 'all',
 		additionnal: {
-			garage: 'off',
+			garage: false,
+			pool: false,
 		},
 		price: [100, 1000],
 	};
