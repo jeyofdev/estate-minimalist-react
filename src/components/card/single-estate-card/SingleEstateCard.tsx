@@ -3,8 +3,11 @@ import Loader from '@components/ui/loader/Loader';
 import ReadMore from '@components/ui/read-more/ReadMore';
 import { EstateTypeEnum } from '@enums/estate.enum';
 import {
-	faHospital,
+	faBath,
+	faBed,
+	faHouseUser,
 	faLocationDot,
+	faPersonSwimming,
 	faSquareParking,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -75,19 +78,19 @@ const SingleEstateCard = ({
 					<Box sx={styles.chipsBox}>
 						<UIChip
 							label={`${estate?.surface}m²`}
-							icon={faHospital}
+							icon={faHouseUser}
 							tooltipLabel='Surface'
 							tooltipArrow
 						/>
 						<UIChip
 							label={`${estate?.bedroom} Bedrooms`}
-							icon={faHospital}
+							icon={faBed}
 							tooltipLabel='Bedrooms'
 							tooltipArrow
 						/>
 						<UIChip
 							label={`${estate?.bathroom} Bathrooms`}
-							icon={faHospital}
+							icon={faBath}
 							tooltipLabel='Bathrooms'
 							tooltipArrow
 						/>
@@ -102,8 +105,8 @@ const SingleEstateCard = ({
 						{estate?.pool > 0 && (
 							<UIChip
 								label='Pool'
-								icon={faHospital}
-								tooltipLabel='Garage'
+								icon={faPersonSwimming}
+								tooltipLabel='Pool'
 								tooltipArrow
 							/>
 						)}
