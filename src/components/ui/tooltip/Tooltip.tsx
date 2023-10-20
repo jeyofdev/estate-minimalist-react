@@ -1,11 +1,12 @@
 import { PlacementEnum } from '@enums/theme.enum';
 import useTheme from '@hooks/useTheme';
 import { Tooltip, Typography, styled } from '@mui/material';
-import { ReactNode } from 'react';
-import { GlobalPropsType } from '../../../types/global-props.type';
+import { ReactElement, ReactNode } from 'react';
 import useStyles from './style';
 
-export type UITooltipPropsType = Pick<GlobalPropsType, 'children'> & {
+export type UITooltipPropsType = {
+	// eslint-disable-next-line @typescript-eslint/no-explicit-any
+	children: ReactElement<any, any>;
 	placement: PlacementEnum;
 	arrow?: boolean;
 	label: ReactNode;

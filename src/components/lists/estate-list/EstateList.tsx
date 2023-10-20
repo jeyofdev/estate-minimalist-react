@@ -157,7 +157,7 @@ const EstateList = ({
 															tooltipLabel='Surface'
 															tooltipArrow
 														/>
-														{estate.garage > 0 && (
+														{estate.garage && (
 															<UIChip
 																label={`${estate.garage} Garage`}
 																icon={faSquareParking}
