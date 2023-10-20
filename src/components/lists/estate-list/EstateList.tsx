@@ -18,6 +18,7 @@ import {
 	SelectChangeEvent,
 	Typography,
 } from '@mui/material';
+import { formatPrice } from '@utils/index';
 import {
 	ChangeEvent,
 	Dispatch,
@@ -111,10 +112,10 @@ const EstateList = ({
 												<CardContent sx={styles.cardContent}>
 													<Box sx={styles.cardPrice}>
 														<Typography variant='h5' sx={styles.priceTypo}>
-															€
+															$
 															{estate.type === EstateTypeEnum.RENT
-																? estate.price_rent
-																: estate.price_buy}
+																? formatPrice(estate.price_rent, 'en-US')
+																: formatPrice(estate.price_buy, 'en-US')}
 														</Typography>
 
 														{estate.type === EstateTypeEnum.RENT && (

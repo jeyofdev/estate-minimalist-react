@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import useFetchEstate from '@hooks/useFetchEstate';
 import useTheme from '@hooks/useTheme';
 import { Box, Card, CardContent, CardMedia, Typography } from '@mui/material';
+import { formatPrice } from '@utils/index';
 import defaultEstateImg from '../../../assets/estate.jpg';
 import useStyles from './style';
 
@@ -57,10 +58,10 @@ const SingleEstateCard = ({
 
 						<Box sx={styles.priceBox}>
 							<Typography variant='h4' sx={styles.priceTypo}>
-								€
+								$
 								{estate.type === EstateTypeEnum.RENT
-									? estate.price_rent
-									: estate.price_buy}
+									? formatPrice(estate.price_rent, 'en-US')
+									: formatPrice(estate.price_buy, 'en-US')}
 							</Typography>
 
 							{estate.type === EstateTypeEnum.RENT && (

@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 /**
  * Limit text by number words
  */
@@ -8,4 +7,9 @@ export const truncate = (text: string, limit: number): string => {
 	return length <= limit
 		? text
 		: `${text.split(' ').slice(0, limit).join(' ')}...`;
+};
+
+export const formatPrice = (price: number, locales: string): string => {
+	const currencyFormat = new Intl.NumberFormat(locales);
+	return currencyFormat.format(price);
 };
