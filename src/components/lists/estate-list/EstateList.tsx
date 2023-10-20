@@ -1,6 +1,7 @@
 import ResponsiveFilters from '@components/filters/responsive-filter/ResponsiveFilter';
 import NoResult from '@components/no-result/NoResult';
 import UIChip from '@components/ui/chip/Chip';
+import Loader from '@components/ui/loader/Loader';
 import UIPagination from '@components/ui/pagination/Pagination';
 import { EstateTypeEnum } from '@enums/estate.enum';
 import { BreakpointEnum } from '@enums/theme.enum';
@@ -69,7 +70,7 @@ const EstateList = ({
 
 	return (
 		<Box sx={styles.root}>
-			{loading && <Typography>...loading</Typography>}
+			{loading && <Loader />}
 			{!loading && (
 				<>
 					<>
