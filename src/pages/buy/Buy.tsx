@@ -21,7 +21,7 @@ const Buy = () => {
 			garage: false,
 			pool: false,
 		},
-		price: [100000, 1000000],
+		price: [100000, 500000],
 	};
 
 	const { filters, setFilters, loading, datas, filteredDatas } = useFilter(
