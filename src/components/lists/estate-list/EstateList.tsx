@@ -22,7 +22,7 @@ import {
 	SelectChangeEvent,
 	Typography,
 } from '@mui/material';
-import { formatPrice } from '@utils/index';
+import { formatPrice, formatTitle } from '@utils/index';
 import {
 	ChangeEvent,
 	Dispatch,
@@ -133,7 +133,7 @@ const EstateList = ({
 
 													<Box>
 														<Typography variant='h6' sx={styles.cardTitle}>
-															{estate.name}
+															{formatTitle(estate.name)}
 														</Typography>
 
 														<Typography
