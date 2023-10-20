@@ -1,4 +1,5 @@
 import UIChip from '@components/ui/chip/Chip';
+import Loader from '@components/ui/loader/Loader';
 import ReadMore from '@components/ui/read-more/ReadMore';
 import { EstateTypeEnum } from '@enums/estate.enum';
 import {
@@ -27,7 +28,7 @@ const SingleEstateCard = ({
 	const { datas: estate, loading } = useFetchEstate(activeEstateId);
 
 	if (loading || !activeEstateId) {
-		return <Typography>...loading</Typography>;
+		return <Loader />;
 	}
 
 	if (estate) {
