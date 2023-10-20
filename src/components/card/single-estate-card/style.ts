@@ -5,6 +5,8 @@ const useStyles = (theme: Theme) => ({
 		width: '100%',
 		borderRadius: theme.spacing(0),
 		boxShadow: 'none',
+		minHeight: 'calc(100vh - 65px)',
+		height: '100%',
 	},
 	contentBox: {
 		display: 'flex',
