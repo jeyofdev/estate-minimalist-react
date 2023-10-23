@@ -2,6 +2,7 @@
 	"name": "estate-minimalist-react",
 	"private": true,
 	"version": "1.0.0",
+	"description": "Minimalist personal project based on React and Typescript that filters estates.",
 	"type": "module",
 	"scripts": {
 		"dev": "vite --open --port 8080",
@@ -9,6 +10,23 @@
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
 		"prepare": "husky install"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jeyofdev/estate-minimalist-react.git"
+	},
+	"keywords": [
+		"node",
+		"react",
+		"vite",
+		"typescript",
+		"javascript",
+		"Material ui"
+	],
+	"author": "jeyofdev <jgregoire.pro@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/jeyofdev/estate-minimalist-react/issues"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.11.1",
